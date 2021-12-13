@@ -1,0 +1,2306 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=/diplodatos_bigdata/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-05T02:58:20+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": true,
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=/diplodatos_bigdata/clases/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978894_910497384",
+      "id": "20171010-191319_1407757246",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-05T02:58:11+0000",
+      "dateFinished": "2021-11-05T02:58:12+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:437"
+    },
+    {
+      "text": "%md\n\n# Spark Core\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h1>Spark Core</h1>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978895_1772654021",
+      "id": "20171013-124120_1151991544",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:438"
+    },
+    {
+      "text": "%md\n\n<br>\n### Veremos conceptos básicos  aplicables a otras librerías de [Spark](http://spark.apache.org):\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-03T13:48:25+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<br>\n### Veremos conceptos básicos  aplicables a otras librerías de [Spark](http://spark.apache.org):\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978895_1098975214",
+      "id": "20171013-125344_626244712",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-03T13:48:25+0000",
+      "dateFinished": "2021-11-03T13:48:25+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:439"
+    },
+    {
+      "text": "print(s\"\"\"%html\n&nbsp;\n<img src=\"$baseDir/02_spark_core/core_stack.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionSupport": true,
+          "completionKey": "TAB"
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "&nbsp;\n<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/core_stack.png\" alt=\"Drawing\" style=\"width: 100%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978896_958307243",
+      "id": "20171013-125319_1987010321",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:440"
+    },
+    {
+      "text": "%md\n\n## ~.- Conceptos básicos\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:35:32+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>~.- Conceptos básicos</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978896_587668411",
+      "id": "20171013-125336_1933366904",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T22:35:32+0000",
+      "dateFinished": "2021-11-04T22:35:36+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:441"
+    },
+    {
+      "text": "%md\n\n### Driver\n\nToda aplicación Spark tiene un programa **driver**:\n\n* lanza las operaciones en el cluster,\n* contiene nuestro **programa**\n    - define datos distribuidos y les aplica operaciones.\n\n> En Zeppelin escribimos un *programa driver* que de forma interactiva ejecuta las operaciones que queremos correr.\n\n### Executors\n\nEl driver maneja y envía tareas a **executors** en los **worker nodes** (computadoras del cluster o threads en modo local).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Driver</h3>\n<p>Toda aplicación Spark tiene un programa <strong>driver</strong>:</p>\n<ul>\n<li>lanza las operaciones en el cluster,</li>\n<li>contiene nuestro <strong>programa</strong>\n<ul>\n<li>define datos distribuidos y les aplica operaciones.</li>\n</ul>\n</li>\n</ul>\n<blockquote>\n<p>En Zeppelin escribimos un <em>programa driver</em> que de forma interactiva ejecuta las operaciones que queremos correr.</p>\n</blockquote>\n<h3>Executors</h3>\n<p>El driver maneja y envía tareas a <strong>executors</strong> en los <strong>worker nodes</strong> (computadoras del cluster o threads en modo local).</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978896_1419883020",
+      "id": "20171013-130405_1538728027",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:442"
+    },
+    {
+      "text": "println(s\"\"\"%html\n<img src=\"$baseDir/01_intro_spark/driver_exec.png\" alt=\"Drawing\" style=\"width: 60%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/01_intro_spark/driver_exec.png\" alt=\"Drawing\" style=\"width: 60%;\"/>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978896_693718754",
+      "id": "20171013-123200_262582034",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:443"
+    },
+    {
+      "text": "%md\n### SparkContext\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>SparkContext</h3>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978896_759643246",
+      "id": "20171013-130511_1848331242",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:444"
+    },
+    {
+      "text": "%md\n\n&nbsp;\n\n* Los programas en el driver se conectan al cluster Spark a través de un objeto `SparkContext`\n* Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    - (representa la conección al cluster) \n* En Zeppelin (y shell) está predefinida la variable `sc` de tipo `SparkContext`\n    - otros programas deben crearla con `new`\n\n![](https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>&nbsp;</p>\n<ul>\n  <li>Los programas en el driver se conectan al cluster Spark a través de un objeto <code>SparkContext</code></li>\n  <li>Le dice a Spark como conectarce con el cluster (o a los distintos threads en modo local)\n    <ul>\n      <li>(representa la conección al cluster)</li>\n    </ul>\n  </li>\n  <li>En Zeppelin (y shell) está predefinida la variable <code>sc</code> de tipo <code>SparkContext</code>\n    <ul>\n      <li>otros programas deben crearla con <code>new</code></li>\n    </ul>\n  </li>\n</ul>\n<p><img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/cluster-overview.png\" /></p>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978897_58148195",
+      "id": "20171013-160636_1142900877",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:445"
+    },
+    {
+      "text": "%pyspark\n\nprint(sc.defaultParallelism)\nprint(sc.master)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:35:10+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "4\nlocal[*]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978897_1938648922",
+      "id": "20171013-131916_230493933",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T22:35:10+0000",
+      "dateFinished": "2021-11-04T22:35:49+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:446"
+    },
+    {
+      "title": "sc.master",
+      "text": "%md\n|master            |descripción                                               |\n|------------------|----------------------------------------------------------|\n|local             |Spark corre localmente con un solo worker (no paralelismo)|\n|local[K]          |Spark corre localmente con K threads                      |\n|spark://HOST:PORT |se conecta a un cluster Spark                             |\n|mesos://HOST:PORT |se conecta a un cluster Mesos                             |\n|yarn              |se conecta a un cluster Hadoop Yarn                       |\n|...               |...                                                       |\n\n\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "master": "string",
+                      "descripción": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<table>\n  <thead>\n    <tr>\n      <th>master </th>\n      <th>descripción </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>local </td>\n      <td>Spark corre localmente con un solo worker (no paralelismo)</td>\n    </tr>\n    <tr>\n      <td>local[K] </td>\n      <td>Spark corre localmente con K threads </td>\n    </tr>\n    <tr>\n      <td><a href=\"spark://HOST:PORT\">spark://HOST:PORT</a> </td>\n      <td>se conecta a un cluster Spark </td>\n    </tr>\n    <tr>\n      <td><a href=\"mesos://HOST:PORT\">mesos://HOST:PORT</a> </td>\n      <td>se conecta a un cluster Mesos </td>\n    </tr>\n    <tr>\n      <td>yarn </td>\n      <td>se conecta a un cluster Hadoop Yarn </td>\n    </tr>\n    <tr>\n      <td>&hellip; </td>\n      <td>&hellip; </td>\n    </tr>\n  </tbody>\n</table>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978897_641704319",
+      "id": "20191123-192357_508683745",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:447"
+    },
+    {
+      "text": "%md\n\n## ~.- Resilient Distributed Dataset (RDD)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>~.- Resilient Distributed Dataset (RDD)</h2>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978899_449352810",
+      "id": "20171013-130245_542901367",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:448"
+    },
+    {
+      "text": "%md\n* **Contenedores** de objetos **inmutables**, distribuidos en el cluster (contiene los datos)\n\n* Creados con el SparkContext `sc`.\n    - al cargar datasets a Spark\n    - por transformaciones comunes (`map`, `filter`, ...) o binarias (`union`, `intersection`, ...).\n\n* Ante fallas se reconstruyen (resilencia).\n* **Importante**: todo lo que no derive del `SparkContext` corre solo en el **driver**.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n  <li>\n  <p><strong>Contenedores</strong> de objetos <strong>inmutables</strong>, distribuidos en el cluster (contiene los datos)</p></li>\n  <li>\n    <p>Creados con el SparkContext <code>sc</code>.</p>\n    <ul>\n      <li>al cargar datasets a Spark</li>\n      <li>por transformaciones comunes (<code>map</code>, <code>filter</code>, &hellip;) o binarias (<code>union</code>, <code>intersection</code>, &hellip;).</li>\n    </ul>\n  </li>\n  <li>\n  <p>Ante fallas se reconstruyen (resilencia).</p></li>\n  <li><strong>Importante</strong>: todo lo que no derive del <code>SparkContext</code> corre solo en el <strong>driver</strong>.</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978899_1310872594",
+      "id": "20171013-161530_19251643",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:449"
+    },
+    {
+      "title": "Ejemplo log analysis",
+      "text": "%pyspark\n# Me tiraba un error al leer toda la carpeta, así que le puse un .log específico\ninputRDD = sc.textFile(\"./logs\") # RDD de entrada\n#inputRDD = sc.textFile(\"./logs/zeppelin-interpreter-spark-shared_process--localhost.log\") # RDD de entrada\n\n# se crea un nuevo RDD:\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) \n\n# se crea otro nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) \n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.collect()):\n    print(\"Linea {}:\".format(ln), l)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:50:44+0000",
+      "progress": 100,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Linea 0:  WARN [2021-11-04 22:43:55,748] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002121_604229819 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 1:  INFO [2021-11-04 22:43:55,776] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 2:  WARN [2021-11-04 22:44:08,551] ({SchedulerFactory15} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002121_604229819 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 3:  INFO [2021-11-04 22:44:08,584] ({SchedulerFactory15} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 4:  WARN [2021-11-04 22:44:10,851] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002121_604229819 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 5:  INFO [2021-11-04 22:44:10,881] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 6:  WARN [2021-10-22 21:47:44,810] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1986) - Job 20201029-105118_47901818 is finished, status: ERROR, exception: null, result: %text \u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_326/608308100.py\"\u001b[0;36m, line \u001b[0;32m5\u001b[0m\nLinea 7:  INFO [2021-10-22 21:47:44,852] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job 20201029-105118_47901818 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 8:  WARN [2021-10-22 22:07:47,487] ({SchedulerFactory5} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 9:  INFO [2021-10-22 22:07:47,523] ({SchedulerFactory5} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 10:  WARN [2021-10-22 22:08:23,490] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 11:  INFO [2021-10-22 22:08:23,518] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 12:  WARN [2021-10-22 22:10:59,488] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 13:  INFO [2021-10-22 22:10:59,514] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 14:  WARN [2021-10-22 22:12:38,412] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 15:  INFO [2021-10-22 22:12:38,454] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 16:  WARN [2021-10-22 22:14:19,657] ({SchedulerFactory7} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 17:  INFO [2021-10-22 22:14:19,682] ({SchedulerFactory7} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 18:  WARN [2021-10-22 22:19:06,618] ({SchedulerFactory3} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 19:  INFO [2021-10-22 22:19:06,642] ({SchedulerFactory3} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 20:  WARN [2021-10-22 22:19:32,857] ({SchedulerFactory8} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170028_1904063913 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 21:  INFO [2021-10-22 22:19:32,881] ({SchedulerFactory8} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 22:  WARN [2021-10-22 22:37:01,654] ({SchedulerFactory10} NotebookServer.java[onStatusChange]:1986) - Job 20171030-183244_477068133 is finished, status: ERROR, exception: null, result: %text <console>:27: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 23:  INFO [2021-10-22 22:37:01,680] ({SchedulerFactory10} AbstractScheduler.java[runJob]:154) - Job 20171030-183244_477068133 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 24:  WARN [2021-10-22 22:38:28,542] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20171030-170208_678915767 is finished, status: ERROR, exception: null, result: %text <console>:26: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 25:  INFO [2021-10-22 22:38:28,575] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20171030-170208_678915767 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 26:  WARN [2021-10-23 15:05:52,002] ({SchedulerFactory10} NotebookServer.java[onStatusChange]:1986) - Job 20191205-202553_1454342767 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 27:  INFO [2021-10-23 15:05:52,046] ({SchedulerFactory10} AbstractScheduler.java[runJob]:154) - Job 20191205-202553_1454342767 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 28:  WARN [2021-10-23 17:09:44,854] ({SchedulerFactory26} NotebookServer.java[onStatusChange]:1986) - Job 20171010-191319_1407757246 is finished, status: ERROR, exception: null, result: %text <console>:45: \u001b[31merror: \u001b[0mnot found: value baseDir\nLinea 29:  INFO [2021-10-23 17:09:44,911] ({SchedulerFactory26} AbstractScheduler.java[runJob]:154) - Job 20171010-191319_1407757246 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 30:  WARN [2021-11-03 00:20:27,117] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20201023-001957_322623490 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 31:  INFO [2021-11-03 00:20:27,151] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20201023-001957_322623490 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 32:  WARN [2021-11-03 00:22:51,922] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 33:  INFO [2021-11-03 00:22:51,962] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 34:  WARN [2021-11-03 00:23:00,158] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 35:  INFO [2021-11-03 00:23:00,187] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 36:  WARN [2021-11-03 00:23:06,064] ({SchedulerFactory7} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 37:  INFO [2021-11-03 00:23:06,091] ({SchedulerFactory7} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 38:  WARN [2021-11-03 00:25:28,399] ({SchedulerFactory3} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 39:  INFO [2021-11-03 00:25:28,425] ({SchedulerFactory3} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 40:  WARN [2021-11-03 00:26:55,304] ({SchedulerFactory8} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 41:  INFO [2021-11-03 00:26:55,337] ({SchedulerFactory8} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 42:  WARN [2021-11-03 00:27:01,037] ({SchedulerFactory5} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text <console>:3: \u001b[31merror: \u001b[0m';' expected but '#' found.\nLinea 43:  INFO [2021-11-03 00:27:01,057] ({SchedulerFactory5} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 44:  WARN [2021-11-03 00:27:13,739] ({SchedulerFactory9} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 45:  INFO [2021-11-03 00:27:13,772] ({SchedulerFactory9} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 46:  WARN [2021-11-03 00:28:25,816] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 47:  INFO [2021-11-03 00:28:25,848] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 48:  WARN [2021-11-03 00:28:28,809] ({SchedulerFactory10} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 49:  INFO [2021-11-03 00:28:28,845] ({SchedulerFactory10} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 50:  WARN [2021-11-03 00:28:57,358] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 51:  INFO [2021-11-03 00:28:57,394] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 52:  WARN [2021-11-03 00:29:45,857] ({SchedulerFactory11} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 53:  INFO [2021-11-03 00:29:45,888] ({SchedulerFactory11} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 54: ERROR [2021-11-03 00:30:03,994] ({qtp793315160-12} NotebookServer.java[onStatusChange]:1978) - Error\nLinea 55:  WARN [2021-11-03 00:30:03,997] ({qtp793315160-12} NotebookServer.java[onStatusChange]:1986) - Job paragraph_1635899399475_1650556778 is finished, status: ERROR, exception: org.apache.zeppelin.interpreter.InterpreterNotFoundException: No such interpreter: shell, result: %text Interpreter shell not found\nLinea 56:  WARN [2021-11-03 00:30:59,435] ({SchedulerFactory7} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 57:  INFO [2021-11-03 00:30:59,468] ({SchedulerFactory7} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 58:  WARN [2021-11-03 00:32:03,293] ({SchedulerFactory13} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 59:  INFO [2021-11-03 00:32:03,331] ({SchedulerFactory13} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 60:  WARN [2021-11-03 00:32:09,491] ({SchedulerFactory3} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 61:  INFO [2021-11-03 00:32:09,519] ({SchedulerFactory3} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 62:  WARN [2021-11-03 00:32:14,383] ({SchedulerFactory14} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 63:  INFO [2021-11-03 00:32:14,412] ({SchedulerFactory14} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 64:  WARN [2021-11-03 00:32:18,713] ({SchedulerFactory8} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 65:  INFO [2021-11-03 00:32:18,744] ({SchedulerFactory8} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 66:  WARN [2021-11-03 00:32:41,174] ({SchedulerFactory15} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 67:  INFO [2021-11-03 00:32:41,201] ({SchedulerFactory15} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 68:  WARN [2021-11-03 00:32:44,311] ({SchedulerFactory5} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 69:  INFO [2021-11-03 00:32:44,334] ({SchedulerFactory5} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 70:  WARN [2021-11-03 00:37:34,331] ({SchedulerFactory16} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 71:  INFO [2021-11-03 00:37:34,358] ({SchedulerFactory16} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 72:  WARN [2021-11-03 00:37:38,347] ({SchedulerFactory9} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 73:  INFO [2021-11-03 00:37:38,374] ({SchedulerFactory9} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 74:  WARN [2021-11-03 00:40:22,987] ({SchedulerFactory18} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 75:  INFO [2021-11-03 00:40:23,017] ({SchedulerFactory18} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 76:  WARN [2021-11-03 00:41:11,038] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 77:  INFO [2021-11-03 00:41:11,066] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 78:  WARN [2021-11-03 00:43:29,481] ({SchedulerFactory11} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_272/283669350.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\nLinea 79:  INFO [2021-11-03 00:43:29,510] ({SchedulerFactory11} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 80:  WARN [2021-11-03 00:43:39,543] ({SchedulerFactory40} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 81:  INFO [2021-11-03 00:43:39,575] ({SchedulerFactory40} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 82:  WARN [2021-11-03 00:45:28,943] ({SchedulerFactory12} NotebookServer.java[onStatusChange]:1986) - Job paragraph_1635900315274_821981143 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 83:  INFO [2021-11-03 00:45:28,970] ({SchedulerFactory12} AbstractScheduler.java[runJob]:154) - Job paragraph_1635900315274_821981143 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 84:  WARN [2021-11-03 00:50:00,069] ({SchedulerFactory7} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_272/1951000742.py\"\u001b[0;36m, line \u001b[0;32m13\u001b[0m\nLinea 85:  INFO [2021-11-03 00:50:00,104] ({SchedulerFactory7} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 86:  WARN [2021-11-03 00:50:22,356] ({SchedulerFactory24} NotebookServer.java[onStatusChange]:1986) - Job 20191121-184701_1405603118 is finished, status: ERROR, exception: null, result: %text \u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_272/2812885833.py\"\u001b[0;36m, line \u001b[0;32m16\u001b[0m\nLinea 87:  INFO [2021-11-03 00:50:22,391] ({SchedulerFactory24} AbstractScheduler.java[runJob]:154) - Job 20191121-184701_1405603118 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 88:  WARN [2021-11-03 15:19:37,306] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 89:  INFO [2021-11-03 15:19:37,330] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 90:  WARN [2021-11-03 15:20:16,099] ({SchedulerFactory5} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 91:  INFO [2021-11-03 15:20:16,119] ({SchedulerFactory5} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 92:  WARN [2021-11-03 15:20:31,790] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 93:  INFO [2021-11-03 15:20:31,820] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 94:  WARN [2021-11-03 15:21:08,632] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 95:  INFO [2021-11-03 15:21:08,668] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 96:  WARN [2021-11-03 15:21:58,483] ({SchedulerFactory5} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 97:  INFO [2021-11-03 15:21:58,501] ({SchedulerFactory5} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 98:  WARN [2021-11-03 15:22:02,698] ({SchedulerFactory8} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 99:  INFO [2021-11-03 15:22:02,725] ({SchedulerFactory8} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 100:  WARN [2021-11-03 15:22:41,982] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 101:  INFO [2021-11-03 15:22:42,007] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 102:  WARN [2021-11-03 15:23:08,824] ({SchedulerFactory6} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002107_2147167260 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 103:  INFO [2021-11-03 15:23:08,849] ({SchedulerFactory6} AbstractScheduler.java[runJob]:154) - Job 20201023-002107_2147167260 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\nLinea 104: ERROR [2021-11-04 22:34:08,326] ({pool-2-thread-1} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 105: ERROR [2021-11-04 22:34:08,362] ({pool-2-thread-2} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 106: ERROR [2021-11-04 22:34:08,383] ({pool-2-thread-3} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 107: ERROR [2021-11-04 22:34:08,291] ({pool-2-thread-4} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 108: ERROR [2021-11-04 22:34:08,332] ({pool-2-thread-3} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 109: ERROR [2021-11-04 22:34:08,347] ({pool-2-thread-2} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 110: ERROR [2021-11-04 22:34:08,334] ({pool-2-thread-1} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 111: ERROR [2021-11-04 22:34:08,354] ({pool-2-thread-3} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 112: ERROR [2021-11-04 22:34:08,386] ({pool-2-thread-2} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 113:  INFO [2021-11-04 22:43:55,745] ({FIFOScheduler-interpreter_1237742409-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler interpreter_1237742409 with status ERROR\nLinea 114:  INFO [2021-11-04 22:44:08,549] ({FIFOScheduler-interpreter_1237742409-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler interpreter_1237742409 with status ERROR\nLinea 115:  INFO [2021-11-04 22:44:10,849] ({FIFOScheduler-interpreter_1237742409-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler interpreter_1237742409 with status ERROR\nLinea 116: ERROR [2021-10-19 22:02:15,836] ({pool-2-thread-3} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 117: ERROR [2021-10-19 22:02:15,843] ({pool-2-thread-2} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 118: ERROR [2021-10-19 22:02:15,850] ({pool-2-thread-1} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 119:  INFO [2021-10-22 21:47:44,786] ({FIFOScheduler-interpreter_1233515674-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20201029-105118_47901818 finished by scheduler interpreter_1233515674 with status ERROR\nLinea 120:  INFO [2021-10-22 22:07:47,486] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 121:  INFO [2021-10-22 22:08:23,489] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 122:  INFO [2021-10-22 22:10:59,486] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 123:  INFO [2021-10-22 22:12:38,415] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 124:  INFO [2021-10-22 22:14:19,657] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 125:  INFO [2021-10-22 22:19:06,616] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 126:  INFO [2021-10-22 22:19:32,855] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170028_1904063913 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 127:  INFO [2021-10-22 22:37:01,654] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-183244_477068133 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 128:  INFO [2021-10-22 22:38:28,541] ({FIFOScheduler-interpreter_2016036181-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171030-170208_678915767 finished by scheduler interpreter_2016036181 with status ERROR\nLinea 129: ERROR [2021-10-23 00:24:47,132] ({pool-2-thread-2} ProcessFunction.java[process]:47) - Internal error processing shutdown\nLinea 130:  INFO [2021-10-23 15:05:52,000] ({FIFOScheduler-interpreter_1203802371-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20191205-202553_1454342767 finished by scheduler interpreter_1203802371 with status ERROR\nLinea 131:  INFO [2021-10-23 17:09:44,847] ({FIFOScheduler-interpreter_296910513-Worker-1} AbstractScheduler.java[runJob]:154) - Job 20171010-191319_1407757246 finished by scheduler interpreter_296910513 with status ERROR\nLinea 132:  WARN [2021-11-04 22:34:40,488] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 133:  WARN [2021-11-04 22:34:41,129] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 134:  WARN [2021-11-04 22:34:41,131] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 135:  WARN [2021-11-04 22:34:41,133] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 136:  INFO [2021-11-04 22:35:10,473] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=11.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#23:co#153:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 137:  INFO [2021-11-04 22:35:11,770] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 42903 spark-shared_process :\nLinea 138:  INFO [2021-11-04 22:35:33,755] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-md-shared_process--localhost.log -Xmx1024m -cp :/opt/zeppelin/local-repo/md/*:/opt/zeppelin/interpreter/md/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer 172.17.0.2 42903 md-shared_process :\nLinea 139: \u001b[1;32m      6\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# se crea un nuevo RDD\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 140: \u001b[0;32m----> 8\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 141: \u001b[1;32m      6\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# se crea un nuevo RDD\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 142: \u001b[0;32m----> 8\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 143: \u001b[1;32m      6\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# se crea un nuevo RDD\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 144: \u001b[0;32m----> 8\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 145:  WARN [2021-10-16 13:12:40,406] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 146:  WARN [2021-10-16 13:12:41,330] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 147:  WARN [2021-10-16 13:12:41,333] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 148:  WARN [2021-10-16 13:12:41,335] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 149:  WARN [2021-10-19 21:15:12,637] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 150:  WARN [2021-10-19 21:15:13,070] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 151:  WARN [2021-10-19 21:15:13,071] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 152:  WARN [2021-10-19 21:15:13,072] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 153:  INFO [2021-10-19 21:17:51,971] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=13.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#39:co#189:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 154:  INFO [2021-10-19 21:17:52,581] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 42621 spark-shared_process :\nLinea 155:  WARN [2021-10-22 21:25:11,241] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 156:  WARN [2021-10-22 21:25:11,673] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 157:  WARN [2021-10-22 21:25:11,674] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 158:  WARN [2021-10-22 21:25:11,675] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 159:  INFO [2021-10-22 21:47:13,767] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=12.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#25:co#158:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 160:  INFO [2021-10-22 21:47:14,432] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 39479 spark-shared_process :\nLinea 161:  WARN [2021-10-23 13:05:12,019] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 162:  WARN [2021-10-23 13:05:12,446] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 163:  WARN [2021-10-23 13:05:12,448] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 164:  WARN [2021-10-23 13:05:12,449] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 165:  INFO [2021-10-23 13:28:22,558] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=12.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#25:co#179:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 166:  INFO [2021-10-23 13:28:23,239] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 45315 spark-shared_process :\nLinea 167:  INFO [2021-10-23 15:08:55,136] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-md-shared_process--localhost.log -Xmx1024m -cp :/opt/zeppelin/local-repo/md/*:/opt/zeppelin/interpreter/md/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer 172.17.0.2 45315 md-shared_process :\nLinea 168:  WARN [2021-11-03 00:01:11,496] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 169:  WARN [2021-11-03 00:01:11,811] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 170:  WARN [2021-11-03 00:01:11,813] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 171:  WARN [2021-11-03 00:01:11,814] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 172:  WARN [2021-11-03 00:14:24,608] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 173:  WARN [2021-11-03 00:14:24,923] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 174:  WARN [2021-11-03 00:14:24,924] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 175:  WARN [2021-11-03 00:14:24,925] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 176:  INFO [2021-11-03 00:15:49,204] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=12.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#25:co#148:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 177:  INFO [2021-11-03 00:15:50,025] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 42303 spark-shared_process :\nLinea 178:  INFO [2021-11-03 00:30:08,674] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-sh-shared_process--localhost.log -Xmx1024m -cp :/opt/zeppelin/local-repo/sh/*:/opt/zeppelin/interpreter/sh/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer 172.17.0.2 42303 sh-shared_process :\nLinea 179:  WARN [2021-11-03 13:45:08,110] ({main} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 180:  WARN [2021-11-03 13:45:08,514] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 181:  WARN [2021-11-03 13:45:08,515] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 182:  WARN [2021-11-03 13:45:08,517] ({main} ZeppelinConfiguration.java[getConfigFSDir]:653) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir\nLinea 183:  INFO [2021-11-03 13:48:12,877] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-md-shared_process--localhost.log -Xmx1024m -cp :/opt/zeppelin/local-repo/md/*:/opt/zeppelin/interpreter/md/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer 172.17.0.2 33375 md-shared_process :\nLinea 184:  INFO [2021-11-03 15:17:20,015] ({SchedulerFactory2} SparkInterpreterLauncher.java[buildEnvFromProperties]:245) - buildEnvFromProperties: {PATH=/opt/conda/envs/python_3_with_R/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin, ZEPPELIN_LOG_DIR=/opt/zeppelin/logs, ZEPPELIN_WAR=/opt/zeppelin/zeppelin-web-0.10.0.war, ZEPPELIN_ENCODING=UTF-8, ZEPPELIN_SPARK_CONF=--conf|spark.executor.instances=2|--conf|spark.sql.catalogImplementation=hive|--conf|spark.app.name=spark-shared_process|--conf|spark.webui.yarn.useProxy=false|--conf|spark.driver.cores=1|--conf|spark.executor.memory=1g|--conf|spark.master=local[*]|--conf|spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11|--conf|spark.driver.memory=1g|--conf|spark.executor.cores=1, JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64, JAVA_OPTS=  -Dfile.encoding=UTF-8 -Xmx1024m -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin--localhost.log, TERM=screen, INTERPRETER_GROUP_ID=spark-shared_process, S_VERSION=2.4.8, Z_VERSION=0.10.0, LANG=en_US.UTF-8, JAVA_INTP_OPTS= -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties, PYSPARK_PYTHON=python, SPARK_HOME=/opt/spark, ZEPPELIN_CONF_DIR=/opt/zeppelin/conf, ZEPPELIN_NOTEBOOK_DIR=/notebook, STY=12.pts-0.localhost, ZEPPELIN_RUNNER=/usr/lib/jvm/java-8-openjdk-amd64/bin/java, PWD=/opt/zeppelin, ZEPPELIN_HOME=/opt/zeppelin, LOG_TAG=[ZEPPELIN_0.10.0]:, SHELL=/bin/bash, ZEPPELIN_INTP_MEM=-Xmx1024m, PYSPARK_DRIVER_PYTHON=python, ZEPPELIN_PID_DIR=/opt/zeppelin/run, ZEPPELIN_ANGULAR_WAR=/opt/zeppelin/zeppelin-web-angular-0.10.0.war, WINDOW=0, ZEPPELIN_MEM=-Xmx1024m, HOSTNAME=localhost, LC_ALL=en_US.UTF-8, ZEPPELIN_IDENT_STRING=, PYSPARK_PIN_THREAD=true, TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\\E[%dB:LE=\\E[%dD:RI=\\E[%dC:UP=\\E[%dA:bs:bt=\\E[Z:cd=\\E[J:ce=\\E[K:cl=\\E[H\\E[J:cm=\\E[%i%d;%dH:ct=\\E[3g:do=^J:nd=\\E[C:pt:rc=\\E8:rs=\\Ec:sc=\\E7:st=\\EH:up=\\EM:le=^H:bl=^G:cr=^M:it#8:ho=\\E[H:nw=\\EE:ta=^I:is=\\E)0:li#50:co#189:am:xn:xv:LP:sr=\\EM:al=\\E[L:AL=\\E[%dL:cs=\\E[%i%d;%dr:dl=\\E[M:DL=\\E[%dM:dc=\\E[P:DC=\\E[%dP:im=\\E[4h:ei=\\E[4l:mi:IC=\\E[%d@:ks=\\E[?1h\\E=:ke=\\E[?1l\\E>:vi=\\E[?25l:ve=\\E[34h\\E[?25h:vs=\\E[34l:ti=\\E[?1049h:te=\\E[?1049l:us=\\E[4m:ue=\\E[24m:so=\\E[3m:se=\\E[23m:mb=\\E[5m:md=\\E[1m:mh=\\E[2m:mr=\\E[7m:me=\\E[m:ms:Co#8:pa#64:AF=\\E[3%dm:AB=\\E[4%dm:op=\\E[39;49m:AX:vb=\\Eg:G0:as=\\E(0:ae=\\E(B:ac=\\140\\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\\E[5i:pf=\\E[4i:Km=\\E[M:k0=\\E[10~:k1=\\EOP:k2=\\EOQ:k3=\\EOR:k4=\\EOS:k5=\\E[15~:k6=\\E[17~:k7=\\E[18~:k8=\\E[19~:k9=\\E[20~:k;=\\E[21~:F1=\\E[23~:F2=\\E[24~:kB=\\E[Z:kh=\\E[1~:@1=\\E[1~:kH=\\E[4~:@7=\\E[4~:kN=\\E[6~:kP=\\E[5~:kI=\\E[2~:kD=\\E[3~:ku=\\EOA:kd=\\EOB:kr=\\EOC:kl=\\EOD:km:, ZEPPELIN_ADDR=0.0.0.0, ZEPPELIN_INTERPRETER_REMOTE_RUNNER=bin/interpreter.sh, SHLVL=0, HOME=/opt/zeppelin}\nLinea 185:  INFO [2021-11-03 15:17:20,510] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /opt/spark/bin/spark-submit --class org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer --driver-class-path :/opt/zeppelin/local-repo/spark/*:/opt/zeppelin/interpreter/spark/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar:/opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar --driver-java-options  -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-spark-shared_process--localhost.log --conf spark.executor.instances=2 --conf spark.sql.catalogImplementation=hive --conf spark.app.name=spark-shared_process --conf spark.webui.yarn.useProxy=false --conf spark.driver.cores=1 --conf spark.executor.memory=1g --conf spark.master=local[*] --conf spark.jars.packages=graphframes:graphframes:0.6.0-spark2.2-s_2.11 --conf spark.driver.memory=1g --conf spark.executor.cores=1 /opt/zeppelin/interpreter/spark/spark-interpreter-0.10.0.jar 172.17.0.2 33375 spark-shared_process :\nLinea 186: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 187: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 188: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 189: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 190: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 191: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 192: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 193: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 194:  INFO [2021-11-03 15:21:33,490] ({Exec Stream Pumper} ProcessLauncher.java[processLine]:189) - [INFO] Interpreter launch command: /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dlog4j.configuration=file:///opt/zeppelin/conf/log4j.properties -Dlog4j.configurationFile=file:///opt/zeppelin/conf/log4j2.properties -Dzeppelin.log.file=/opt/zeppelin/logs/zeppelin-interpreter-sh-shared_process--localhost.log -Xmx1024m -cp :/opt/zeppelin/local-repo/sh/*:/opt/zeppelin/interpreter/sh/*:::/opt/zeppelin/interpreter/zeppelin-interpreter-shaded-0.10.0.jar org.apache.zeppelin.interpreter.remote.RemoteInterpreterServer 172.17.0.2 33375 sh-shared_process :\nLinea 195: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 196: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 197: \u001b[1;32m      7\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 198: \u001b[0;32m----> 9\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 199: \u001b[1;32m      8\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 200: \u001b[0;32m---> 10\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 201: \u001b[1;32m      8\u001b[0m \u001b[0mconfigRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minputRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfilter\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;32mlambda\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m:\u001b[0m \u001b[0;34m\"config\"\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mline\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 202: \u001b[0;32m---> 10\u001b[0;31m \u001b[0merrOrConfRDD\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0merrorRDD\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0munion\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mconfigRDD\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\nLinea 203:  WARN [2021-11-04 22:35:35,156] ({pool-2-thread-1} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 204:  WARN [2021-11-04 22:35:29,421] ({pool-2-thread-1} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 205:  WARN [2021-11-04 22:35:39,585] ({FIFOScheduler-interpreter_1237742409-Worker-1} Logging.scala[logWarning]:66) - Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.\nLinea 206:  WARN [2021-10-19 21:18:09,238] ({pool-2-thread-1} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 207:  WARN [2021-10-19 21:18:14,824] ({FIFOScheduler-interpreter_1888253375-Worker-1} Logging.scala[logWarning]:66) - Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.\nLinea 208:  WARN [2021-10-22 21:47:29,421] ({pool-2-thread-1} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 209:  WARN [2021-10-22 21:47:35,696] ({FIFOScheduler-interpreter_1233515674-Worker-1} Logging.scala[logWarning]:66) - Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.\nLinea 210:  WARN [2021-10-23 13:28:38,954] ({pool-2-thread-1} ZeppelinConfiguration.java[<init>]:85) - Failed to load XML configuration, proceeding with a default,for a stacktrace activate the debug log\nLinea 211:  WARN [2021-10-23 13:28:45,164] ({FIFOScheduler-interpreter_1203802371-Worker-1} Logging.scala[logWarning]:66) - Fair Scheduler configuration file not found so jobs will be scheduled in FIFO order. To use fair scheduling, configure pools in fairscheduler.xml or set spark.scheduler.allocation.file to a file that contains the configuration.\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=17",
+              "$$hashKey": "object:2129"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_2007475830",
+      "id": "20201023-002107_2147167260",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T22:50:44+0000",
+      "dateFinished": "2021-11-04T22:50:47+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:450"
+    },
+    {
+      "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/log_linage.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/log_linage.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_439532735",
+      "id": "20171013-164802_1824704614",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:451"
+    },
+    {
+      "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a><br>\nRecordar hacer el tunel ssh:<br>\nssh -vCN -L 4040:localhost:{} -l &lt;tu login&gt; nabucodonosor.ccad.unc.edu.ar\n\"\"\".format(uiPort)\n\ntextLocal = \"\"\"%html\nEjecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 14,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "Ejecutar celda y ver en Spark UI tareas y grafo de operaciones\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_1654149053",
+      "id": "20171013-163432_1466279672",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:452"
+    },
+    {
+      "title": "Implementación",
+      "text": "%md\n\n* El RDD se distribuye en **particiones** en nodos del cluster (o fs local).\n* Se construye el **grafo de operaciones**.\n* Las **operaciones** se dividen en **tasks** (tareas).\n* A cada **partición** se le aplica una **task**.\n* Las tareas son ejecutadas por los executors en nodos (o threads locales).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>El RDD se distribuye en <strong>particiones</strong> en nodos del cluster (o fs local).</li>\n<li>Se construye el <strong>grafo de operaciones</strong>.</li>\n<li>Las <strong>operaciones</strong> se dividen en <strong>tasks</strong> (tareas).</li>\n<li>A cada <strong>partición</strong> se le aplica una <strong>task</strong>.</li>\n<li>Las tareas son ejecutadas por los executors en nodos (o threads locales).</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_587973726",
+      "id": "20171013-123100_1037283294",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:453"
+    },
+    {
+      "title": "Stages",
+      "text": "%md\n* El **grafo de operaciones** se subdivide en **stages**\n    - el limite entre las stages son las operaciones con shuffle.\n\n* Mas info en este [artículo](https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454).",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 14,
+        "editorHide": true,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>\n<p>El <strong>grafo de operaciones</strong> se subdivide en <strong>stages</strong></p>\n<ul>\n<li>el limite entre las stages son las operaciones con shuffle.</li>\n</ul>\n</li>\n<li>\n<p>Mas info en este <a href=\"https://medium.com/@goyalsaurabh66/spark-basics-rdds-stages-tasks-and-dag-8da0f52f0454\">artículo</a>.</p>\n</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_1187396970",
+      "id": "paragraph_1634317918136_1777236417",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:454"
+    },
+    {
+      "text": "%pyspark\nlines = sc.textFile(\"README.md\")\n\nwords = lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n#MapReduce\nwordCount = words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n\nprint(wordCount.take(1))\n\n# Ver en SparkUI",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:40:08+0000",
+      "progress": 0,
+      "config": {
+        "lineNumbers": true,
+        "tableHide": false,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "title": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "[('#', 1)]\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=8",
+              "$$hashKey": "object:2335"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978900_2019958752",
+      "id": "paragraph_1634318082132_1416467574",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T22:40:08+0000",
+      "dateFinished": "2021-11-04T22:40:09+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:455"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\n\n* Cree una celda nueva y copie en ella el último programa sin las línea 13.\n* Observe en Spark UI las tareas ejecutadas.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>Cree una celda nueva y copie en ella el último programa sin las línea 13.</li>\n<li>Observe en Spark UI las tareas ejecutadas.</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978901_225540124",
+      "id": "20171013-165833_179635135",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:456"
+    },
+    {
+      "text": "%pyspark\nlines = sc.textFile(\"README.md\")\n\nwords = lines \\\n    .flatMap(lambda line: line.split(\" \")) \\\n    .filter(lambda word: word)\n\n#MapReduce\nwordCount = words \\\n    .map(lambda word: (word,1)) \\\n    .reduceByKey(lambda n,m: n+m)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:40:35+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636065614537_1455073317",
+      "id": "paragraph_1636065614537_1455073317",
+      "dateCreated": "2021-11-04T22:40:14+0000",
+      "dateStarted": "2021-11-04T22:40:35+0000",
+      "dateFinished": "2021-11-04T22:40:35+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:457"
+    },
+    {
+      "text": "%md\n## ~.- Evaluación Lazy\n\nEn Spark todas las **transformaciones** (`map`, `filter`, `union`, etc.) son evaluadas de forma **lazy**:\n\n* son acumuladas como *grafo de operaciones*\n* se ejecutan al momento de traer los datos al driver (`collect`, `take`, etc.)\n    - se llama a una **acción**.\n\nEsto permite:\n\n* hacer **optimizaciones**\n    - se computa solo lo que hace falta (tiene mucho sentido en Big Data)\n    - se hace un *pipeling* de transformaciones sin guardar resultados intermedios \n* recalcular las dependencias si hay algún fallo (resilencia)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>~.- Evaluación Lazy</h2>\n<p>En Spark todas las <strong>transformaciones</strong> (<code>map</code>, <code>filter</code>, <code>union</code>, etc.) son evaluadas de forma <strong>lazy</strong>:</p>\n<ul>\n  <li>son acumuladas como <em>grafo de operaciones</em></li>\n  <li>se ejecutan al momento de traer los datos al driver (<code>collect</code>, <code>take</code>, etc.)\n    <ul>\n      <li>se llama a una <strong>acción</strong>.</li>\n    </ul>\n  </li>\n</ul>\n<p>Esto permite:</p>\n<ul>\n  <li>hacer <strong>optimizaciones</strong>\n    <ul>\n      <li>se computa solo lo que hace falta (tiene mucho sentido en Big Data)</li>\n      <li>se hace un <em>pipeling</em> de transformaciones sin guardar resultados intermedios</li>\n    </ul>\n  </li>\n  <li>recalcular las dependencias si hay algún fallo (resilencia)</li>\n</ul>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978901_1887616269",
+      "id": "20171013-171238_638394270",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:458"
+    },
+    {
+      "title": "Logs análisis (muestra solo 2 lineas)",
+      "text": "%pyspark\n\n# Me tiraba un error al leer toda la carpeta, así que le puse un .log específico\n#inputRDD = sc.textFile(\"./logs/zeppelin-interpreter-spark-shared_process--localhost.log\") # RDD de entrada\ninputRDD = sc.textFile(\"./logs\") # RDD de entrada\n\nerrorRDD = inputRDD.filter(lambda line: \"ERROR\" in line) #  se crea un nuevo RDD\nconfigRDD = inputRDD.filter(lambda line: \"config\" in line) # se crea un nuevo RDD\n\nerrOrConfRDD = errorRDD.union(configRDD) \n\nfor ln, l in enumerate(errOrConfRDD.take(2)): # take(2) en vez de collect\n    print(\"Linea {}:\".format(ln), l)\n\n# Compara con primer programa en Spark UI\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T22:47:07+0000",
+      "progress": 100,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Linea 0:  WARN [2021-11-04 22:43:55,748] ({SchedulerFactory4} NotebookServer.java[onStatusChange]:1986) - Job 20201023-002121_604229819 is finished, status: ERROR, exception: null, result: %text \u001b[0;31m---------------------------------------------------------------------------\u001b[0m\nLinea 1:  INFO [2021-11-04 22:43:55,776] ({SchedulerFactory4} AbstractScheduler.java[runJob]:154) - Job 20201023-002121_604229819 finished by scheduler RemoteInterpreter-spark-shared_process-shared_session with status ERROR\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=16",
+              "$$hashKey": "object:2501"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978901_573886051",
+      "id": "20201023-002121_604229819",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T22:47:07+0000",
+      "dateFinished": "2021-11-04T22:47:07+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:459"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\n\nComplete los `...` en el siguiente programa para contar la cantidad de veces que aparece la letra 'c' en los archivos en `./logs/`.\n\n#### Ayuda\n\n\n* Se puede usar el método `.filter` (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.\n* El método `count` de RDD cuenta la cantidad de elementos.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>Complete los <code>...</code> en el siguiente programa para contar la cantidad de veces que aparece la letra &lsquo;c&rsquo; en los archivos en <code>./logs/</code>.</p>\n<h4>Ayuda</h4>\n<ul>\n<li>Se puede usar el método <code>.filter</code> (ya visto en ejemplos anteriores) para crear un RDD solo con la letra C.</li>\n<li>El método <code>count</code> de RDD cuenta la cantidad de elementos.</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978901_1236165506",
+      "id": "20171013-174042_1672649057",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:460"
+    },
+    {
+      "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\")\n\ncharsRDD = linesRDD \\\n            .flatMap(lambda l: l.split(\" \")).filter(lambda l:l)\n\nonlyCRDD = charsRDD.filter(lambda char: char==\"c\")\nprint(onlyCRDD.count())",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-05T02:52:58+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=0",
+              "$$hashKey": "object:6671"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978901_2002371378",
+      "id": "20171013-175507_696892344",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:461",
+      "dateFinished": "2021-11-05T02:53:08+0000",
+      "dateStarted": "2021-11-05T02:52:59+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "7\n"
+          }
+        ]
+      }
+    },
+    {
+      "text": "%md\n## ~.- Persistencia\n\nSpark **recomputa** el grafo de dependencias cuando se llama una **acción**:",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>~.- Persistencia</h2>\n<p>Spark <strong>recomputa</strong> el grafo de dependencias cuando se llama una <strong>acción</strong>:</p>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_1483694588",
+      "id": "20171016-174448_43219511",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:462"
+    },
+    {
+      "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x)\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # recomputa los cuadrados :(",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T23:23:05+0000",
+      "progress": 75,
+      "config": {
+        "lineNumbers": true,
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "La media es  285.1666666666667\n0\n1\n4\n9\n16\n25\n36\n49\n64\n81\n100\n121\n144\n169\n196\n225\n256\n289\n324\n361\n400\n441\n484\n529\n576\n625\n676\n729\n784\n841\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=66",
+              "$$hashKey": "object:2667"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=67",
+              "$$hashKey": "object:2668"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_980052368",
+      "id": "20201029-125345_2132006733",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T23:23:05+0000",
+      "dateFinished": "2021-11-04T23:23:05+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:463"
+    },
+    {
+      "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\"\n\ntextLocal = \"\"\"%html\n(ver resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "(ver resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>)\n<br>\n<br>\nPara evitarlo Spark puede cachear los datos:\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_756906559",
+      "id": "20171016-175252_2114983095",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:464"
+    },
+    {
+      "text": "%pyspark\n\ninput = sc.parallelize(range(30)) # Se crea la lista [0,...,29] y se lo convierte en RDD \n\nresult = input.map(lambda x: x*x) \\\n              .setName(\"cuadrados\").cache() # cache de datos\n\nprint(\"La media es \", result.mean()) # computa los cuadrados\n\nfor r in result.collect():\n     print(r) # no recomputa el map :)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T23:23:36+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "La media es  285.1666666666667\n0\n1\n4\n9\n16\n25\n36\n49\n64\n81\n100\n121\n144\n169\n196\n225\n256\n289\n324\n361\n400\n441\n484\n529\n576\n625\n676\n729\n784\n841\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=68",
+              "$$hashKey": "object:2758"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=69",
+              "$$hashKey": "object:2759"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_1394312150",
+      "id": "20201023-002155_1881617494",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T23:23:36+0000",
+      "dateFinished": "2021-11-04T23:23:36+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:465"
+    },
+    {
+      "text": "%pyspark\n\nuiHost = sc.getConf().get(\"spark.driver.host\")#.getOrElse(\"localhost\")\nuiPort = sc.uiWebUrl.split(\":\")[-1]\n\ntextNabuco = \"\"\"%html\n%html\nVer resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\"\n\ntextLocal = \"\"\"%html\nVer resultado en Spark UI\n<a href=\"http://{}:{}\">http://{}(host):{}(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\"\"\".format(uiHost,uiPort,uiHost,uiPort)\n\nif uiHost == \"200.16.29.165\":\n    print(textNabuco)\nelse:\n    print(textLocal)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/python",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "Ver resultado en Spark UI\n<a href=\"http://localhost:4040\">http://localhost(host):4040(port)</a>\n<br>\nObservar tambien green dots en Dag Visualization.\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_744652824",
+      "id": "20171016-180034_191267646",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:466"
+    },
+    {
+      "text": "%md\n\n## ~.- Implementación API Python\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>~.- Implementación API Python</h2>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_814543432",
+      "id": "20191128-173809_1077146591",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:467"
+    },
+    {
+      "text": "%md\n\n* Spark esta originalmente implementado en Scala/Java.\n* `SparkContext` de Python usa [Py4J](https://www.py4j.org/), lanza JVM local y crea `JavaSparkContext`.\n* [Py4J](https://www.py4j.org/) solo se usa en driver.\n* En máquinas remotas los executors (Spark Workers en figura) corren en JVM asegurando resilencia.\n* Estas JVM lanzan procesos Python.\n* [Mas info](https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d).\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>Spark esta originalmente implementado en Scala/Java.</li>\n<li><code>SparkContext</code> de Python usa <a href=\"https://www.py4j.org/\">Py4J</a>, lanza JVM local y crea <code>JavaSparkContext</code>.</li>\n<li><a href=\"https://www.py4j.org/\">Py4J</a> solo se usa en driver.</li>\n<li>En máquinas remotas los executors (Spark Workers en figura) corren en JVM asegurando resilencia.</li>\n<li>Estas JVM lanzan procesos Python.</li>\n<li><a href=\"https://medium.com/@ketanvatsalya/a-scenic-route-through-pyspark-internals-feaf74ed660d\">Mas info</a>.</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978902_1217900259",
+      "id": "20191128-175341_672335059",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:468"
+    },
+    {
+      "text": "print(s\"\"\"%html\n<img src=\"$baseDir/02_spark_core/python-spark.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 6,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases/02_spark_core/python-spark.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1139473905",
+      "id": "20191128-175407_1271062039",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:469"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nComplete el siguiente programa para que cuente la cantidad de lineas que comienzan con la palabra `INFO`, `WARN` y `ERROR`.\n\nTambién, haga cache de los RDD para hacer el programa más eficiente. \n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>Complete el siguiente programa para que cuente la cantidad de lineas que comienzan con la palabra <code>INFO</code>, <code>WARN</code> y <code>ERROR</code>.</p>\n<p>También, haga cache de los RDD para hacer el programa más eficiente.</p>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1249717541",
+      "id": "20171016-193030_671507369",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:470"
+    },
+    {
+      "text": "%pyspark\n\nlinesRDD = sc.textFile(\"./logs/\") # RDD de entrada\n\nlinesStrip = linesRDD.map(lambda l: l.strip()).cache() # Borro espacios en borde\n\nlinesInfo = linesStrip.filter(lambda l: l.startswith(\"INFO\"))\n\nlinesWarn =  linesStrip.filter(lambda l: l.startswith(\"WARN\"))\n\nlinesError =  linesStrip.filter(lambda l: l.startswith(\"ERROR\"))  # Completar\n\nprint(\"Cantidad de lineas INFO: \", linesInfo.count())\n\nprint(\"Cantidad de lineas WARN: \", linesWarn.count()) #Completar\n\nprint(\"Cantidad de lineas ERROR: \", linesError.count())  #Completar\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-04T23:29:20+0000",
+      "progress": 61,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Cantidad de lineas INFO:  203777\nCantidad de lineas WARN:  389\nCantidad de lineas ERROR:  25\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=70",
+              "$$hashKey": "object:3009"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=71",
+              "$$hashKey": "object:3010"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=72",
+              "$$hashKey": "object:3011"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1942954075",
+      "id": "20191123-214023_2104486544",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-04T23:29:20+0000",
+      "dateFinished": "2021-11-04T23:29:23+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:471"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nEl archivo en `~/diplodatos_bigdata/ds/flights.csv` contiene información de vuelos realizados en 2008 (solo 100.000), uno por línea.\n\nLos datos estan separados por coma y la columna `Cancelled` (la 22) tiene un `1` si el vuelo fue cancelado. Además si el vuelo fue redirigido se indica con '1' en la columna `Diverted` (la 24).\n\nCompletar el siguiente programa que devuelve el porcentaje de vuelos cancelados y el porcentaje de redirigidos.\n\nUtilizar cache si lo cree conveniente.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false,
+          "completionKey": "TAB"
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>El archivo en <code>~/diplodatos_bigdata/ds/flights.csv</code> contiene información de vuelos realizados en 2008 (solo 100.000), uno por línea.</p>\n<p>Los datos estan separados por coma y la columna <code>Cancelled</code> (la 22) tiene un <code>1</code> si el vuelo fue cancelado. Además si el vuelo fue redirigido se indica con &lsquo;1&rsquo; en la columna <code>Diverted</code> (la 24).</p>\n<p>Completar el siguiente programa que devuelve el porcentaje de vuelos cancelados y el porcentaje de redirigidos.</p>\n<p>Utilizar cache si lo cree conveniente.</p>\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1293852547",
+      "id": "20171016-224717_280061616",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:472"
+    },
+    {
+      "text": "{val input = spark.read.format(\"csv\").option(\"header\", \"true\").load(s\"${homeDir}/diplodatos_bigdata/ds/flights.csv\").sample(false,0.0005)\nz.show(input,10)}",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {
+                    "columns": [
+                      {
+                        "name": "Year",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {
+                          "priority": 0,
+                          "direction": "asc"
+                        },
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Month",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DayofMonth",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DayOfWeek",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DepTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSDepTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ArrTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSArrTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "UniqueCarrier",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "FlightNum",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TailNum",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ActualElapsedTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CRSElapsedTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "AirTime",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "ArrDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "DepDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Origin",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Dest",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Distance",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TaxiIn",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "TaxiOut",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Cancelled",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CancellationCode",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "Diverted",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "CarrierDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "WeatherDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "NASDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "SecurityDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      },
+                      {
+                        "name": "LateAircraftDelay",
+                        "visible": true,
+                        "width": "*",
+                        "sort": {},
+                        "filters": [
+                          {}
+                        ],
+                        "pinned": ""
+                      }
+                    ],
+                    "scrollFocus": {},
+                    "selection": [],
+                    "grouping": {
+                      "grouping": [],
+                      "aggregations": [],
+                      "rowExpandedStates": {}
+                    },
+                    "treeView": {},
+                    "pagination": {
+                      "paginationCurrentPage": 1,
+                      "paginationPageSize": 250
+                    }
+                  },
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Year": "string",
+                      "Month": "string",
+                      "DayofMonth": "string",
+                      "DayOfWeek": "string",
+                      "DepTime": "string",
+                      "CRSDepTime": "string",
+                      "ArrTime": "string",
+                      "CRSArrTime": "string",
+                      "UniqueCarrier": "string",
+                      "FlightNum": "string",
+                      "TailNum": "string",
+                      "ActualElapsedTime": "string",
+                      "CRSElapsedTime": "string",
+                      "AirTime": "string",
+                      "ArrDelay": "string",
+                      "DepDelay": "string",
+                      "Origin": "string",
+                      "Dest": "string",
+                      "Distance": "string",
+                      "TaxiIn": "string",
+                      "TaxiOut": "string",
+                      "Cancelled": "string",
+                      "CancellationCode": "string",
+                      "Diverted": "string",
+                      "CarrierDelay": "string",
+                      "WeatherDelay": "string",
+                      "NASDelay": "string",
+                      "SecurityDelay": "string",
+                      "LateAircraftDelay": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Year\tMonth\tDayofMonth\tDayOfWeek\tDepTime\tCRSDepTime\tArrTime\tCRSArrTime\tUniqueCarrier\tFlightNum\tTailNum\tActualElapsedTime\tCRSElapsedTime\tAirTime\tArrDelay\tDepDelay\tOrigin\tDest\tDistance\tTaxiIn\tTaxiOut\tCancelled\tCancellationCode\tDiverted\tCarrierDelay\tWeatherDelay\tNASDelay\tSecurityDelay\tLateAircraftDelay\n2008\t1\t6\t7\t1801\t1805\t1941\t1955\tWN\t172\tN767SW\t160\t170\t146\t-14\t-4\tMCO\tMDW\t989\t4\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t1023\t1010\t1136\t1135\tWN\t752\tN348SW\t73\t85\t63\t1\t13\tOAK\tLAS\t407\t4\t6\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t838\t830\t955\t945\tWN\t304\tN342SW\t77\t75\t56\t10\t8\tOAK\tLAX\t337\t5\t16\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t6\t7\t745\t745\t929\t930\tWN\t1586\tN318SW\t164\t165\t149\t-1\t0\tSTL\tABQ\t934\t4\t11\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t7\t1\t1340\t1340\t1440\t1440\tWN\t35\tN519SW\t60\t60\t47\t0\t0\tLBB\tDAL\t293\t3\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t8\t2\t1850\t1850\t2041\t2045\tWN\t102\tN331SW\t231\t235\t219\t-4\t0\tMCI\tSMF\t1442\t5\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t9\t3\t1834\t1835\t1943\t1940\tWN\t55\tN502SW\t69\t65\t54\t3\t-1\tAMA\tDAL\t324\t5\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t9\t3\t923\t925\t1046\t1055\tWN\t1188\tN200WN\t83\t90\t72\t-9\t-2\tHOU\tBHM\t570\t2\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t10\t4\t1600\t1600\t2337\t2350\tWN\t416\tN738CB\t277\t290\t254\t-13\t0\tLAS\tPVD\t2363\t4\t19\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t10\t4\t1154\t1155\t1314\t1310\tWN\t876\tN427WN\t80\t75\t68\t4\t-1\tONT\tSMF\t389\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t12\t6\t855\t825\t955\t930\tWN\t171\tN611SW\t60\t65\t49\t25\t30\tBUF\tBWI\t281\t4\t7\t0\tnull\t0\t25\t0\t0\t0\t0\n2008\t1\t12\t6\t900\t755\t957\t905\tWN\t2724\tN788SA\t57\t70\t46\t52\t65\tPIT\tPHL\t267\t4\t7\t0\tnull\t0\t52\t0\t0\t0\t0\n2008\t1\t13\t7\t1924\t1835\t2049\t2000\tWN\t2133\tN506SW\t85\t85\t49\t49\t49\tPHL\tPIT\t267\t6\t30\t0\tnull\t0\t8\t0\t0\t0\t41\n2008\t1\t13\t7\t1727\t1705\t1735\t1725\tWN\t3586\tN221WN\t68\t80\t54\t10\t22\tPHX\tLAX\t370\t7\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t13\t7\tNA\t635\tNA\t805\tWN\t3512\tnull\tNA\t90\tNA\tNA\tNA\tSAN\tSFO\t447\tNA\tNA\t1\tB\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t14\t1\t637\t635\t748\t745\tWN\t3138\tN355SW\t71\t70\t59\t3\t2\tCMH\tBWI\t336\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t15\t2\t2008\t2000\t2100\t2055\tWN\t56\tN502SW\t52\t55\t39\t5\t8\tHOU\tDAL\t239\t4\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t15\t2\t1658\t1700\t1815\t1830\tWN\t1435\tN683SW\t137\t150\t123\t-15\t-2\tSAT\tPHX\t843\t6\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t16\t3\t1432\t1435\t1759\t1815\tWN\t2205\tN235WN\t147\t160\t131\t-16\t-3\tABQ\tMDW\t1121\t8\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t16\t3\t1302\t1305\t1427\t1430\tWN\t1541\tN228WN\t85\t85\t74\t-3\t-3\tOAK\tLAS\t407\t4\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t17\t4\t1720\t1705\t1848\t1835\tWN\t369\tN735SA\t88\t90\t69\t13\t15\tSAN\tSFO\t447\t6\t13\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t20\t7\t1437\t1435\t2013\t2025\tWN\t3576\tN286WN\t216\t230\t203\t-12\t2\tLAX\tMDW\t1750\t6\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t20\t7\t1101\t1100\t1404\t1440\tWN\t1047\tN495WN\t303\t340\t290\t-36\t1\tPHL\tPHX\t2075\t4\t9\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t23\t3\t725\t725\t1047\t1050\tWN\t3597\tN705SW\t202\t205\t188\t-3\t0\tPVD\tFLL\t1188\t4\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t1511\t1445\t1740\t1735\tWN\t802\tN661SW\t89\t110\t74\t5\t26\tLAS\tBOI\t520\t3\t12\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t2017\t2015\t2112\t2115\tWN\t744\tN660SW\t55\t60\t42\t-3\t2\tSTL\tMDW\t251\t5\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t26\t6\t630\t630\t723\t720\tWN\t828\tN271WN\t113\t110\t102\t3\t0\tTPA\tBNA\t612\t4\t7\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t30\t3\t639\t635\t748\t745\tWN\t3138\tN365SW\t69\t70\t52\t3\t4\tCMH\tBWI\t336\t2\t15\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t30\t3\t1549\t1550\t1642\t1655\tWN\t1595\tN212WN\t53\t65\t40\t-13\t-1\tLAS\tSAN\t258\t3\t10\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t31\t4\t735\t730\t914\t905\tWN\t1479\tN301SW\t159\t155\t148\t9\t5\tABQ\tOAK\t889\t3\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t13\t7\t1846\t1825\t1948\t1938\tXE\t149\tN19554\t62\t73\t50\t10\t21\tMRY\tLGB\t283\t4\t8\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t2\t3\t1435\t1435\t1524\t1537\tXE\t502\tN16178\t109\t122\t90\t-13\t0\tSAT\tABQ\t609\t5\t14\t0\tnull\t0\tNA\tNA\tNA\tNA\tNA\n2008\t1\t1\t2\t1653\t1525\t1738\t1617\tXE\t600\tN12563\t105\t112\t91\t81\t88\tJAX\tMSY\t513\t6\t8\t0\tnull\t0\t0\t0\t0\t0\t81\n"
+          },
+          {
+            "type": "TEXT",
+            "data": ""
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_279340341",
+      "id": "20191123-214248_1978352340",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:473"
+    },
+    {
+      "title": "",
+      "text": "%pyspark\n\ninput = sc.textFile(\"/diplodatos_bigdata/ds/flights.csv\") # Completar el path\n\nnTotal = input.count() - 1 # la primer fila tiene el nombre de las columnas\n\nparsed = input.map(lambda l: l.split(\",\")).cache()\n\ncancel = parsed.filter(lambda l: l[21] == \"1\") # Completar\n\nredir =  parsed.filter(lambda l: l[23] == \"1\") # Completar # Completar\n\nnCancel = cancel.count()\nnRedir = redir.count()\n\nprint(\"cancelados = {}%\".format(float(nCancel) * 100 / nTotal))\nprint(\"redireccionados = {}%\".format(float(nRedir) * 100 / nTotal)) # Completar\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-05T02:53:23+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "editorHide": false,
+        "title": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "cancelados = 1.142%\nredireccionados = 0.16%\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=1",
+              "$$hashKey": "object:6740"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=2",
+              "$$hashKey": "object:6741"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=3",
+              "$$hashKey": "object:6742"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1403079393",
+      "id": "20191124-133441_1910745321",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-05T02:53:23+0000",
+      "dateFinished": "2021-11-05T02:53:25+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:474"
+    },
+    {
+      "title": "Ejercicio",
+      "text": "%md\nLa columna 14 del mismo archivo tiene el tiempo del vuelo en minutos. Calcular el máximo.\n\n#### Ayuda\n\n* Busque en la documentacion de la [API RDD](http://spark.apache.org/docs/2.2.1/api/python/pyspark.html#pyspark.RDD) una acción para calcular el máximo.\n* Ojo que puede haber valores no definidos.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-05T02:46:30+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<p>La columna 14 del mismo archivo tiene el tiempo del vuelo en minutos. Calcular el máximo.</p>\n<h4>Ayuda</h4>\n<ul>\n<li>Busque en la documentacion de la <a href=\"http://spark.apache.org/docs/2.2.1/api/python/pyspark.html#pyspark.RDD\">API RDD</a> una acción para calcular el máximo.</li>\n<li>Ojo que puede haber valores no definidos.</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_20253024",
+      "id": "20171016-232257_285172371",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "dateStarted": "2021-11-05T02:46:30+0000",
+      "dateFinished": "2021-11-05T02:46:30+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:475"
+    },
+    {
+      "text": "%pyspark\n\ninput = sc.textFile(\"/diplodatos_bigdata/ds/flights.csv\") # Completar el path\n#input = .filter(lambda l: not l.startswith(<first column name>)\nparsed = input.map(lambda l: l.split(\",\")).cache()\nparsed = parsed.filter(lambda l: not l[13].startswith('AirTime'))\n#print(parsed.take(3))\n\nvuelo_dur = parsed.map(lambda f: int(f[13]) if f[13] !='NA' else 0) # Completar\nprint(f'Duración máxima: {vuelo_dur.max()}')\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-05T02:47:22+0000",
+      "progress": 50,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 13,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Duración máxima: 369\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=168",
+              "$$hashKey": "object:3241"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636069605740_346244622",
+      "id": "paragraph_1636069605740_346244622",
+      "dateCreated": "2021-11-04T23:46:45+0000",
+      "dateStarted": "2021-11-05T02:47:22+0000",
+      "dateFinished": "2021-11-05T02:47:23+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:476"
+    },
+    {
+      "title": "FIN",
+      "text": "//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\nval baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\nval homeDir=\"/home/damian\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 1;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") != -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-10-22T21:26:18+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 1;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.match(\"(~|\\d+)\\.-\") != -1 ) {\n            console.log(inner)\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\nbaseDir: String = https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\nhomeDir: String = /home/damian\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634937978903_1362086999",
+      "id": "20171010-191336_1667301043",
+      "dateCreated": "2021-10-22T21:26:18+0000",
+      "status": "READY",
+      "$$hashKey": "object:477"
+    }
+  ],
+  "name": "Clase 02 - Spark Core",
+  "id": "2GJ5J9YR1",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {},
+  "path": "/Clase 02 - Spark Core"
+}

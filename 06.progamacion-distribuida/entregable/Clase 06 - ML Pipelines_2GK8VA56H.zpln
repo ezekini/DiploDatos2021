@@ -1,0 +1,2051 @@
+﻿{
+  "paragraphs": [
+    {
+      "text": "print(s\"\"\"%html\n<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:05:43+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true,
+        "lineNumbers": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n    <h1><a href=\"http://diplodatos.famaf.unc.edu.ar/\">Diplomatura en Ciencia de Datos, Aprendizaje Automático y sus Aplicaciones</a></h1>\n    <h2>Curso <a href=\"https://sites.google.com/view/eleccion-optativas-diplodatos/programaci%C3%B3n-distribu%C3%ADda-sobre-grandes-vol%C3%BAmenes-de-datos\">Programación Distribuida sobre Grandes Volúmenes de Datos</a></h2>\n</center>\n\n<br>\n\n<h3 style=\"text-align:center;\"> Damián Barsotti  </h3>\n\n<h3 style=\"text-align:center;\">\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    Facultad de Matemática Astronomía Física y Computación\n    </a>\n<br/>\n    <a href=\"http://www.unc.edu.ar\">\n    Universidad Nacional de Córdoba\n    </a>\n<br/>\n    <center>\n    <a href=\"http://www.famaf.unc.edu.ar\">\n    <img src=\"/comun/logo%20UNC%20FAMAF%202016.png\" alt=\"Drawing\" style=\"width:50%;\"/>\n    </a>\n    </center>\n</h3>\n\n<p style=\"font-size:15px;\">\n    <br />\n        This work is licensed under a\n        <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.\n    <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\">\n        <img alt=\"Creative Commons License\" style=\"border-width:0;vertical-align:middle;float:right\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png\" />\n    </a>\n</p>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366894_1101446662",
+      "id": "20161027-185750_417030348",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:05:43+0000",
+      "dateFinished": "2021-11-12T16:06:10+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:14620"
+    },
+    {
+      "text": "%md\n## Abstracciones Básicas\n\n### Transformer\n\n* Toma un `DataFrame` y devuelven un `DataFrame` transformado.\n    - método `transform(<DataFrame>)`\n* Ejemplos:\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:10+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Abstracciones Básicas</h2>\n<h3>Transformer</h3>\n<ul>\n<li>Toma un <code>DataFrame</code> y devuelven un <code>DataFrame</code> transformado.\n<ul>\n<li>método <code>transform(&lt;DataFrame&gt;)</code></li>\n</ul>\n</li>\n<li>Ejemplos:</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366895_1705181870",
+      "id": "20161027-185927_1249905112",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:10+0000",
+      "dateFinished": "2021-11-12T16:06:13+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14621"
+    },
+    {
+      "title": "Transformador de features",
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"/05_ml/06-transformador-features.svg\" alt=\"Drawing\" style=\"width: 80%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Transformador de features\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe;Entrada{bg:cornsilk}]->[Transformer;(featurizer)|transform(){bg:orange}]\n          [Transformer;(featurizer)|transform(){bg:orange}]->[note:Dataframe; features{bg:cornsilk}]\n        %%%\n*/\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:13+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"/05_ml/06-transformador-features.svg\" alt=\"Drawing\" style=\"width: 80%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366895_1776131587",
+      "id": "20201029-111103_1838666173",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:13+0000",
+      "dateFinished": "2021-11-12T16:06:14+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14622"
+    },
+    {
+      "title": "Modelo",
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"/05_ml/05-uso.svg\" alt=\"Drawing\" style=\"width: 75%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - Modelo\n\n        %%% yuml type=class style=plain format=svg\n          [note:Dataframe; features{bg:cornsilk}]->[Transformer;(modelo)|transform(){bg:orange}]\n          [Transformer;(modelo)|transform(){bg:orange}]->[note:Dataframe; predicción{bg:cornsilk}]\n        %%%\n*/",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:14+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": false,
+        "title": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"/05_ml/05-uso.svg\" alt=\"Drawing\" style=\"width: 75%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_167907309",
+      "id": "20201029-111212_842896971",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:14+0000",
+      "dateFinished": "2021-11-12T16:06:14+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14623"
+    },
+    {
+      "text": "%md\n### Estimator\n\n* Encapsula un algoritmo ML.\n* Toma un `DataFrame` de entrenamiento y devuelve un `Transformer`\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:14+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Estimator</h3>\n<ul>\n<li>Encapsula un algoritmo ML.</li>\n<li>Toma un <code>DataFrame</code> de entrenamiento y devuelve un <code>Transformer</code></li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_546787513",
+      "id": "20201029-110945_2080913668",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:14+0000",
+      "dateFinished": "2021-11-12T16:06:14+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14624"
+    },
+    {
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"/05_ml/04-entrenamiento.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n/*\n%md\n\n    - método `fit(<DataFrame>)`\n\n      %%% yuml type=class style=plain format=svg\n         [note:Dataframe; features;(entrenamiento){bg:cornsilk}]->[Estimator;(algoritmo ML)|fit()]\n         [Estimator;(algoritmo ML)|fit(){bg:red}]->[note:Transformer;(modelo){bg:orange}]\n      %%%\n*/\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:14+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<center>\n<img src=\"/05_ml/04-entrenamiento.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_1244680178",
+      "id": "20201029-111909_2094645311",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:14+0000",
+      "dateFinished": "2021-11-12T16:06:15+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14625"
+    },
+    {
+      "text": "%md\n\n## Ejemplo flujo de trabajo clásico ML.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:15+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Ejemplo flujo de trabajo clásico ML.</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_621720813",
+      "id": "20201029-112000_2031171035",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:15+0000",
+      "dateFinished": "2021-11-12T16:06:15+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14626"
+    },
+    {
+      "title": "Datos de entrenamiento",
+      "text": "%pyspark\n\ntraining = spark.createDataFrame([\n        (0, \"a b c d e spark a\", 1.0),\n        (1, \"b d\", 0.0),\n        (2, \"spark f g h\", 1.0),\n        (3, \"hadoop a mapreduce\", 0.0)\n    ], [\"id\", \"text\", \"label\"])\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:15+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_1511465089",
+      "id": "20161027-192753_1880015042",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:15+0000",
+      "dateFinished": "2021-11-12T16:06:22+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14627"
+    },
+    {
+      "text": "%pyspark\nz.show(training)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:22+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "label": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tlabel\n0\ta b c d e spark a\t1.0\n1\tb d\t0.0\n2\tspark f g h\t1.0\n3\thadoop a mapreduce\t0.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=0",
+              "$$hashKey": "object:15187"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=1",
+              "$$hashKey": "object:15188"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634995712017_143624448",
+      "id": "paragraph_1634995712017_143624448",
+      "dateCreated": "2021-10-23T13:28:32+0000",
+      "dateStarted": "2021-11-12T16:06:22+0000",
+      "dateFinished": "2021-11-12T16:06:25+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14628"
+    },
+    {
+      "text": "%md\n\n### Featurization\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:25+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Featurization</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366896_1882128950",
+      "id": "20191205-181810_1376282739",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:25+0000",
+      "dateFinished": "2021-11-12T16:06:25+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14629"
+    },
+    {
+      "title": "Tokenizer",
+      "text": "%pyspark\n\nfrom pyspark.ml.feature import HashingTF, Tokenizer\n\n# Creo Tokenizer Transformer\ntokenizer = Tokenizer(\n    inputCol=\"text\",\n    outputCol=\"words\")\n\n# Aplico la transformación devolviendo un nuevo dataframe\ntokenizerOut = tokenizer.transform(training)\n\nz.show(tokenizerOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:25+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "label": "string",
+                      "words": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tlabel\twords\n0\ta b c d e spark a\t1.0\tWrappedArray(a, b, c, d, e, spark, a)\n1\tb d\t0.0\tWrappedArray(b, d)\n2\tspark f g h\t1.0\tWrappedArray(spark, f, g, h)\n3\thadoop a mapreduce\t0.0\tWrappedArray(hadoop, a, mapreduce)\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=2",
+              "$$hashKey": "object:15238"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=3",
+              "$$hashKey": "object:15239"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366897_862192142",
+      "id": "20161027-193120_515869320",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:25+0000",
+      "dateFinished": "2021-11-12T16:06:27+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14630"
+    },
+    {
+      "title": "Feature vectors",
+      "text": "%pyspark\n# Creo un Term Frecuency Transformer con hash\nhashingTF = HashingTF(\n    numFeatures=1000,\n    inputCol = tokenizer.getOutputCol(), \n    outputCol=\"features\")\n\n# Aplico la transformación al resultado de la transformación previa\nhashingTFOut = hashingTF.transform(tokenizerOut)\n\nhashingTFOut.printSchema() \n# Notar tipo de la columna \"features\"\n# El primer elemento de la tupla es el tamaño\n\nz.show(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:27+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "1": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "label": "string",
+                      "words": "string",
+                      "features": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "root\n |-- id: long (nullable = true)\n |-- text: string (nullable = true)\n |-- label: double (nullable = true)\n |-- words: array (nullable = true)\n |    |-- element: string (containsNull = true)\n |-- features: vector (nullable = true)\n\n\n"
+          },
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tlabel\twords\tfeatures\n0\ta b c d e spark a\t1.0\tWrappedArray(a, b, c, d, e, spark, a)\t(1000,[94,105,170,361,722,878],[1.0,1.0,2.0,1.0,1.0,1.0])\n1\tb d\t0.0\tWrappedArray(b, d)\t(1000,[94,361],[1.0,1.0])\n2\tspark f g h\t1.0\tWrappedArray(spark, f, g, h)\t(1000,[105,248,282,417],[1.0,1.0,1.0,1.0])\n3\thadoop a mapreduce\t0.0\tWrappedArray(hadoop, a, mapreduce)\t(1000,[170,181,953],[1.0,1.0,1.0])\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=4",
+              "$$hashKey": "object:15282"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=5",
+              "$$hashKey": "object:15283"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366897_528798785",
+      "id": "20171115-095457_1156237442",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:27+0000",
+      "dateFinished": "2021-11-12T16:06:28+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14631"
+    },
+    {
+      "text": "%md\n\n### Modelo\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:28+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Modelo</h3>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366897_1278659763",
+      "id": "20191205-182631_90559665",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:28+0000",
+      "dateFinished": "2021-11-12T16:06:28+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14632"
+    },
+    {
+      "title": "Creación",
+      "text": "%pyspark\n\nfrom pyspark.ml.classification import LogisticRegression\n\n# Creo el Estimator\nlr = LogisticRegression(\n    maxIter=10,\n    regParam=0.01)\n  \n# Entreno el Estimador obteniendo un modelo\nmodel = lr.fit(hashingTFOut)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:28+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=6",
+              "$$hashKey": "object:15309"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=7",
+              "$$hashKey": "object:15310"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=8",
+              "$$hashKey": "object:15311"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=9",
+              "$$hashKey": "object:15312"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=10",
+              "$$hashKey": "object:15313"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=11",
+              "$$hashKey": "object:15314"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=12",
+              "$$hashKey": "object:15315"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=13",
+              "$$hashKey": "object:15316"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=14",
+              "$$hashKey": "object:15317"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=15",
+              "$$hashKey": "object:15318"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=16",
+              "$$hashKey": "object:15319"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=17",
+              "$$hashKey": "object:15320"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=18",
+              "$$hashKey": "object:15321"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366898_320467944",
+      "id": "20161027-194846_129661804",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:28+0000",
+      "dateFinished": "2021-11-12T16:06:32+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14633"
+    },
+    {
+      "title": "Predicción",
+      "text": "%pyspark\n\n# Creo un DF para testearel modelo\ntest = spark.createDataFrame([\n  (4, \"spark i j k a\"),\n  (5, \"l m n\"),\n  (6, \"mapreduce spark\"),\n  (7, \"apache hadoop\"),\n  (8, \"spark f j k\")\n], [\"id\", \"text\"])\n\n\n# Featurizo el test\ntestTokens = tokenizer.transform(test)\n\ntestFeatures = hashingTF.transform(testTokens)\n\npredictions = model.transform(testFeatures)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:32+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "title": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "probability": "string",
+                      "prediction": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tprobability\tprediction\n4\tspark i j k a\t[0.4178708877031538,0.5821291122968463]\t1.0\n5\tl m n\t[0.954126238851537,0.04587376114846289]\t0.0\n6\tmapreduce spark\t[0.8365768944495406,0.16342310555045933]\t0.0\n7\tapache hadoop\t[0.9857864449916625,0.014213555008337618]\t0.0\n8\tspark f j k\t[0.25910961733038906,0.7408903826696108]\t1.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=19",
+              "$$hashKey": "object:15381"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=20",
+              "$$hashKey": "object:15382"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366898_1660060081",
+      "id": "20161027-195542_1318506384",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:32+0000",
+      "dateFinished": "2021-11-12T16:06:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14634"
+    },
+    {
+      "text": "%md\n\n## Pipelines\n\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:33+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h2>Pipelines</h2>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366898_255570971",
+      "id": "20161028-141905_1713895534",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:33+0000",
+      "dateFinished": "2021-11-12T16:06:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14635"
+    },
+    {
+      "text": "println(s\"\"\"%html\n<center>\n<img src=\"/06_ml_pipelines/pipeline.svg\" alt=\"Drawing\" style=\"width: 90%;\"/>\n</center>\n\"\"\")\n\n/*\n%md\n* Abstracción del flujo de trabajo en ML:\n\n      %%% yuml style=plain scale=80 dir=LR format=svg\n        [Featurization]->[Entrenamiento]\n        [Entrenamiento]->[Modelo]\n        [Modelo]->[Predicción]\n        [Modelo]->[Evaluación]\n      %%%\n*/",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:33+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "fontSize": 9,
+        "editorHide": false,
+        "results": {},
+        "enabled": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_1785179188",
+      "id": "20201029-114011_107220819",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14636"
+    },
+    {
+      "text": "%md\n\n* Para su construcción se usan **Transformers** y **Estimators** (llamados Stages)\n    - los concatena\n\n* Un pipeline es un **Estimator**\n    - método `fit(<DataFramee>)` devuelve un `PipelineModel` (Transformer)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:33+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<ul>\n<li>\n<p>Para su construcción se usan <strong>Transformers</strong> y <strong>Estimators</strong> (llamados Stages)</p>\n<ul>\n<li>los concatena</li>\n</ul>\n</li>\n<li>\n<p>Un pipeline es un <strong>Estimator</strong></p>\n<ul>\n<li>método <code>fit(&lt;DataFramee&gt;)</code> devuelve un <code>PipelineModel</code> (Transformer)</li>\n</ul>\n</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_300418893",
+      "id": "20201029-114054_1255735097",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:33+0000",
+      "dateFinished": "2021-11-12T16:06:33+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14637"
+    },
+    {
+      "text": "%pyspark\n\nfrom pyspark.ml import Pipeline\n\n# Creo el pipeline con los Transformers y el Estimator\npipeline = Pipeline(stages=[tokenizer, hashingTF, lr])\n\n# Con fit el pipeline genera los fetures y entrena.\npipModel = pipeline.fit(training)\n\nprint(\"%table\\nStage\")\nfor stage in pipModel.stages:\n    print(stage)\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:33+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 14,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "Stage": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "Stage\nTokenizer_6abe0717b9ea\nHashingTF_31e21b6aa45b\nLogisticRegressionModel: uid = LogisticRegression_06837955b81e, numClasses = 2, numFeatures = 1000\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=21",
+              "$$hashKey": "object:15453"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=22",
+              "$$hashKey": "object:15454"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=23",
+              "$$hashKey": "object:15455"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=24",
+              "$$hashKey": "object:15456"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=25",
+              "$$hashKey": "object:15457"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=26",
+              "$$hashKey": "object:15458"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=27",
+              "$$hashKey": "object:15459"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=28",
+              "$$hashKey": "object:15460"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=29",
+              "$$hashKey": "object:15461"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=30",
+              "$$hashKey": "object:15462"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=31",
+              "$$hashKey": "object:15463"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=32",
+              "$$hashKey": "object:15464"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=33",
+              "$$hashKey": "object:15465"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_1128068442",
+      "id": "20161028-160715_1700211199",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:33+0000",
+      "dateFinished": "2021-11-12T16:06:36+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14638"
+    },
+    {
+      "title": "Pipeline de entrenamiento",
+      "text": "print(s\"\"\"%html\n<img src=\"/06_ml_pipelines/ml-Pipeline.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:36+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "fontSize": 9,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"/06_ml_pipelines/ml-Pipeline.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_2037739737",
+      "id": "20161028-155205_837419355",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:36+0000",
+      "dateFinished": "2021-11-12T16:06:37+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14639"
+    },
+    {
+      "text": "%md\n### PipelineModel\n\n* El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n    - método `transform(<DataFrame>)`\n* Usa los mismos Transformers de *featurizacion* que para el entrenamiento\n    - ahorra código\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:37+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "editorHide": true,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>PipelineModel</h3>\n<ul>\n<li>El resultado anterior es un modelo (Transformer) que se puede usar para predecir\n<ul>\n<li>método <code>transform(&lt;DataFrame&gt;)</code></li>\n</ul>\n</li>\n<li>Usa los mismos Transformers de <em>featurizacion</em> que para el entrenamiento\n<ul>\n<li>ahorra código</li>\n</ul>\n</li>\n</ul>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_1290801488",
+      "id": "20161028-160002_1792875570",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:37+0000",
+      "dateFinished": "2021-11-12T16:06:37+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14640"
+    },
+    {
+      "text": "%pyspark\n# El modelo en el pipeline solo necesita el Raw Test:\n# automaticamente aplica los transformadores de features\n# y hace predicciones.\n\npredictions = pipModel.transform(test)\n\nz.show(predictions.select(\"id\", \"text\", \"probability\", \"prediction\"))\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:37+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "fontSize": 14,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "id": "string",
+                      "text": "string",
+                      "probability": "string",
+                      "prediction": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TABLE",
+            "data": "id\ttext\tprobability\tprediction\n4\tspark i j k a\t[0.4178708877031538,0.5821291122968463]\t1.0\n5\tl m n\t[0.954126238851537,0.04587376114846289]\t0.0\n6\tmapreduce spark\t[0.8365768944495406,0.1634231055504593]\t0.0\n7\tapache hadoop\t[0.9857864449916625,0.014213555008337618]\t0.0\n8\tspark f j k\t[0.2591096173303889,0.7408903826696112]\t1.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=34",
+              "$$hashKey": "object:15549"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=35",
+              "$$hashKey": "object:15550"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366899_1024160921",
+      "id": "20171115-101137_579818646",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:37+0000",
+      "dateFinished": "2021-11-12T16:06:37+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14641"
+    },
+    {
+      "text": "print(s\"\"\"%html\n<img src=\"/diplodatos_bigdata/clases/06_ml_pipelines/ml-PipelineModel.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n\"\"\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:37+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": false,
+        "fontSize": 9,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<img src=\"/diplodatos_bigdata/clases/06_ml_pipelines/ml-PipelineModel.png\" alt=\"Drawing\" style=\"width: 70%;\"/>\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366900_1472904103",
+      "id": "20161028-160514_1612337572",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:37+0000",
+      "dateFinished": "2021-11-12T16:06:38+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14642"
+    },
+    {
+      "title": "Persistencia",
+      "text": "%pyspark\n\nfrom pyspark.ml import PipelineModel\n\n# El pipeline entrenado se puede guardar\npipModel.write().overwrite().save(\"/tmp/spark-logistic-regression-model\")\n\n# Y cargarlo para la etapa de uso\nsamePipModel = PipelineModel.load(\"/tmp/spark-logistic-regression-model\")\n\n# Tambien el pipeline sin entrenar\npipeline.write().overwrite().save(\"/tmp/unfit-lr-model\")\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:38+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "editorHide": false,
+        "fontSize": 14,
+        "title": true,
+        "results": {},
+        "graph": {
+          "mode": "table",
+          "height": 300,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=36",
+              "$$hashKey": "object:15576"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=37",
+              "$$hashKey": "object:15577"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=38",
+              "$$hashKey": "object:15578"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=39",
+              "$$hashKey": "object:15579"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=40",
+              "$$hashKey": "object:15580"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=41",
+              "$$hashKey": "object:15581"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=42",
+              "$$hashKey": "object:15582"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=43",
+              "$$hashKey": "object:15583"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=44",
+              "$$hashKey": "object:15584"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=45",
+              "$$hashKey": "object:15585"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=46",
+              "$$hashKey": "object:15586"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=47",
+              "$$hashKey": "object:15587"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=48",
+              "$$hashKey": "object:15588"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=49",
+              "$$hashKey": "object:15589"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=50",
+              "$$hashKey": "object:15590"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=51",
+              "$$hashKey": "object:15591"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=52",
+              "$$hashKey": "object:15592"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=53",
+              "$$hashKey": "object:15593"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=54",
+              "$$hashKey": "object:15594"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366900_299830180",
+      "id": "20171115-101044_1013070913",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:38+0000",
+      "dateFinished": "2021-11-12T16:06:43+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14643"
+    },
+    {
+      "text": "%md\n\n### Ejercicio\n\nHacer con pipelines uno de los ejemplos de clasificación de la clase anterior. Plotear el resultado.\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:06:43+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": false,
+        "editorSetting": {
+          "language": "markdown",
+          "editOnDblClick": true,
+          "completionKey": "TAB",
+          "completionSupport": false
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/markdown",
+        "fontSize": 9,
+        "editorHide": true,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<div class=\"markdown-body\">\n<h3>Ejercicio</h3>\n<p>Hacer con pipelines uno de los ejemplos de clasificación de la clase anterior. Plotear el resultado.</p>\n\n</div>"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366900_1733051085",
+      "id": "20191205-195354_363578557",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:43+0000",
+      "dateFinished": "2021-11-12T16:06:43+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14644"
+    },
+    {
+      "text": "%pyspark\n\nfrom pyspark.ml import Pipeline\nfrom pyspark.ml.feature import StringIndexer, VectorAssembler\nfrom pyspark.ml.classification import DecisionTreeClassifier\n\ninputFile = \"../../diplodatos_bigdata/ds/people_sex_height_age_weight.json\"\n\npeople = spark.read.json(inputFile) \\\n                    .select(\"kgs\", \"mts\", \"sex\") \\\n                    .repartition(sc.defaultParallelism) \\\n                    .cache()\n\n\n#people_binary = strIndexer.fit(people).transform(people)\n\ntrainDF, testDF = people.randomSplit([0.95, 0.05]) \n\nstrIndexer = StringIndexer(inputCol=\"sex\", outputCol=\"label\")\nvAssembler = VectorAssembler(inputCols=[\"kgs\", \"mts\"], outputCol=\"features\")\ndtEstimator = DecisionTreeClassifier(featuresCol=vAssembler.getOutputCol(), labelCol=\"label\")\n\n# # Creo el pipeline con los Transformers y el Estimator\npipeline = Pipeline(stages=[vAssembler, strIndexer, dtEstimator])\npipModel = pipeline.fit(trainDF)\n\n#model_out = pipModel.transform(trainDF)\npredictions = pipModel.transform(testDF)\npredictions",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:09:10+0000",
+      "progress": 88,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 13,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "DataFrame[kgs: double, mts: double, sex: string, features: vector, label: double, rawPrediction: vector, probability: vector, prediction: double]"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=106",
+              "$$hashKey": "object:15659"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=107",
+              "$$hashKey": "object:15660"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=108",
+              "$$hashKey": "object:15661"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=109",
+              "$$hashKey": "object:15662"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=110",
+              "$$hashKey": "object:15663"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=111",
+              "$$hashKey": "object:15664"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=112",
+              "$$hashKey": "object:15665"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=113",
+              "$$hashKey": "object:15666"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=114",
+              "$$hashKey": "object:15667"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=115",
+              "$$hashKey": "object:15668"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636214631306_147761270",
+      "id": "paragraph_1636214631306_147761270",
+      "dateCreated": "2021-11-06T16:03:51+0000",
+      "dateStarted": "2021-11-12T16:09:10+0000",
+      "dateFinished": "2021-11-12T16:09:13+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14645"
+    },
+    {
+      "text": "%pyspark\n\ndef plot_classification(df, surfaceDF=None, prob=False):\n    import matplotlib.pyplot as plt\n    import numpy as np\n    import matplotlib.cm as cm\n\n    from matplotlib.colors import ListedColormap, LinearSegmentedColormap\n\n    cmap_light = LinearSegmentedColormap.from_list(\"light\", ['#FF5555', '#5555FF'])\n    cmap_pastel = LinearSegmentedColormap.from_list(\"pastel\", ['#FF8888', '#8888FF'])\n    cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])\n\n    # helper function to display in Zeppelin\n    def show(p):\n        from io import BytesIO\n        import base64\n        #img = StringIO()\n        img = BytesIO()\n        p.savefig(img, format='png')#,dpi=600)\n        img.seek(0)\n        print(\"%html <div style='width:600px'><img src=\\\"data:image/png;base64,\" + base64.encodebytes(img.getvalue()).decode().replace('\\n', '') + \"\\\"/></div>\")\n        #print(\"%html <div style='width:600px'><img src=\\\"data:image/png;base64,\" + img.buf.encode('base64').replace('\\n', '') + \"\\\"/></div>\")\n\n    plt.close('all')\n\n    plt.autoscale(enable=True, axis='x', tight=True)\n\n    if surfaceDF:\n\n        if prob:\n            pSTable = surfaceDF.select('kgs','mts','prob').toPandas()\n            Z = pSTable['prob']\n        else:\n            pSTable = surfaceDF.select('kgs','mts','prediction').toPandas()\n            Z = pSTable['prediction']\n\n        xs = pSTable['kgs']\n        ys = pSTable['mts']\n\n        xUs = xs.unique()\n        yUs = ys.unique()\n\n        xx, yy = np.meshgrid(xUs,yUs)\n\n        Z = Z.values.reshape(xx.shape).transpose()\n\n        if prob:\n            plt.pcolormesh(xx, yy, Z, shading='auto', cmap=cmap_light)\n        else:\n            plt.pcolormesh(xx, yy, Z, shading='auto', cmap=cmap_pastel)\n\n        plt.axis([xs.min(), xs.max(), ys.min(), ys.max()])\n\n    pTable = df.select('kgs','mts','label').toPandas().sample(frac=1)\n\n    xs = pTable['kgs']\n    ys = pTable['mts']\n    cs = pTable['label']\n    plt.scatter(xs, ys, c=cs, cmap=cmap_bold, alpha=0.5, s=16)\n    plt.xlabel('kgs')\n    plt.ylabel('mts')\n\n    show(plt)\n    plt.close()\n",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T18:10:21+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636740618008_1628493775",
+      "id": "paragraph_1636740618008_1628493775",
+      "dateCreated": "2021-11-12T18:10:18+0000",
+      "status": "FINISHED",
+      "focus": true,
+      "$$hashKey": "object:17173",
+      "dateFinished": "2021-11-12T18:10:21+0000",
+      "dateStarted": "2021-11-12T18:10:21+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      }
+    },
+    {
+      "text": "%pyspark\n\n#/* Crea grid peso*altura del fondo\n# * para el gráfico anterior\n#**********************************/\n\ndef createGrid():\n\n    from pyspark.sql.functions import min, max\n    \n    maxTics = 256\n\n    def fgrid (x, min, max, tics):\n        tics2 = tics - 2\n        return (float(x-1)*(max-min)+tics2*min)/tics2\n\n\n    minKgs, maxKgs, minMts, maxMts = people.agg(min(\"kgs\"), max(\"kgs\"), min(\"mts\"), max(\"mts\")).first()\n\n    # 1.- numeracion ticks en x \n    # 2.- numeracion ticks en (x, y)\n    # 3.- todos los (kgs, mts) \n    return sc.parallelize(range(maxTics)) \\\n            .flatMap(lambda x: [ (x, y) for y in range(maxTics)]) \\\n            .map(lambda x_y: (fgrid(x_y[0], minKgs, maxKgs, maxTics), fgrid(x_y[1], minMts, maxMts, maxTics))) \\\n            .toDF([\"kgs\", \"mts\"])\n\n\ngridPredictionDT = pipModel.transform(createGrid())",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T18:07:27+0000",
+      "progress": 100,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "setting": {
+                "table": {
+                  "tableGridState": {},
+                  "tableColumnTypeState": {
+                    "names": {
+                      "kgs": "string",
+                      "mts": "string",
+                      "features": "string"
+                    },
+                    "updated": false
+                  },
+                  "tableOptionSpecHash": "[{\"name\":\"useFilter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable filter for columns\"},{\"name\":\"showPagination\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable pagination for better navigation\"},{\"name\":\"showAggregationFooter\",\"valueType\":\"boolean\",\"defaultValue\":false,\"widget\":\"checkbox\",\"description\":\"Enable a footer for displaying aggregated values\"}]",
+                  "tableOptionValue": {
+                    "useFilter": false,
+                    "showPagination": false,
+                    "showAggregationFooter": false
+                  },
+                  "updated": false,
+                  "initialized": false
+                }
+              },
+              "commonSetting": {}
+            }
+          }
+        },
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": []
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=119",
+              "$$hashKey": "object:17158"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=120",
+              "$$hashKey": "object:17159"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636733552052_1775849646",
+      "id": "paragraph_1636733552052_1775849646",
+      "dateCreated": "2021-11-12T16:12:32+0000",
+      "dateStarted": "2021-11-12T18:07:27+0000",
+      "dateFinished": "2021-11-12T18:07:28+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14646"
+    },
+    {
+      "text": "%pyspark\nplot_classification(predictions, surfaceDF=gridPredictionDT)",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T18:10:30+0000",
+      "progress": 0,
+      "config": {
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/python",
+        "fontSize": 9,
+        "results": {},
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "runtimeInfos": {
+        "jobUrl": {
+          "propertyName": "jobUrl",
+          "label": "SPARK JOB",
+          "tooltip": "View in Spark web UI",
+          "group": "spark",
+          "values": [
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=121",
+              "$$hashKey": "object:17316"
+            },
+            {
+              "jobUrl": "http://localhost:4040/jobs/job?id=122",
+              "$$hashKey": "object:17317"
+            }
+          ],
+          "interpreterSettingId": "spark"
+        }
+      },
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1636733549824_1816238492",
+      "id": "paragraph_1636733549824_1816238492",
+      "dateCreated": "2021-11-12T16:12:29+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14647",
+      "dateFinished": "2021-11-12T18:10:34+0000",
+      "dateStarted": "2021-11-12T18:10:30+0000",
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Unable to revert mtime: /opt/conda/envs/python_3_with_R/fonts\n"
+          },
+          {
+            "type": "HTML",
+            "data": "<div style='width:600px'><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgCAYAAAA10dzkAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjQuMywgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy/MnkTPAAAACXBIWXMAAA9hAAAPYQGoP6dpAACv3klEQVR4nOz9d5gd933fi79m5vS6e7b3xS56B3snJUqUKZmyLcstTmRZjmM5spxYju+1E19dKzdPlOSXxHHixE7iIsux5CJZkmXJpkSJnQRBAESvi93F9r57ep2Z3x8fHByAwAJLEo3Yz+t5zrN75kz5zndmd97nUw3XdV0URVEURVGUVYN5swegKIqiKIqi3FhUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwybgsB+PnPf567776baDRKc3MzP/zDP8zJkyevuM1f//Vf8/73v5+mpiZisRj3338/Tz/99A0asaIoiqIoys3jthCAzz//PJ/61KfYvXs33/3ud6lUKjzxxBNks9llt3nhhRd4//vfz7e//W327dvHe97zHp566ineeOONGzhyRVEURVGUG4/huq57swdxrZmdnaW5uZnnn3+eRx55ZMXbbdmyhZ/4iZ/gs5/97HUcnaIoiqIoys3Fc7MHcD1IJpMAJBKJFW/jOA7pdPotbzMxMUE0GsUwjLc8TkVRFEVRbjyu65JOp2lvb8c0bwtn6FvmthOAruvymc98hoceeoitW7eueLv/9J/+E9lslh//8R9fdp1isUixWDz/fnx8nM2bN7+j8SqKoiiKcnMYHR2ls7PzZg/jpnDbCcBf+qVf4tChQ7z00ksr3ubLX/4yv/Vbv8U3vvENmpubl13v85//PJ/73OcuWf7rvz5KIBB7W+NVlHcTv8Jv3+whKIqivGNShQJd/+7fEY1Gb/ZQbhq3lQD89Kc/zd/8zd/wwgsvrFjR/8Vf/AU/93M/x1/91V/xvve974rr/sZv/Aaf+cxnzr9PpVJ0dXURCMRUACqrghiBmz0ERVGUa8ZqDt+6LQSg67p8+tOf5mtf+xrPPfcca9asWdF2X/7yl/nEJz7Bl7/8ZT70oQ9ddX2/34/f73+nw1UURVEURbmp3BYC8FOf+hRf+tKX+MY3vkE0GmVqagqAeDxOMBgExHo3Pj7OF7/4RUDE38c+9jF+53d+h/vuu+/8NsFgkHg8fnNORFEURVEU5QZwW6S+/N7v/R7JZJLHHnuMtra286+/+Iu/OL/O5OQkIyMj59//z//5P6lUKnzqU5+6aJt/9s/+2c04BUVRFEVRlBvGbWEBXEkpwy984QsXvX/uueeuz2AURVEURVFucW4LC6CiKIqiKIqyclQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwyVAAqiqIoiqKsMlQAKoqiKIqirDJUACqKoiiKoqwybgsB+PnPf567776baDRKc3MzP/zDP8zJkyevut3zzz/PnXfeSSAQoK+vj9///d+/AaNVFEVRFEW5udwWAvD555/nU5/6FLt37+a73/0ulUqFJ554gmw2u+w2Q0NDfPCDH+Thhx/mjTfe4F/+y3/JL//yL/PVr371Bo5cURRFuYhSCVIpKJdv9kgU5bbGc7MHcC34+7//+4ve//Ef/zHNzc3s27ePRx555LLb/P7v/z7d3d38l//yXwDYtGkTe/fu5T/+x//Ij/7oj17vISuKoigX4jhw6pS8CgUIBGDDBli3DszbwlahKLcUt+VfVTKZBCCRSCy7zquvvsoTTzxx0bIPfOAD7N27l7J+81QURbmxnD0Lb7wh4i8Ukp/798PIyM0emaLcltx2AtB1XT7zmc/w0EMPsXXr1mXXm5qaoqWl5aJlLS0tVCoV5ubmLrtNsVgklUpd9FIURVGuAYOD4LpQXw9+v/x0XRgautkjU5TbkttOAP7SL/0Shw4d4stf/vJV1zUM46L3rutednmVz3/+88Tj8fOvrq6udz5gRVEURSx+Xu/FyzweyOdvzngU5TbnthKAn/70p/mbv/kbnn32WTo7O6+4bmtrK1NTUxctm5mZwePx0NDQcNltfuM3foNkMnn+NTo6es3GriiKsqppbRWx5zjy3nFEFLa23txxKcptym2RBOK6Lp/+9Kf52te+xnPPPceaNWuuus3999/PN7/5zYuWfec73+Guu+7C++Zvoefw+/34/f5rMmZFURTlAtavh5kZeVVpbpYkEEVRrjm3hQD81Kc+xZe+9CW+8Y1vEI1Gz1v24vE4wWAQEOvd+Pg4X/ziFwH45Cc/ye/+7u/ymc98hp//+Z/n1Vdf5Q//8A9X5DpWFEVRrjHRKDz6KIyNQTot7zs7JSFEUZRrzm0hAH/v934PgMcee+yi5X/8x3/Mxz/+cQAmJycZuSCbbM2aNXz729/mV37lV/jv//2/097ezn/9r/9VS8AoiqLcLEIhsQQqinLduS0EYDV540p84QtfuGTZo48+yv79+6/DiBRFUW4CrgvZLNi2WNDeQv28im0wuFCH7ZqsqV8i4LWv40AVRbnZ3BYCUFEUZdWTzcKBAzA5KQkUiQTs2AFNTVfddHghxh/v28bAfD2OY9BVl+If3XGUba2XL4mlKMq7n9sqC1hRFGVV4jiwdy+cOSOlVIJBmJqC3bshl7vipqWKyR+8voMjU020R9P01CU5uxjnf+/ZwWJOk94U5XZFBaCiKMqtiG3DxAScPi0/7Su4ZBcXRfDV10scXSAglr+lJbEIXojrQrEoPXeBgfl6zszXsbZhgbCvQsBrs75xgYlkhCPTV7ceKory7kRdwIqiKLcaxSK89ppkxDqOxPK1t8N994m4ezOVirwuLGFVjf+rVGrLkkk4cgSmp8EwoLsbO/EotmviNZ3apoaLC5RttREoyu2K/nUriqLcagwMSG/ceBxaWuTnyAicOnX59evqIBIRgVdNisvlRBDW18v7UglefVXcxIYh6x09yrqz36U1kmZosQ7XlcXjqSh1wSLrGhdvyOkqinLjUQGoKIpyqzE2Bj6fvEB+BgKy/HL4/bBtG1iWuIKnpkQArlsHjY2yzuQkzM1JceVIRLKE6+oITI/wif4XiPpLHJlu4vB0E45r8JEtp+iqS9+Y81UU5YajLmBFUZRbDcuqWfKquO6Vy7r09YmlcHJS4gUbG6GtrbZNsSj7sKzaNn4/pFLsTIzwW+9/mSNTjdiuyYbGeXrqU9f+vG5nKhVxrReLYpGtrxdLq6LcoqgAVBRFudXo7hYrXjYrSR35vLhwe3uvvF1Dg7wuRygkvXWHhiRLOBaDclmWx+O0hrO0RrPX/FRWBamUZFzPzkrMpt8vBa23b39LtRgV5UaiAlBRFOVWo69P4vmGh6U3rs8ngqK//+3tr1yWuMJcTkQliDBpaoL774dw+JoNfVmWlmB8XIRsfb20efPcBo8g14VDh0SwNzWJhTWbhePHxQrb2bn8tktL4tYvFqVuY2fnxYk8inIduQ3++hRFUW4zPB646y6J4ctmRaDF42/fpTg+LkKjv19EYCYjP6NROcb1Znxcspqr4tMwxJp5333vfhGYz4vrNxarnUskIuc6NbW8AJyYEKthJlOzEnZ3iyBXEajcAN7lf3mKoii3KYYhsWR1de98X0tLYqny++VVXy9Wp2xWhGA8Lu7h0VF5Hw6LcLlcyZm3im1L6ZlCQTKaDUOsgGfPQlcX9PS882Pcirju8oL9wjlpbZX1ymXJ9O7qgjVrbuxYbxapVC1mtaFBLKjqMr9hqABUFEW53fGf6+hxoSgplcTS5POJFerll8XdXCrVEhkefliE4DtJZshmxZ0djdb24/NJrNzCwrtfAAaDkmwzMCDn5fHIfHo8Iu4uRy4novzCOala/RYWVocAHBuDPXtqVmGvFzZulPaFmjxzQ1CprSiKcrvT0SEuypkZER+plDx4e3tFwJw6JW5My4J0WtYZGoJvfUs6kbwTvF4RQxcWpK4WHKyWublW2La4ZB3n6uteKwxDkj06OkTUTU/L8bduFWF4OapzUi7XlrmubHet5+RWpFyGgwdrVuHWVvmScvKkJNIoNwS1ACqKotzuxGISW3bkiFiYPB4RLZs3y+cTEyL6Lsxi9flk2eHDImSi0bd37GBQ3JrHj4vI8XpFZEYiIpquBY4jBa5PnRIBGI3Cpk0SU3cjiETgscekzmLVehqLLb9+ICDi++hReX/hnHR13YAB32SWlsQqXFdXs/ZFIhIzubAgtSqV644KQEVRlHdCKiXiY2ZGHmJr1ohgutXcWM3NIlIKBRGAF1qa0mkRf9V2cqWSiLXGRhGB8/NvXwBCza03MiICraFBCldfi/hGkGzp118XC2YgIOPdvVvOcTk37LXGssSatVK2bZOfw8MyJ42NsGXLtZuTWxnLkpdt11zf1bqXF9apVK4rKgAVRVHeLpkMvPSSWH4CAfk5Pg733ntrxraZptT9u5ByWYSfaYpIq76qy0zznT+UfT7Jat6yRY4XDl+7B73rSvydYUgpFZBznJ4WN/aNEoBvFa8X7rhDrLDVeoyrRfzU1ckXkrEx+d2yajGRy7nNlWuOCkBFUW4/KhURYrOzYu3q7Ky1RLuWnD0roq+lpZa9ODcHJ06IK+/dkNFYKol4bWsTV3CpJHPm99dq9r0Vy9aVCAbldS1xHLFSvjl2zuutJRjcygQC1ybb+t2EacoXAsMQy7njyH22Y4dY0ZUbggpARVFuXbJZsRJUa9atpDSJbYs7cHCwlmwwMCAPnKt10nirLC2JWLpQ6IVCYhksFq+92FkJjiPjKpfFulLNAF6OQKDWFWTTJinLUSzKq7kZ7rln5YkJyaQkjczMiJWvr++dZxFfDcuS8iGDg7WsWseR8V8P0f9mXFfm7s33gXJlolF45BEJoahU5F59t9eEfJehs60oyq1JMinu1YUFeW8YYol68MFL3ZgXMjUlrr9YrCYW5+clmaG9/dpmWUaj8vC6sLxKPi919W5GNmc2K+J3elqEcCQiyR5XEr6WJW7I116TsScStZi0971v5V1C0mm5XvPzInwXF+Va3HPP9S9rsmGDWF6npmoZx01Nb79zykoZHxdrbzIp87RunZzrrRb/eatimqsj5vEWRQWgoii3JidOiJiouldtW6xTZ87UAugvx+KirHuhpTAWk4d0KnVtrUK9vRLEPz0torRYlIf/+vU3Pp7LdWH/fkm0qK8XIZRMwt69cv7V+LjL0dUllsKzZ2vir7f3ykL7zZw9e/H1Anl/8qRk417P+WhslASX4WGxvtbVyfivZ4u7mRl49VW55qGQ3Hd79sj1Xw11/JR3PSoAFUW59XAcEXvhcE1MWJaIlOnpKwvAqsvTcWrbVl1019oqF4uJRfLUKREE8TisXXtzEkAyGZmzamFnw5D5W1qS5VcSgCDu3ndSfiOZvNQNGgzW3OFvRUy+HeJxiSG7UQwOilhuaZEvHK4rXzBOnRLxqVZA5RZHBaCiKLcehlFzI15IpXL1GMD2drEAzc6KQLNtcU+uW/fOSpksR0OD1Ni7Uuuvy+C6ULItvKZ9bULHKhVxl1+Y+OD1ynzZ9sr3Uy6/vSLN8biM4ULhXXWHXy0O8d1IJiNzlEyK67lUqt1r99wjVlhFuYVRAagoyq2HYUgCwZ498oANBETYWNbVrWvhMNx3Hxw6JILIsiS5Yfv262uVeQv7PjLVyLdO9DG8GKcpnOOJ9cM82DP+zoZXLkuNv3JZhK9pihgplVYWZ1UsSmHikRERcW1tUrblSgWNL6Sn52J3eKkkY9iw4fYsb9LYWHM5g3xhyWZFBL/xhrikNSlEuYVRAagoyq1JX5+IiIEBebCGQtIrtLPz6ts2NcF73iPZwx7P2y+zUSzKAz4QuGbxZKfn6vmvL9/JYj5AYyjHwHw9Z3aLteih3vG3v+Oq2K1URIRVXd6RSK3Y7nK4LuzbJ3NddbufPi3i+73vXZk1MBqFhx6SZJuBARlHe7vM3Vu0jr4r6OuTc52eFvGXy8m5NjdLQkoqpQkOyi2NCkBFUW5NLEssUGvXimUrFLq6kLkQ03z7NcVcV2K5TpwQN6bXK4H927e/41IVLwx2Mpfxs61xEsProSWa49RcPd851XveCjiXDfLCUCen5+ppCud5sHecDU2SDZ0teXnmdA+vjbZhGi7390zweP9ZAuPjIjyqHRWqcY/h8NXnbWmpVpS3WromGJT9TU6uPKbR56tZaquJES+9JC7Ra12C52YTi4lluWqh9vlk/kxT5uBG9iNWlLeBCkBFUW5t/P4bH0M2Pi5uPNOUB32hIO5Rv19E6dulUmFyIEN4dhhjaVSEQ1MTcX+I2WyIkm2RKXr5ned3sDiew+fNs9fq5pWzHfzT+99gR9sM/3vPdl4Y6iLiKwFwfKaRs/MRfvH0f8ewbbG0WZYIkKoQuVoCSLFYcx1XsSwRk4XCys9vZERiL5uba27fCwtj326u4O5uyUr3euXLhuvWzj8ev9mjU5QrogJQURTlzYyMiAuz2gHD65X3Q0Pihn67QubYMdbOL7Kv8iFsvwcrm8UtFJmLdnB3/zw+y+bgGxa7jv4p/eZZDNNgIdjBVyo/zTeP9+O3Krw+2saa+iRRvwjApbyfwQGXytwSXtMUwVcu147p8109Fi0arWXshkIi+ioVOc+3ImSWli5tHRcOy34LhetbluVm0NQkVsATJ8QVbBgyX7t23X5iV7ntUAGoKMqyVCtb5PPnvKnvpi5N2axYZ2ZmRNz09EBHx8pi0YrFWoeHqvvU46llyL4dSiUYGuLRhnn2WvdwJLeeiJUnl3FpCM3ywQ3DGIU89Ud2E6zkScebMXBpyg7xg+Uv8fXFX2RkKUbB9pwXfwDxQJHFooNbrsiCUEjGWO2GsRKXdTgsyRqvvCLlTSoVmae2trdWviUSqZVEqc5zoSDzfztmAhuGlCTq7JSah16v9B5eba3dlHclKgAVRbks5XKtrnC1Xez2dRv4yNZTWObbFEE3ikIBXn5ZynP4/XIyY2PSDu5q3SHm50U0jo/L7/G4WHoyGSkl83ZjAMtlKJdpi6T51dhXeH5xO2fy7bRZQzzct8C61m4YnqahMs1r3h00mkUMAxaDHdSlJlnrnqY9XiBgVUgXfedFYLLgJ+B3IeCHfEkuFtQ6lFR75V5NyDU11VyZPp+ItkoFDh6U5I6VCOfubhGQU1Oyn1JJjv9O5u1WxzDExX41N7ui3GLcpn+RiqK8U06elDyIWEw8hLkcfPXIetpimXeWrXojGBkRl9yFsWjz8+Kq6+lZXowUCrB7t5g8YzEpozIxIa7NDRvE3fd2CQZFTM7M0NY0z0+2PicCa24Oeu6XdWybhmCekGMzmw0R9pUpl720OnM81DXC1haTu7smeWGoi6ivhAtkSj5+sHsQbyEGE5ma6AIRv4uL8OKL8PDDIuwmJ8Ws6/eLRbSa9DE9LXO1bl1tzLmcLM9kVlZDsVoY+8QJiYWrrxfB3df39udNUZTrggpARVEuwXGkxJnfXzMcRaNAweC1kbYbKwDLZWkzNjsrAqazU4TdlSxSqVQtGaJKOCxu4Xx+eTEzMSGCqa1NrGfptIgf24adO99ZWQ/TlASSdFosZKYpx+jokAQJgMZGwnEPD/iOcazQx2IuQDcjNHZC544iphng5+85xJr6JLtH2zFweaBngscbD2OccMSCZxi1ws9+v8zX9HStrMvoqFzgquXqgQfkvC7n2q7GFF4to7VqYV1akmNbluyzrk4si1oPT1FuOVQAKopyCa5bywG4EMtwKFRu4L+NSkX6rY6MiGBxXYnru+uuK1uVwuGacKmKj0JB/NhXikWrxvhVt6mrE7E4P39tgvrb26VA8OiojCeRELdpdUzxOGzdSv3hwzzg7sf2G5jhEOZdd0JI4srCvjI/tGWAH9oyUNvviXGx5LW3y749nlodQMsSYXjmjFj06utlueOIq/voURGBjY2yTbXmouuKoGtvv7L1r1SS2MHxcTmnuTlZXrW+joyIC/l2dpG6rnxxmJ2V+7S1deUFtBXlJqECUFGUS7AsMRwdOyZawOOR53yh4uGOjpkbN5CJCRE0VdECUvD46FEZ4HIFiru6agkgoZAIO9uGrVuvXNS4rk7EUj5fc42mUhLPdmE2rG2LKCyVZGxvJbv1avFiGzZAczPG7Cwe05RM5KuJiUpFRKvfXysGXbUw2nYtqcM0a+dfrZM4PS3z09oqGc6nTtW6WyQSYvm8kgVvZESsf4mEzHdVKJfLIh5nZsT6eO+9K56idxWuKy7vI0dqJXPCYbjzzpvTE1pRVogKQEVRLsvGjWLUmJ6W96YJP9wzxiNrRm/I8YszS0w8O0RgJM9kuI1QY4g1TTn80aiIsnRaBNvEhIhCj0fcqXV1ImyqsWjT0/J+JbFoTU2yzsAA7lKSE6U+jts7MfvXsCXjZa1/ESObkRZ109MirMJhiQ3cuPHadLt4O0kFiYRY91IpEbDlsljyfD4RqlV37MTExdvZdq1MjGmK2Ovqkgu/0ozWuTkZs9crY/B6RQTm87L/YFAsY7cryaR8ITGMWtmghQVJnmlp0Yxg5ZZFBaCiKJclEhFv5eRkrQzMp1v347Wuf4cDd3yCoW+exJ2eIVZO0Vo5xXy6mf25fu5pHsLyekVo7NkjtfmqpUdOnpSuE52dYpm7//5avNtKxJlpwp134ra28Y2DPXx3ZANxZxF7IMjTs1388K6zbB78JuXTaWYDG2iIVegpj+E9dEhEWFUA3Giq7lvXFfEVCNSsgIFAbR5mZkTcRSJSIiafvzhD1zBkX42NKz+23y/7dl0Rk1UrmGXJq1h8a/t7tzE3J/PY0lK7x+rqZPnCglhBFeUWRAWgoijL4vVKiNr599yA9laOQ+rAAKkll2R8C5FckUA5RZszxticl5RZon7XGrG8DA6Ke7Tab3ZuTvqztrbWRM1bTUCwLMY9PZwa8vHj6f9Fk7WA4/Uxkevkuws/iJUuUjL6yDsxhjMmU7EI9/n245maujYC0HWpJLMcGG/iVKELvw92tM2wtnGptk6lIso8nRYLZDwu82AY4r6tFnA2DGnBVk1queMOOH5c5s7rFavl5s0XH79YlFfV9381OjvF3T4/L8JycVFEYEtLzTJ7tdI772Y8nlp8alUAVmNPtRi0cgujAlBRlFuLQoHKfJo5s5tgwMu4ZxNN2bPU58fxOgVGux+ifmeTCBnHqbnYDENEUNU9XF//9o4/N8fY38+wa2aWmLnAjJXAxEuLZ4KtM8+AzyYRL1Dw+ijbBhOpKMlIgIZq5i2I+3VmRkRBc/PKexLncjj7D/DFQ3fw3dR6ip4gxOr4Vn0/H7/zMI/0jYm4evVVcedWrZvNzeL2nZ2tuWDn5+WzanyiYcD69RKXlk7LvF04LtsWV+bgoMQ2hsOStdzTc2XraVOTWF2PHhVhWc3QDgblemzYICLxdqUaozk3J/ec64rwbW6GhoabPTpFWRYVgIqi3Fr4fPjCHmKkcHNeAmaWhUAbRXw8F/4QD25vA+9MrUPHhZaXaupy9bO3iuvCkSPUpQoYRoUFqxHLtXGyeaaDCertBSrBCLHiCCUriNf0EK0skHWCNFStf6OjsG+fiKFiUdyiO3fC9u1Xtka6Luzbx/HjJt/L3UdzMEV9ZRA372UodCdfObKBOzqmiZw5KkkXDQ21FnUTExJ/V93/hSVdqnNTLNYydWOxSwXyyZNw6JAIt2BQROKePSIUW1uvPG/d3eLqzGbFJezz1bqo3O4lYIJBEcD798s1r2YB33XX7Vv8Wrkt0LtTUZRbC4+HyNpWNp18lUqqDIaBRZl5q4XA5ha2tJwrM9LRIaJldlYETaUiomX9+ppla25OBFk+L3FoPT1XLgNTKMDYGGvyM0xWQhTL4GKRN0JkMwYNVor98ScIl1wacmO4rsusU0eqd7u4WQsFeOMNsUKmUiLKKhWxBqZSUm5lOVFwrj7gsPdRCiWT+tIYOA6Gk6UjMshQZjOjyRibJiZEYF3Yos7vF4tfd7cIvXJZhFupJOeeTEqplmqJFsuSde+9V/Zj22L58/lqGceBgCS6jIxcXQBWx3FhpvTt2PptOVpb4YknxPJnmiKu1f2r3OKoAFQUZVlSKdEAVU8mdTfqyAazwS5OuV14KgXWWCM0hAr8g86X8FobZZVYTCwvhw+LwLEscTfu2CGfj43Ba6/VLGNnzsiyBx9cXpzYNoyP48+k6HAXqGOBJeqYcDvo8YwSCdj8ubuWU4ldrAmfkJJ5zVF+4ZGzYJZEYC0tiShNJmvZtZWKuKw7O5fPRD5XqiaUn4dCAdsLlmlApUJhJo2/K0/IW64Jtjfj84n1qb1dLtzcnMTjBYMiDufmarX5ikXJkC6XJT4vkRCx6PWKFW9hQcRspXJ7Z/BeSzyec38kivLuQAWgoiiXZXhYvFrZrLwPBuHxHT28b93Z63rcim3wp/u38Wzpp8j5o5h+h/XhcT4V+1OCU0PAxtrK7e0Sg5XJyAO4Gu9WjWcrFmvZmZWKuEBHRi5ud3YhIyOyjWHgNWziZAi7WTqYwIrGcesT/NTa1/l6+n0M+7azZe0sH948QH34XP9dwxDhV3UFOo4c13FkjBMTywvAeBwiEXaefZFuz/0cdzfQ6YxTMeOMl9t5yHuC7rqUWO7Gx0XkhcNi4atUpBTNzIxYPOfnRdwFg+etmrS2ivirZgPPzsqYxscljs/nE5FcLNYyenM56VoyPX3zMpxXguOIaHUcsb693RAARVlFqABUFOUScjk4cECMQtXn/tIS/OWhjWxrnaUlmrtux359rI2/X+yk2ZxiTWSBkuvhaLaXr1Teyy81PM0l6QjVjNcLSaVEbBWLIsaqCQmGIVax5ai68EIhyGYxHKeW+ew64LV4dNMsDzQ+R8UxCXorF2/f0CDis1oWpVqMGURslUrLH9vjgY0bqT9xgl/0/AF/XvkoI5UOgn6b94de4yc7zmAYmyWrN5OR4soLCyLUNm+GbdtE/D33nByzrU3c3j5fzTLZ2io/FxdrLtuGBimlUy7LXJVKMu5yWT43TRgYuHUFYCoFr78ugtZx5Drv3Hl7J54oyjVABaCiKJcwPy8ao6np4tJm89NBTs0lrqsAPDLdiBMK05BdhIofv8el3ZrmcLaPVPtG4lfbQakkpsuJCbF+VTtghEIiBK8Um1ZfL8IoEJBtL3S1ptPyWSSC13KkHqJti1CqFlP2+cQNOD9f29ayRJBVM3avxJo1sGED68fG+Ff8T/I5Fw82fruAYd4v65imJJT094t5NhistWrr75dOHtHoxUke8bgIv2xWxlY162azIvpyORlvPC4WxWKxFj9YqUgv5gcfvNrM33gcR8TfxEQt7m5xUZbF41duYacoqxwVgIqiXIJl1TyY1SROxwHTcK97IWjLdHFDUQg0iGgpFnGcEEZdHLN/DVytFuHZs+LytCwwTabMdg5VNlPO+FjvjLE2HLnUililv18sXWfPXmqtM00RTIcOiQt53z4RHqYpCSlbt0JrK6n2DZinxii7Jl63hN8t4zEdjGhUROgVT96CXbtgbg5rcpKIacqF8PnEujczU4szC4cv34KuoUGsYdXsaNcV0dvVJYKu6h6uFoMeHZWfsZjsL5OpWS9NU4Rwtc9tU9OVx3+jqY6rvr4m7BsbxWU9NbUyAei6su7UlLxvaRFL6e2evayselQAKopyCU1NkhcwP1/rSLa4CDvjqVoW7nViZ9sM3zvdw4RvPa2JeXI5g6lsK09uHSEaXoH4nJ0Vq5XXy17u4g+yP8mM3QCGQbRc5sNnpvhIf/byxji/X1ynExO4hSIuLg4mRYLYrp9IKYN54IA0SZ6aEpHg8YhQTaXIPPAE/y39cX7YGKTbOY3pVig7BsVgjEg8trL2bu3tNUtcICCiMR4XN+7w8NUTDdaulSLRU1O1cizxuGT8HjxYs1Z6vbLvarmaar/j8fGatbJcFlHo84movtUE4IWu9jdzuUSZy3H0qPTxLZfl/YkT4lLfvv3atPa7TrguDC3EOT2fwGvabGudpSmSv9nDUt5FqABUFOUSvF64+24xclUNRtEo/MydR4j6rxDHdg3Y2TbNR7ed4Nsn+zma7CLorXBf/wwf3XZqZTs4ZwnKmRG+VPlxUt5GtnlPg2Ew7e3km2N3sGP+8MWdNaosLoog2riRzP6TmHaJNDECRpH5Sj0ODrHZOczgOWEWConYLBZhbo6zBxZ4Y7yFhz0tdBUHqJg+imYQT6lMOV/Ge6FbNpUSkVap1NqvmWZNfLW2XmzBqmboXo1EAh59VMq6LC2JqOvuFtfwqVNyPBCXdrksVsdgUJZVW8cVCvJ7Y6OIvkymJpBuJerqxHK5tFRrN5fJyD2wkvZzqZQIPq+3VrQ5nZZ56umR/d+CuC5849havnF0HcmiHwNojWb5x3cfZFfHzM0envIuQQWgoiiXpbFRyta99JIY1YpF+PODmzE4xo7261caxDThR7YO8EDPBGPJKFF/if6GJSzTvfrGIK7OM2cYXowwUWxgjWcYw7XB56MlkuWIVcfAfP3lBWChAOUy2VATM0YrXnIsUU+du0jGCBMjje1UMC8sNu3xnI8XLI1OE50bJFJZ4qzVj7eSx3Qd5jwtbGcC79ycTOzYmMSpZTKyj2pbtu3bRZA1NIgbOhKp+eJLpauKmkLZ4tRcgorTwtrNzcQC58T6yIhYD+vqRMidS3LB6xX3aSQilr6hIbE8Oo4IyebmWt3CW7Gfr9crLvM9e8TtCyL+Nm1aWReOpaVaH98qkUitZ/JbEICFssWxmUbyZQ99iSXaYisQ62+TwYU6vn50PT6rwraWWVzg1FyCPzuwmY3NC5cmJynKZVABqCjKZXFdqWk8OyvPQcuCocU4/2vPTv6fx1+hNXr9HnAALdHc20s2aW6Ge+7B58zhyULZtfD7/VBfj9vaDhkLn7WMezAWww0GOXXWy5Tdz0aO4aOAg8kIPXgMB79/Ea/PEEFWFUeuC7aN18kRMEoYuKSIUbYSpJwIFgb+zFFxr/b3iyu2Kjyq/XtPnhT3b3OzCJiFBRE1liVWu+ZmSRJZhoG5Ov7w9e0MLtThuAZtsQw/vfMY93ZPiphxHBFFmUytNmI+LwJw+3YRQwMDYnXM5eT42axYIvv7RVivBNsWs3FVRPp8b+36vVXa2+F97xNrqm3LOTY0rMx96/PV5rcq6G27Fne5QkaXovze7p2cma/HdgzqgkU+vPk0T206c128yKfn6kkXvWxtSWIYYAC99UnOLsYZXoyzqXn+2h9Uue1QAagotzFTU1ItJJmU5/y6dSuvVZtMyvZ1dTUP4cbGeQ5PN3FwspnW6NB1G/c7preXNe1dbPhOhDemHmVN/RKegIezyTraIhm2tS5jwYxEGGm5i5kjExjkMXBpYp45GvBT4Iy1jnh3nlj2lJhEUykRDKYJLS2syc/SaWQ4O9lBsz3BnNEChssO3ym8RkVEVdXNHAqJiPT5xOo0NVUr1tzUBI89JlbATEYuXk/P5ZM+gFLF5I/2buf0fD3rGhaxTIehhTq+sG8baxJJmr1eEaler7iD5+dF8IXDEhvY3Azf+paMzTBEFHk8sk1fH9x338ramlUzcKsCMBYTC91KS7LYtojeTEbmp7V1ZceNRCT28a3S1CTnPjFRKyWUTIowX+EfiuPAn72xmROzDWxoXMBn2UykI3zl8EbWNS5dFzHmMSUW1oXzCU0V28QyXbzmCmMflVWPCkBFuU2ZmhL3baEgYV2Dg7Ls4YdX9myrVOR5fOHzt2ptKJRv/TZXls/i5x45zR/vDXBiNoGdMumuS/LTO49dMVj+760f5IWgwT2V79FYmcdxTTxUiLgZng3/CPc/kYQzASmanEqJqNqyBTZuJPzcc/yi7y95I12PN2WzzThMggUaPAWI19WsfXNz4oo1DHFZVlutVSfbtsU6F4+L5a2+/ooWrYH5eoYW4qxNLOL3iADob1jk6HQTR6cbaX5z27xYTETrhg3SOu+ZZ2RM5zKnz6d/V+MRVyLCbFvE3/S0WOBMUwTv3r3yLaLanm85SiXYvVvc49Xjt7aK+Lxa9vTbxbJEAB84UHMh9/ZKN5kVFpOeykQ4MdtAdzx1fu47YhkOTTVxbLrhugjAba2zNEdynJ5L0FufpOKYDC7WsbNthjWJ5DU/nnJ7ogJQUW5TTp8W8dfcLM/wWEyecWfOrEwAxuMXx9cbBsznAgS8Ffoblq738K8J7bEMv/7Ybs4uxig7Fr31yfMP6eVYKgZJRepZkxnCNA2OGduYdRpJsMST0RdpjG0SUbJ1q4i0urqaWFi3jsTBgzweHYDyuc4UwSB09Yrgq6uTC1Mu18qtOI4Is44OETzZrAih6WkRVX6/WLd27BDBkslIPN/iooiq3l4ctxEXA8MQa+BkOkKu7GE+FyBXOlfw+b77pG3e0pLsp6NDXLQjIyK6DEOO57ryKpVqx6uWlLkCc2MFdg9tZsrzAdqSSe6LH6eh0ZR4uqmp5S10jiOlaF5/XcbS2Cg3qOPIuE6dksLO14toFB56SNzeritW0bfotzW4THzqCkNW3w4t0Rz/+O5D/NmBzQwt1mGZDjvaZvjE3YdXHiurrHpUACrKbcriolj+qs8yw5D3S0sr297rFc2xZ488vw0D5jx3sX49fLN5C9+6xuP9v/n313iPgmW69DWs3CqytW6UO5b+K7vKL5FzA7QzSgUPk75u1ntzGHPn1PDx4zVX7rp1Ep+3ebMItldfFTdoVTglk2IVa24WERaJiPXwwm4hpZJcnMlJiRVsbBTLWy4nmaoNDSLYXnxRrHVerwjJs2dZe49LZ3wrx2YbWMgGmMuFyJc8mCa8MNTFQ2vGiLe11YpUHz4swmxi4uJ+v7Yt790LRMT4uBx/06Zl52w8GeG/7LmHM/M2Hp9FZdHDC4vb+OddX6XNnRYxtxzHj0ttxclJmYNqxlF3t4jn0VG5Ea9nSRbDWNa9fjVaIxk2NC2wZ6yNoPecCzgVIeovXdeSSXd2TrOpeZ6hxTq8pk1fYgmPpeJPWTkqABXlNqW+XkLIqh3QXFcsgiuN5QcJ3YpG5dlcrVbS3Hwb18gtFnl88A+xcwfxullCWBi4mDi0VmbwLEWlZtzgoIiVujqZ1Ndek+37+2WiLUti5wqFWpzgpk0ymem0iC+oiRq/XwTd8LCIu2qWbj4v+yoW5SIsLsrnLS014Tg9TeDMUT52xwZ+9VuPMTwfpc6XpSFksq5piVNzCb4/0MOPbD0t+5qYEFFXTdCodgIBEZxVAWgYtS4jx47VbobL8PTpNQxk29gaexWrVMAORjiSXcN3xzfzsYah5esH5vNi4fN6Zd/VEi7pdM3yaN3a4QamCf/wjmNkSj4G5uspOyaJYIEf236CDU0L1/XYIV/lnYnMc8lL54t+K6sKFYCKcpuyfr3ojOnpWmm3cFg0ylshHr+01e4tgeuKWKnGrb2JUgkOTTUzmYlSFyyyq32aiP/iWnbpoo/5bICGcEHqG549S2BqGMdbhkoFD5XzQfaGg4i5vXvF8la1zjU2ikVvYEASNU6fluWGIcKmr0+2S6fP19TLFL1U3ABxkhjuuRIv9fW1PsLT0yIAL7SctbfLMf3+2vlWLVfz82y7a5S17mmajSId9iSWGcQfbGaw1MGByWYRgI4jbtZQqNY5Ix6X/ZbL53sAu4aBa3lwQ2GsujoZz+LisgLwyFQjiVABb6QRZ2IKK5emrjzLkXyfuMqXK6eSTtcykW1b3lfnIJWScW3ZcksXZAbojKf5fx5/heMzDeTLHtYkktc9S/4dMzUllt3FRbmH1q2T+MdbfK6Va4cKQEW5TWlpkYSPgQH5H9/ZKWFYN6qZQ7EoBq3padEa3d0S4nZNni9zc+I6nJsTddvfLydnmpDLUTxyiqP7CkxnopwM7uJA9BF6WtfwS/fvpy2WxXYM/vZ4H985vYZUwU8sUOSJdUP84MIrWKaJaVdqZtMLse1aMeZqYeRiUdy/uZyIlmPHau7dqhWtsRHyeZIpg6+W/yGv2+vZxX4e4mV6GSbk5uWBvH277H9ioiZsq1aaY8ekS0k+f3FHkWJR3MMHDhCfrCdbbiLEPGRdWJqh1NpAuOUKRZwNQwRsoYDrOFSKNktuHWXbQ2qxAd+YjzV+E2O5pAjXZWv5DcLjR+nzjJL0NTAQ28qJYgeNPQGpb7jcRQ8GxQpZKIhILBYlcaRUkvNet06+ybwL8Htsdra/S4owz83Byy/LvRQKSVjAwoJcp97emz065QahAlBRbmOam1de9uVaUirJ82V8vOZVPHsW7rpLDGLviGRSdp5KieUilZIEAtsWwbB7N0snFplPddPoX+RDxa+xITDCH019kr85vpZfuPcgLw138uWDm4n4yrRFMyzkg3z54Gbq6nfyqO+EDPrNvYAtq5YkYZryvlqgeXJSHpyHD8t4KpWaeDvXRcPddQd/fOJ+ni+G2WntYad9gGF6mKCdR3gen23D88+LkLTti1uZVZMxlpZqArTqJrYs6OrCePZZHq24/GHlY0y5DdSzyFylDiYmeGDXsGxjmhIDcPiwiC+vV8RXJAKWxdKiS9JoIEoKw/Cy4NThOZvF3NxP73LfHCYm+NDitzhTiJDyRGgoDONNzTPc1MMjmzNXVvzRqMzb8eO1tnPlsnxbqaarq0Xq2jM0JPdZtQ5lNCqi8NQp+aam7uBVgQpARVGuOWNjYsSq5jGAGBiOHRP9scIKG5dnZEREYGsri4Ugw+kYxtIivlcWidg5uqemGDY3kfIn8IYKOOUg3ZnjbG4+ycHJTooVixeHOjENl854GoCQL82puXpeLN/Ho9FviSDK52sWwKo1rhov5fGcd8+6joNTtjH7+jG+/a2aQLxQwBUKzI4VOJjvpTdwmA2lE0SMHGm3zDwJpmin2x6txb29meokdnaKqq7GApqmuHDPnoW5Od5nP80CEZ43HuOs20OcJD9h/CUPLM2B85isv2mTzN/EhJyD1ytu2rk5jiVDlD0uHUxiGx6Chs0JNvCc94P8mnWGy0qxgQGafUkGOzfwxsx6KjY8xEv8bP3XWd+1+erXc+dOEbODgyKct22rxUsq14d0Wq77heLa76+FHagAXBWoAFQU5YosLoqgKxbF87gSAZdOi465sHxcOCzPl2z2HbZYPWf1ms+H2D3STqbkpc41sGaKPLPnTj7JXvB5cXLiwi0bXnyVDP5SBn/UxjIckgU//jd1A/FbNilPAjbvkpOen6+JuGoKdTUmz+vFqTjYZRsHPyNuH98bfJyfy38Db9VKeCGuS+DsKdYG9pNva8BOWRiui4UNholt+aHiXpwVfCGVSs1dWjWprl8vwqlYFAFYLuM1XH7a/HM+YD3LgltPU3mC+pAFyTViqQwE5PXww5Jtm8uJ6DyXEZxxtvFc5EkCYS8RO4lbqXDK7sdLF447iGVcRpwmkzxTfJi/zH6QeTeGY8CE2ckvVL6zMuOdxyPZ0xs3viuSPm4LEomL6y26rtwLnZ06/6uI20bmv/DCCzz11FO0t7djGAZf//rXr7rNn/3Zn7Fjxw5CoRBtbW387M/+LPPz2kJHUapMTMCzz0pLuOPH4ZVX5FW+QkgZiMaAi3MYikXRL9XPVsqx6Qb+5+4d/NYzD/LlA5uY9PeC4zA4GyFT8tIcztFuzeCrCzFQ6eV7ufvo9s9g5wukx5YoTswxu+glPnua93SewmO57GyfYakQoGzLv8CybbJUCLCzbVpcuH6/+KqDQXkgVuP5EgmwLFzHJef4SRMl641zov4+nj67iaFiK+7lLHhAwFPizuIrTHq7mA6tIWtGiJgZ/BSJebIXW2PerJwMo5b5m0zKJEYi8r4qDKsPbtel0Z5mvXuSeutcoWq//2I1blkSkGlZcmFnZiAUYpN7nMeWvkFs9gzpxQqptMmcp5XNbYvL1pcbCW3kL2bfi+2YbIsMsTUyzFQxwReTP0Sx8hbERNWtrlx/+vokbnR6Wr7oTE/LfXSleE3ltuO2sQBms1l27NjBz/7sz/KjP/qjV13/pZde4mMf+xi//du/zVNPPcX4+Dif/OQn+cf/+B/zta997QaMWFFubWxbKp4UCrXkjXJZyrKNjl45lq+jQxI7p6fFk1cuiwDctu2tCcA3xpv576/ewVLBT8hb5uBEM/viDfyLulH8xyfpdpPEsjlKnjCnmh4k6likZmOEBg7wg/mXsKiQIsZhtrMz9yo9E6dh51aeWDfE8ZkGjs80nD/WlpY53t97Gp4fOZ9ZSzgsdXTyeTmReBzCYUrzKfJlH67fy3R0PWd63st6zwKzI/WsW+ZcfOlFNrZOUjZ8vBJ8H7OVeh50XmSLdZr6UAlcn1jpLlczzzRlLLOztareF1Ito2LbFyegeDxiJVy79tJuHq4rGcu2DU1Nkmsyl8UzXcTKZzjuu4uS4afbGOOD3ePLXqMTdfexYCTYVjmOUbDwVCr0ReCstY3BhXntS3srEouJFXhwUGIzolFJZGpsvNkjU24gt40AfPLJJ3nyySdXvP7u3bvp7e3ll3/5lwFYs2YNv/ALv8B/+A//4XoNUVHeVeRyYmyKRmtGgarrd2HhygIwEoEHHoCjR0WzVKuhbF5BSFgV14W/PdHPQi5AXbCA7Zh0xZMMLDXxwuYfw5M9SX5ykVidh5G67cyE11CeKPPRzJ8QLCxhIUkcTczzoPEqr3neS3ZwFubmaJqf5zf5O8ZCdYzGtkBPL3d2zxJzUrUev9Viy4GADKY6Effcw/B8A3sP+QgmAiTDHdiGl4BVwaRyUX/Wi0in6bmrwq9u2cf+Y37KA3kaHB89PhvTqIe1/aK4q0keVarlZExTkiLa20WBV3v8FQoyvo0b5cKEQuLWtW2x8jz44OUzaR1HfPWBALOlOH82/hiHk42UPAYJT4qtTXNsiY5yf/kF2nJrYRlpa8ajGI2NYDVCsQDBIE6kGaPoxbycy1i5NYjFrm+HFeWW57YRgG+VBx54gH/1r/4V3/72t3nyySeZmZnhK1/5Ch/60IeW3aZYLFIsFs+/T6VSN2KoinJTqIabVUPHoNa5rFpC7kokEpL1u2+fJMkODkpo3Y4dK8tMzpc9HJlq5MxCnLKdwMUg4KkQ9ZUYzDTz/ofy/LdXfoRCxUO9m2d+Nsijpb+jNT+E4doYGDiYgIPfzbOlsI8xz0bJGJ6fJ+D1staZYO3kIbA6oW6riKdUShItqr16s1lZHgyKOAwECN21hZlhlzsWn2f94uuUrQDH/TtIBlshe5nyMQCGgbGwwI6mCXbsWILGcUimwLtOLC89PRAIUH71deadeiy3gt8sEyGN6bpiVr3vPhnX66+LCEwm5SL19cEdd8hEj47KOk1NIvyCwctPsGlCfT326AR/MPcke5bW0eWeImZWGPX042WJ9zV+k9jcHBQ6l71OW1rmaKyvMFjaTG/bub608/VsbFqgL7F09Qt9LUmlxKp5zqVNX5/EtalbU1EuYVULwD/7sz/jJ37iJygUClQqFT784Q/z3/7bf1t2m89//vN87nOfu4GjVJSbh98vFTqOHJH3Xq8YjCIReaZeDdeV2MHBQTGeeTziEn71VXj8cdnPlTANl/FUlMVckN5EEgNIF70ML8UxTZc7Oqb51P37+ftTfUymwuxsm+Gp0gG8o0VswDknAQ1cDCBenqNgLsC8Lf5pv18sZlNTEuw4NibLFhcvdsVWO2NUKiIqWlvpyJzkw6VDnC0nOGX1EyjnWJvdQ7Q1jFGIyERddDKmTEI2K0GVCwu1UjHt7ZJZ4/ez2L6Frxqb2eQcJulE8btlmq0FNhsDWGfOiKL2+eD++6XkTS4nruGGBtlXb6+M9cwZKfWRzcKGDfL5mzEM2LiRwfEQR+db6POeJcoCWCbh+AQn8n0cWurmIXP4UpfzBbTFsvzMnUf50hubOD7bgGW4rGtY5GfvOozXukILuGtNNgsvvVSrDbmwIIL47rvfevVzRVkFrFoBeOzYMX75l3+Zz372s3zgAx9gcnKSX/u1X+OTn/wkf/iHf3jZbX7jN36Dz3zmM+ffp1Iput5KXy1FeZexdav8HB4W41dTkyyrr7/6tum0GNLicdFNINql2oK26pWsaivnTQ09zi7FMA2XgLfCfC6IZbgUKhYe06E+UMQw4O6uKe7qnKJsm3gtB+NsGF4GAwcXAwOxxLmAiUPCmwGCIvRyOREIVRer3y/Ws1RKlplmTQSWSiIonnySs0Yvp54/RX3aw5y3jYDXpikKvWaJhlASI9gHJ07gFIuUjAA5QkyaHZj+BGvzI3iHhyWoMhiU/Y6MyCTt2sXf5t7LrHmE9/Bdeq0RLLdCseIjZQapLxbF4tfYWHMHv5nTp8XkappyTgMDIogee+zyIq61lfyuTkrzCYLeJIRbIJfDymdxi3lycznY1iEi9Qo80DPOlpZZBubq8VoO6xsXCHjtK25zzRkZubhNHkgc58mTYl19cwykoqxyVu1fxOc//3kefPBBfu3Xfg2A7du3Ew6Hefjhh/k3/+bf0NbWdsk2fr8f/0p8X4pym+D1wq5dErtXKomQW2miZqkkwi4cri2rPperWcQTE9KNamkJCuGHeGLdMA+vGePgZDP/e892xpJRCmWLfMWLAYS8JepDRZoi+fP7NAzwec4Jta4uaGvDHRnFvEAE2pikzXq8lk9i48rlWpyc31+z7nk8sqyaQGEY59SpA45DsrGP//byHfRPT7DD9eIxHXJlDwbQGCth5CRExA2GSJWCpN0Ic0YzY4ENeAsOdr7MpvYkVtUt6/PJcUdGqGzdyZ6ZXnbF9pKYnafoBikYQYp4iTk5EaxXqr9TqYgA9HhqCj0aFQvn2bOSgXMZutdYNHUHGSttp7c+BdPTzI/mCdsp1lgjYJsSZ3iV2j/xQIk7O6evuM6yuK6I8clJ+b2lRVzeb6UeXTJ5aVvAarHsYlEFoKK8iVX7F5HL5fC86R+Cde7JtlwZB0VZrfj9K4v7u5B4XPRHKiXxgIYhOsKyRJ/MzkpJmYUF0VxPV/rYM9bGP8kc5PtnepjLBakLFDidTYALDaEcXo9DuuhjKr1MXJtlkfzwPyT/v/6ExtIEYGDjoegJc8a/hSbKRBOGWIoKhVq3j0RCTjASEcFUjRlzHPn9XFu4Iyd9PDvYTbKyg778ATJlMPwWE0tBtjg5gobUujnb8zATRxdYVzlBL8O02QvM+rr4nvM4hn2YLVzgIj6XsWsY4vZ2giEcbwDTAcsy8DgGmCJsXMdlfCBP4fQYdZ40DesbMbq7ZHzV5JV8XibV75eJrnYRuZBqljBQFyzyo1tP8qdvbOHQWAJmKgTI8cHufaxtKMD4ovQ/fvTR61cg+Ngx6U5Sjbs8dUqSWnbtWnn8XjUL+sJCxvm8XFP94q4ol3DbCMBMJsPAwMD590NDQxw4cIBEIkF3dze/8Ru/wfj4OF/84hcBeOqpp/j5n/95fu/3fu+8C/if//N/zj333EP7VdwdiqJcHa9XjE6vvy6GHccRg9fatWLg2btXLIDncy3wMjMT4j++eA+t4Qw72mdZyvsZSVZwHYOlQpA1iSXaooscn2mkWLHwey51M1bqm/lC7+f4qbH/iI8SRU+EVKCRSs4k7w/Dw9slPu7kSfFT19WJS9ZxwOPBDoYgX8Apu7iGiYWN6fdDfYLd071MpcOcDO9guLKBTYU3cEpgeL3kWpsI2jPg8+E9fpT6ikUBvyRwFMuUY2Fe872PnZVRyE3XkkryeVi/Hstj8EDPGMOjcWYDnfgp4ynlMExwEwkqcS/PfyuLb2Af3nKOJaPC/GsD9N99Gs/7Hqu5qVOpmuUrmZTfq5W3Mxk574kJuRhr1kB/P+/pH6GrLs2h/RUqiyfYEBplOycxSmERkTMzEht5uVjCd0o6LWZgr7e2/2xWrJk9PSs/Zk9Prfl0KCTzYRgSa6DWP0W5hNvmr2Lv3r285z3vOf++Gqv3Mz/zM3zhC19gcnKSkZGR859//OMfJ51O87u/+7v86q/+KnV1dbz3ve/l3//7f3/Dx64otyPZrGgbEN1hGKJ5Egkx0MzMyOfhsDz7m8kxS5CRpRjxQAHDAMtwaQnn8Fo22bKP+7onsAyXfNm7rABMhAr4+jfzrfRP8UjpGRoKE3QszVBxPVhWhxz0jjtg+3bJcDl1SiyChkEh0crfGh/hoVN/TJ29QNH1s2TUk3EbGK08wPdmt+OnRFNumMOVjYwZTWRtH0U7TMP6SeKDf8ehUwGcPITI4aFCkAIZN4qVTbImOknTmjjMn7PWeb0iwjZuBOBDGwf52niU+cPNZAjjRPx01aXp9Q5wptIJw2cwnRL5UIKcEyRfnCW4b4Lu/iGZZI9HJrnasi6Xk/ddXSI2X3lFLJxVgTg3B7kcxs6drGtcZJ39d1B4A1w/ZIHF+VrCjH2dYvqSyVpf2iqhkAjDpaWVC8BIBB56SATu9LSMu79fhKGiKJdw2wjAxx577Iqu2y984QuXLPv0pz/Npz/96es4KkVZnSST8PLLEpe/sFDrN2/bkqMQCNRC7y5oYIHjQtBbpmKbpAo+GsJ5hpfiFCseWiJZEqE8J2Yaubd7gqi/dNljGwb82I7T/M/MYwwdPUOwMseMr4VgY5C1/hnYswfe+15JitixQ8TR4iJ4vbyUuZcv7b+P0Tu2cOfI16gsZZiyGznt28GQ92HOzCToMMbJ5D28wv1M2M1UMOl2xsm9Os0GXzu7Mn9FH0sEKJImShkPCXcRN2eyq2GEDY+1Qer9InCCwVoGLxDxl/npJ+aY9ifwnjxKyMgR9FmQSLB3cgdrne+T9SYwLIuwVWLObaWhuChZvz6fWPqam0U4lcsy6bFYLcFlZkY+r056Oi1p2uvXy8WYnxdR6vPJq1iUbfr63mH/vitQrTdULsvvUBOwbyfu4J57rv0YFeU25LYRgIqiXHus5Dy5g6dZmHcxIhHC2/uItoSvut3Jk2JcAtE4gYAYnFxXnu1DQ2L4OnSoZriacUL4LJve+hR3d0xyaj5BruTBNFzyFQ9+y+b4dCNddWl+ZMvpK4aGddWl+Vf3PkNmZpB8azedcS+JUB7DbRLr0OSkCCPDEAF2zso0+FoLHsMhGevmdxr+NZMVA58XFtwEH2gYoimbIzYzy497vsLflJ/EMMq0G5NsDZ1hNtfBa+l+PsA8ETIUCeBgMUsLIXI0mfN8aOMgltUr1qnLpVK7Lubpk7RN7If8jLgx7SjOXfcwN9fOOsDApfpV10sFm3OJD7GYlLJJJET4gVyEujoRfLncuYt6QRZPIFCzwOVy4gZvbZXtSiW5YK4rIrkqzq41jY1yzNHRWrHtdFqE6oVWQUVRrikqABVFuSyBuRGGvvoGJ+YacTBxyBI6foJ1P7ie5r7osttVEzqrNZVNU14ej4i9REK0RrUzyJkz51rdejN4LZdH+0b55w/u5fBUE4cmm5jKhPCaLo3hPM2RHHd3TtISzV11/EGjQDCYgahREy9V1bhMM+PGcI6yY+K6kCr4GCsl8GczhFji0Hg9OwMnud/+EvdUXqbHOU49CziGhZv1MO7t5X8Y/5SiFcSpWBQJYOLgpYSNByNoElgmd+U8s7OUd++lNLkAFfBg4J2ZwfzmN2jbupOpsx10lYdJm42UHQ+NpTn8YUNqAkajYnKtFkEuFGTi16+Xn9XCi5VKLSYulxMRGA6LMq+2lItExFXuOLL+9Sx3ZZpitQsEJDYRpJ7hjh1XzTxWFOXtowJQUZTL4ry2lxNzLSTqHAKeMtg204s+hl6ZoKFnw7LlYKqxfrmc6Ii5OfHkOY4YnwoF0SuWJYmljY1SL3AzC9zVNcWPbD5FwGtTtC32T7QynQlhGi49dSke6BlfkfgDxB0Yi4k7tLFRBpbPy4ETictucm/XJM8OdHPkTIClqQwfKn6He3mNmCfH/GQrMWeJjYFhgkUbT7FMN6NUXC/Ddg/tjJAwZjhibKXHOIPXLWNjEiVNxoyRjbXSd5Xq1/NDSYpjBayigc+xsQHb9BNMpXjf8B/wVxs/iXPiRerzU3gAJxii64Fm6O4WIfXgg2J+nZ8XC9q6dfIZSC2/tjaZ7Atj+rZvlwvm84nFbWxMRGAwKJa4jo7rb4kLh6W4dT4v3yCCQe3eoSjXGRWAiqJcgmmXyU0kKVm9BDznWh5aFg3+NDPzcTIZ0VfL0ddXa6Xr80mIHchzvqlJMoGr7++5R7yN/8J4lqC3AsBUOsyf7t9KruRhU9M8jmtwai7BF/Zt43Pvf+myyR9vJlkJwYa7iR18EWN6+vw5sHatuBwvQ0c8w6d7v8mfDzWxvpLjIZ5nzmgi7YRZVz5Kjz1EunkDbbk0dqnCkhsnaBQwPR4GjX4+YD7DX/AT9NiDbHcPUsHCwSREhglnzRU7agC8PtbGHcUsMSeJ6dpUDB8lx4vH9FKXGuVnHt3P0bseJT80SYMnRf+WAJ6GeE0sNTfL68LyNVV8PmnQPDAgJlqvVyxt1SQJy4J77xXr4cSECLG1ayWV+wZk0RYrFq9OrOfodCN+T4U7O6bZ2T6jOlBRrhMqABVFuQTHsPD6DQzXubBkHCXHg+U1r+qZ6+sTL+upU/I+Hhej29q1ojeqnUGq+HwQpHL+/fHJOmJzZ3g8eBR73stUZB12wuDsYpwz83Vsbplf9tiLOT9/dXgj+8ZbsR2Du6J385Hu52n2pyTWr7X1ivXs1i/s5h9FHQaTfjw+mzQm+bKHtFlHxM3jteexvCat/iXmynFs10feDJOwktwV2UPYMdi99BALTj1bjKO0GDNgmLRUxqW0yZYtlz1uruThVLKVB908HqeIY3iwKBFyitiGDwIBfOl5dm1JQl8ICF12P8Dy5xcMiqBbpig04bD0Gy4U5H21CfR1pmIb/O8923l+sBvDcHFcg+cGe/gHO4/xwY2DN2QMirLaUAGoKMqlmCbRrT00T80znkyQCOSxS2UW7Xp610UuEXCX2ZxNm6QKR6EguuNKotFTysHchCjNRIKWUy/yQ3OjJHxZDMMl532V3S0fZpgHznX2vTyOA3+4dzsvD3fSFs3g8zp8Z2Ynw04Pv/neV4j4L439OzzVyItDXcxkQ2xsnOc9Sy/T6p9gkhjJUpgGJnBcg6IZpmT6iVXmIRzEn0rR7pmmZAYJRUaJOUtYgQDv8+xhZ343PjNH2lPPtNtLE7MkvFnJuN248bLtVCzTJVGZZsnbRMDOYrk2DiYuLq5liTi72sRfK96B8KvYBoWKh5C3vOK60Uemm3hpuJPuutT57O7RpSh/e7yfB3rGqQsW3/Z4FEW5PCoAFeVdgOvWulndqJq26R0Pc0/mWY4dnGE2H8XwBlm3NUT7I5evq/Z/c5kamr5zrysxNSVVoZNJee/x0JcsctT3CC85a2jwZ9hZ2kvX6Mv0b1hLf2Jx2V0NLdZxcLKZNfVLxAIiJGL+EifnEhyaauaBnvGL1t8z2sbv795Jqugj5C1zcKKZ/ZWf459W/gv+SoYd9nEqWIBBrhQiG4jR0gCU89K9o1zGTxm/nZO4ud5e4rkcvtwchZwDnhJBT4U6t4DHlFIndtkhXwlcIpD8HpvtoQEGfFvIeuvoyp0E16Vs+Ah5HYljvIVr2jkOPDvYw3dO97KUD9AZT/HUpjPsbJ+56rbjqQhl27qotE9LNMvgQj0TqYgKwOvI6FKUg5PNlG2TdY2LbG6eu24NX5RbCxWAinKLMzsLR4/WSrStWSPWtbcqBB1HsnItS5IzrhZb5VoeSo+8nw13pelbSGHHE/hCXjAcXFbYEPhqFArSKiSdPl+KxT0zyLOL9/I13w9zNteIm4UO8x4+HvhzPr7+FQLe5Y+dKXoplD2EfDVLn9dyzn92IbZj8LfH+8iXPWxtmTu/7Mj4Wp7L3sO2yndleyTesIk5Jpxe5t/zFC0j+8THXW147DgS3HjXXTA4SHBmhmAlR32Ic21OKrimjzPWev7o2fcwl/LRHs3woa1nubu71j93/XqYnJ/hkLOTGauN9vJZWo0pvB31UuT4SoGXN5nnh7r5g9e34zVtYv4Sh6eaGFmK8y8e2cOGpoUrbhvzlzAMl4pt4LGkyE2m6CPoKZ8X8sq157WRNv7w9e3M5SQ9PeSt8OSGM/zUjuMqAlcBKgAV5RYmnZbmDem0iLZSCQ4ckATOnTtXvp/ZWdluYUHcs62t0mb1SkmpVrlAbGkE2/JRiQXoP/FlWsb3Y3v8jPU+xOCGJ7G97zBGbGZGLH9NTefj1k6HdvDlyR+i4Lh0WJPYeFh0E+z338+TLRPA8okUXXVpGkJ5JtMReqKLtKVPEloap6kUYa2dlw4X55RvpuRlMh2hMVzLKrZMl0DAwJOsUDYDDHs34rpQMvyYOJh2meBMkZZ0WlyykYiYZv1+uThTU7BpE+7sHOWTAxjzKUzDwQoFmIyt53fnfpK5TJG6yhgnKvWcHezkMx/MsK0vC0BgfQ9dE6P4xw+y6IkTMgP4Ej0Yj9wnc3QDqdbVX0kShuPAd073YhkOfQmx5DaE8hyebuLl4Y6rCsCd7TOsbVji2EwjrdEsFcdkNhfkfWvP0hFLX3Fb5e2RK3n484MbyZa8bGuZxTBgNhvk70/1cWfHNBubr3zNlHc/KgAV5RZmdFT0UWtr7UFsGFJIeePGlYVq5XKwe7fsJx6Xh/XQkIjIRx65fL5A8/gbbD74ZSLJMXBdwplpbI+fdLwLbynLljf+lGBunkN3/9z5gf17/u+3fH4d7ivcxTRzbAZkIC9Uupm1G2gvTbPga8VXyVFn53gxdycni142sbwLOBEq8OHNA/z5gQ00nHiJTdlX8FCmJZKj91ABPLukNApi7UiECkymwjSEJOnBdaFoWzSE85SnPTztfICTzgZmaCJEjrvZw6eNcVHSCwu1Uiq2LfMwM0Ny/V18KfyrZOPjdFqnCHuLdG2K8t38Q0yf9LOBE+D30+hLczTZxQvPu2zrscGymPG08W+SnyWwcIpue5C0rxG3oY+PR+doJ/OW5/ftULENPjn4fzE4KNq2vV0sk1dKYC7b8P0cGH6Yqi40YN4Lf5nZwCwfvPJB/WA+AJUjsG8aTAu6t8D8lg38B+OJa3VqygXMLMH301KPfLoq8sMwlYZ/v7CVjc03c3TXnwIp4Ldu9jBuKioAFeUWplC4tJqH3y+irlhcmQCcmpJSeM3NNbFnWdIQY3Hx0larofQ0O17/AwK5eVJ1Pbhzc+ydWMfLvvdQLLaxvX6EB8N76Tj7CoMbP0gm1r7ssZNJKStXLMqDprPz4mSQ+cYN5MJN1C0OsZRYAy6QSpK0thIMmHgLWVzXZcTtZiC/gf/+qoffev8rNIbzyx7zyQ2DrLVP4Fn4HvmmOPF6P+0xMJYK4kvv6oJAAK/l8IF1Q/zB6zs4PVdPxF9iLhuiPZahM1rizGCCXeU9bOUNztDPfu5gt+8hHvUP83jhe3IRvF45uWrB5NlZ/vLQRr4z1k9PSwcLXbuYSEVw5wzK6QLRylmIhc5fiHDQYWrRD/PDuE3N/NZ3H+LrY+tojOzAa9lkij6MMZfI4f388oNvXP1iXwP+5vha9hyUe8TjgWPHpKTPY48tf795PJLlPTYmhlHDkCkplSR0cSXE41KlplSS6dEa0NcXj0eu8YV1wavVg25UnLFyc9HLrCi3MHV18g+5XK49ENNpWR6+ekc2oNb0wjRrhiqPR/7xX64hRvPkQcLpSWZbtpLM+fibiTsYLdcTc3MksyG+mbuDpYYA/8D7FQL5xWUF4NSUWB5TqZqI7e6Wer/VcymEGzi26x+yZf+f0jRzFBeDRu9WpgJrOGY04DXTxDx5FisRfB6HwYU6nj3TxY9tP7Xs+RoGrPcMkQ+nsVoD+Mxz5WViMQmkXFo6Xwfwsb4RPKbDMwM9zOdCPNI3ygdir5D+22EgwhyNREhzF3txDYsj7T/Iq9N9PF5tZFwoyFP0nL+0MjnDSdNPWzRzPnGhtz7FoakmoqSYq8RpI4sB2K5B0onwuH8IikXOLsZ4baSNVmuWNUzg2BZLwQbOZpt4frCbX7j30IrqH74TUgUfzwz04vfXwg0jEQkhGB09bzy9BMOQuNTFRfliUW3t29QkMasrxTDeevtf5e1RVyf1vUdG5HfTlC9s0ajUC1duf1QAKsotTGenNGIYGxOdYdtihdm8eeXf0hMJebCeOVMTfJYlGuhy7WgtW4LuZ2ZN9oy3cDDTzw57P363hMfxkQk0cmSulfHObjKR1svGijkOHDkird+iUekDXC5Lk4qODikPU2W890EWG9fRMHMcF4P985tJPttIJumCEyFd9uOjTJ85SkN2hiPjCX5s+/LnO5kK841T7+Xg2ON4p1zujxziqfZ9RDxlmbQLetqaJjzSN8bDa8awHUlAGPjiPpxsnlnPOlzHoOwGyRkx1nuGOOL1ULRtMWudPVtTsl4vuNKjt2XxGAs0EJhNU4w04DY0YRoum9qTDC9meGFhy/kyMDt9x3i88SDU30ky6SOUm6Uvf4xwMU/GDeMxF5kww7iugWU4V73WI0tRjkw1YTsGG5sXWNuwuPJCyrZN7vQ4d419na7gAc6auxiI7MSyZAf55Y2ugIiJRx+F4eFay7/e3ivHmVYJZWaonzuFa1jMtWymFLh1k11uF0xTcpYMQ0S744g3YOfOlX+5VN7dqABUlFuYavOGs2fFChMIiAez+S3E54RC8kCemhLdUe3N29l5kRY6z2LDWtJOhMrUDBl7LQXHh4kNjkN5KUc0OMqs1c6B1g9wdLSB4WERd52dEisWDot3dH5erJXV9q6WJe69gwelUPSFwiQXaSYXkZPK5c+5AA0bgzIWYrZs9KcopQvULU1fOuhzZEtefveVXew7HcSTn8G24fjS+xmZ9PJPEl8lfmc/ZlX1lssyqY6D0diIJxCAdJrKwhKOaxAjyazTgGOYVBwT06lQLMKdHZPgdkpWTbXVSbkMpsm00c6aqdfYVEnjNSuUjAAnYndjNX+QXf0p5qYj5Ee85EoBomaWuD9FfHMHRCK0zZ6l121kglbm7CZSThTbhpJh0RVbPJ8duxwvDHbyp29sZT4nftqYv8RHtp7kqU1nri4CHQf27qXh1Bl25ppYzBzj7tT3ebblJ3gl8RSwMlGQSCzbZW9ZOgdfYPOBLxHKzuIaBplYB4fu/jlm266g8m8TquWdbpblMxKROOBUSr5cxuOXLVGp3KaoAFSUWxy/X4TV+vVvfVvHgRdflHyFQKDWj7epSSw6i4uXPrAXmjbwWtOH2Dj6ZR7N/y3DTh0lfEyZHSwRJ1upg4YWXvA0M7RXNJBpwuHDEiv26KNi8ZuYkP1XXc6hkPw+OyvLPR4RttmsuKC6u2WdqSkRuC3ODBNLIUKeEl6jwmSliUb/Eg9VnodS32XV64GJZl483UpyqUzK2YyBjd8t8H37Ee5MH8QIf4jHjZQM4vXXZSCuK2bKnTshGKTeypByvUSdJGnC5Fw/LaQ54Wxle1+Gx9eOgLFeBjw1JZMaCuFEY5wY7KTNmOBUcAs5O0C4ssSGpdcIdyWYSrcxYK7jsU0jBApLZO0AhyoP8pyvkQ8xSHNumA9HU3yu/Gkmiwn8lDANmwZrkaWUyeB8nL6G5GWv81Lez18c2kgxW2GbdQyAyUo7Xz+6jp3tM3TXXSWTdnYWhobwxiNEPfXsmdpCU2mMXeN/y7OFB2jtaqCzc2X3nG3L7splubeuJBzD6Sm2HPgzrHKB2ZYtGK5DYv40W/f9CS8+8f9R8d2gwtc3gXQaDh2SW8gwxDK+deuNt74Zxi1dXUi5jqgAVJR3Aa4rVjXHkQfESmt0TU+LyPJ45J+864rwy+VkWbXjl+uKFkqlIBg0GG95lA7jb2ljhAbmOcw2wk6WIXqYopcNdTA5VauEUijIPo8elf2WSiIEXFfGWq1BGI3WhN/IiMQcWZZ8Pjwspe5KJRGrGxvH6a4UmXMbWCjH8Bg2P9v8Le4KHQNXAsscB+ZzQfwem1igxJn5Os4uxQjaS3jcMpbpkHGjHDO2MWr1MDVQzwNbUgT37hVV3NgoT8DFRdi3Dx5+mCbvEnuczRg4tDOGi8E8jdSHC3z6zqfx+eOADx58EPbsEQVrWcwVIvjcInY0QVcwR6ZYxnY91GXyJIzD/OXELhrDBQLxIBAkDITmTfZNtPKhTYNgWTwS2seawhR13ixeyrQZk6wxRzlWfIADky3LCsChhTjTky6bigcwKmJSarNmOeK7gzPz9VcXgMmkKLZgkLWBRU55IbXYRlvqBI/2j+G7u2FFFqpUCl577bxhlVBIOt+tX3/5cjINM8cJ5uaYbd4KhoFrmCwm+qmfP0P9/MBtawUsl+HVV0X8RaOy7ORJ+Rt69NGV/30ryjtBBaCi3OJks+I2nZgQQVWN01mJq21xUQSW11vL9vP7xSVcXy95EbYNb7whXcpKJVl/vb2IaTg87z5KlzlBxfCz6MTYYRwmYzQRCIQpFGQMuZwkCBQKsv3hw3Ksc2FxlEry8DdNEYx+P4yPi1iolrexbSkJODgoZUcOHkRKwJhnaHAXsT0mH2/5Ox43n4XWfvD5GBgy2be7wvxSnmSonbaNMeYLAdIlP4btIUeIgu2nhA8DeLbyMLF8I6nJYwSrps+qvyuRkAGkUhwqb+Kv+CgJ5mlgkQxhBljPR3kaHxcUJe7pkRMaG4NKBa+vBXdhAnDxmM75JBBvzsbwmvgtm5RzsdXSqhQJV8u7tLVRCc/SMDfP2uBZ4rkpKBTB68VYWKA4MQdbL3+dfaUM3vQCJa+HYETiEu1CGTOdxFdcQR09v//8hTAsi3gcmv0ZgrEgPVujJFdgiHNduY+mpuQetSy5xgcPyvReroyha1SVjgvnWvwZ55pPuysOXnz3MT0tIrmpqRbL6/XK3M3NvbUQD0V5u6gAVJRbGMcRT+XIiDwgUimxng0Pww/+4NUfFNUQtXhckl+LRRFnrgtr14r1bnBQrA+RiLhiy2UYORNmv+cefNYifrvIZuMEUU+aFnOO095dRKPh81bJ6n6DQRF5jY2ScOK6sqxyLgm3UpH1e3rEClktFwIiFnw+eSjef7+I3f3HOqjk6/FV8kStDMcWWhlev43erX0sDMwz+dcn6cksssEoUjZ97J9+mL1tP0nR8TFDMyV82JgYgEmFZ4sP05l1CJjPyEHfLDBcF5JJXk+tZ5wOhllDkhgebMJk+V7xQX7AGueivJnGxvN1TuoB94hFYOgYecuH6/VhZZI4Xh/t6+M85I7xJ/slRq/NmqVjdDdti1kSKZdDjsume2O03r+Glpkk35vZhmmvJ+Ir0R5M4q8UWTf1Eiy1y0V6E+s5xTrTwxF7C2vsaUzDZdjupcscZpvnONB65RulrU3OY2YGYjE8+SmM+Wn2Nz3Ckewa2uuuHhuWTsvm8XgtN6auTkTN9PTlBeBc82ay4Wbq58+wlFiD4TrUzw+wlOhjsWGZlOPbgGrloAvn1OeTL0JF7Xqn3CDU0KwotzALC/IA9fnk4ZrJyENjchK++10RhFeipUVEWSYjD+VqEuyWLZIBCGKNg1qMns8HwaiHU846GuPl88KuxZ1m1mymFG+itVUEZC4nFgvHEQtgNFrLOq5UxMJ4Ye24YBDuu6/W1eRCKhUZQygkWqRiQ8kK4vp8eAJe9lr38bX6n4VIhMXnDmCkU+Q8cRb9rZSNAHdlnqM8MYPXLWFi4wIWFcDFxmLOTTCWivFyZocok7k5UaK2LSr2XLbMqNPOAg04GPQwTIgsI3TxWnkX/7/XHmIxV/OFlm2Ts4sxJlMiiHd+oIViex++Qprg0iSWxyRy92Z6Nwb5wPohfmD9ELmiSeupZzky3cjf2k/y5dSH+Levv4///FedjAbXs9+6m5P2Wg67W3m1dCffWnqQtkiKnRwQJQUiVstlmXjA6zP4+Ya/5o7IKWbLdUwWE6wPjvBPEl8lFqpc/Ubz+UR59/czm/IzPmHwdfsp/kf+E7z4ksHrr9dqXi+H68rrcoa7SkXus8FBuaermeP5SBNH7vw4hVCChtmT1M8PkEz0cviun33nXWZuYeJxmfILM6vTaflbuYy+V5TrgloAFeUWplyWh2cmIw/gqtXMtiVsa3Bw+ZZwti1t5CYmRKi5rjxgtm6Fxx+vWR8u98DOhZvJR5tZlz/NfNFigla+7zzKS5XHSBb8JBJiNIpE4Hvfk/FVy8pUi/iapozfskQI+v1S/iWRkJ979oiLOhAQN7fPJ2VDikU4+HKK7JIfDzY5w0O60oxpe/kfA714tm3mwbnvMOT0kKvEcGyTkKfEFvcA/kKamJlmwYkBJi4GLgYWDgYuc8Uo/+/hj2K2z7D15BfxjM3i9cJ80yb2PfjP6Bp6AdvwEibDek5iAq1MY2NyytjM/xncxlDbw+zcKVrswAHRjtX2enfcAaGPOZhnhzBzGZyOLtz6BH8PYIJ7D2xPHIbBCscr6+iwz+JxDZKhVr47vZ1vfbuXI4v1tPkmcEwvZTykKiFezN7BqehajrofJTPRTt+JbxNLjpMNNzG8/gNMt+/igdb/j4/MPs3Jxh04rsn6/AGWmjbxn5r/XyqswIcbh8o9Lq8spJg3LMItESIGeApyn3V2csVEkGhUhPv4eK2zXyZT61xz9KjoVb9fvjzs3CnrTHbfy3zzRhJzp3EMi4WmDbd18geIi3ztWrG8p8956C1L/jarMYGKcr1RAagotzB1dWI1m5wUoVQtCm1ZYrBaXL4rGocPi0CpJo5UkzLS6YuDzNvbxa2cy8mxymXIFDwE7tzCMyOf4Gw2y77ydmatZnKeOGYe9u4VF3R/v4xp9+5amZdcrpZVWG2U4fPJelUB0dcn4zl9mvOxhBs3iqic3jNMdj6C6XoIWGWyFT8V28CpOExNWUwt+EjnvAScLKZr42CRKUdYMiLUB1LEjCJOZYkSPiwq9DCEjYdRuvGYsHXmGQ5Plfk/9r+lbJls5jiPcJxcpIlsuJGEPQmYzNCKiY2FTTOzDJs25bIInLVr5ZwzGTlX2xaR47rw8MMmbl8/NrJ8YVbOub5eLLAPHP9D/ibZSNBNEyKFWzYI5h1CfovTkz5s00M4YOMtZyh7Q3gNm5lsmAFzHbbl5Y5XfhdfMUU+1ED9/AB1u4d44/5/ysF7/wlb9n+RdfOnAJfFts0cveNjb0lMpdIGE5kYd3r3c9fIcyRKk4yGNvL39vtZXOy5ogA0TRF1xaKUAHIcuWf9frFUNzfLPZLLwYkTIhK7umTbUiDOVOddKx7nux3DkLlqahILf/ULRPvyTXUU5ZqjAlBRbmGCQdi2TZIs0ml5mJpmLQHkSuUbjhypZftWKrVuHDMzYj2sxg/29IhbbnBQHtQej1Q46d0Y5OnRH2A0Kg9z14GAK/saHJT9tLWJ1c5x4NQpOV4iIWN+5ZVaiYvqWKvWDdOEDRtEQFZb2lUtkuXBEYJGL4tGlMWKHwcDcME1KJVcjr8wQ5u7hft4kVm3BRuTXgaZcltpWRulveBl6bjBFg7zk/wlXYzgYnKatfx18cchucS3jMcIx0y8hs33yu9nbLaTHxjYy0LLRvo8r1ExLCquhwAVXCwWjARN1jxTThMejwjyVEpc7Bf2aJ6akrmtepj37ZO5BRGA929J0n3m+7j8BHmCFM0gHsrEnCVGS52U/V5c1yATbSWansBbzuGUPfgsg/HNH6Bv7gT+whJzzVvAMMhFWkjMnqB34Bleee9v8up7f5Po0igGLqm6blzzrRV183phV3E3H5n7fYJmgYIV4Z65b9NsH2Z/6f8COq64fSIh1uXpafkiEQrBSy+JBbia7BAO1+pSVgXgasSy5O+su/tmj0RZragAVJRbnHXrpDTE7t0itKoiKhYT8XU5HEcEmuvKg7fam7VYrFnkqlgW3HmnWOWkDIy48hxHXLOpVC22q+p+dhwRQW1tIubWrpWWX6WSiNRTp+TnunWyrtcr4nBgQKyAVQukx3NpR5OEM0/UasUpGVxc+tilUjYIjJ3mae+HaLbmaS+fxXAdMoR51vsBYnc8SnOuntFTA/yc/Uc0Ms8wvViU2cUB4k6Kb+eforEhQ+xciFnMm2d4qZPRmSKeHVu5vxt2Dp3k9fw2DBxsw0ebMYlrZln0y3lWO6pc6D73eGRuKkWb8PRZDr7ksJjtJtbgwzBEEI68PIpRyNNuTrPfNsm5AerJkyHMIg0EEyFKKZjLhiiE1+AWimQx2bTOJnnHewg/8xxlb/iiAxf9ccLpKQzXwTUtUollbooVEAk5fMD5O5xSmTPRTZgmlCodbOQwnvJLjPATV92Hz1cTdtVe1pfjNk7yVZR3BSoAFeUWp+ouamgQl2k6La6j9euXLwVTTfqoxuGdFyeVc0kewUuP8eYuDidP1jJ8QfZlWbXWtzMzF+/Dsmr7nZ+X41ebbhiug8cyWFw0ztf5W47WviCNgwuYZg+uc640CGDhYHpN3FKFbCDGN+o/QWdxELdYZLDUyZK3iZZ8I8kU9Hon6LFHOMl6bDyU8TJIH52M02jOE3UsKq5kq3gpYzoeJkP9JKKtTG98jJ/Pf5Mtcyc5mesm5ixhmCZ/Gf+n3HmnWC3n5mqiNhQ6n0BMv2+UDx34Y0ITp1kz5bAY7+H7sX/ESHgTjY0wNRlj0dNMlznGRmOAM04fY3QRdVOEwzbhXoNoVFzsmZyFxxOidz089uS5coUNa2maPCSq2jTBdQnm5xnvefAtW/suh6+SY21kiqlEArd0rjRg2CTiD9FSGmXkLe4vEBC35unTct95vbVEptarJCYrinJ9UQGoKO8CDKPmLqo++6+2fn29CJRsVkTchVa8739fsnEv1wsYRPg999zFhaKrlj/LkuSPyhWSS4NBWd9bzJCYO0kkPcVYqQmzMYGfLkAyacvlWuHnqgu4tO1uHjn1XY6dWsOU04CJiwcHj9+k7BqkrXp2WEfZX7qXkXKCYgmCTpo6X4VDh2RcWwMVzIKLlwqGUaTsShpIvZUiEcozZq2jOzOCa5jkHS/lYCvltd3guqQi7XTZRX7I+ToVn8Wh+of5u53/ko9siZwXyE1NYt08daqWiR0NlPk553/RNnOUUf8apj0WffkBPjj+v/jTvt8iY8WZsro41fEY6/Lfxi4Z3OE9gGu7lPwhvtDyr1jXK67x7dvFjRoMipu5Ojcj/e+lZeINmqcPU/JF8JazZCMtDG548so3xAqpeIMU6lrotc8QijfiOODzOsSmc4zHr+6vrVTkmlZDFUDOJZ+X86lU5Jy2bNF4N0W52agAVJR3GSvpEhCJSMzdyIiIh3OtagkExAU7NycJIst1HTh2TBJMvF7ZvppAAvIzFLpy/GFPD4wMlCidHMQoTzJqNlC0DX4s8xd0Hu3k8K6f4dSpWhJINCpJID09UAg34HvqAyS+UGF6mnNpGBbFoonXC6ONO/l44iXWLU7yWroPn1mhub7A8bUfJg6cHXYxgwHqM2m2Vo5ywl1HngT9jOGjSE+/j9fKu5jN9OB1ihSsMC3r4zT0BmgZfZ2OZ/+MoXSCRd9aYvYSocw8faWTkKhlQJgm7NolczB1riPKvZFT9L4+wELDWmKZNP32BGaxzNrSfvpT+3neeA/hiMGhR36NUJ2f+KE38BcWGQ318XdNP0PdxnbWrKldv0jk0nnNxDt4/ZF/Qdfg89iTM8yHOsltuIN885qr3xQrwDUthjY8yc7dv0/r4jFKviiBhUWSdd2M9T607HaOI+796vWMxWDTJrnXwmG5z+bm5ItIXZ18rijKzUUFoKLchti2vKouWduu1QF0XREuc3Pijrvcw3huTkROsSg/L6wB5zhiyenrW/74DQ3wVO9hTg5PsLeynYLrpy2wxJK/mTvPvMrf+z7M/sP1eDwiShcXpSyMzyeWoZFUPTMOUqlUSt1hGOfEbF0TR97/GRoH99Cyd4akv5VvVu5maaSOeBzeYz/DU5kv4XVLdDHIek4yTjuj9PA96wPcbx5m6sEPMzjdQbkMa1slltLjgcTxl8inysyE1+LzQZo4geQATUe+z+Dd7yUaE5d0pSIdLoaGahbM/oYShl0htjRG08xRKm6JfNkgnE9xx/DXeKXvYbZt9+BprGPvBz+L56EFFiaLzNBMb9yiqenqxZYBFgLtfK/4U4xmoZKEcEosamvWXJu4uvHu+7EtH11nniWSnmKy+16G1j1BJr58AsiZM+K2tiyZi9lZcYk/8kgt+7el5Z2PTVGUa4cKQEW5DclkRLytXSuxerOzIvTy+YvLsiwnGCIRcePlciL+DONiC2B9/dVdeO2eaU4aEPcX6PfPYLsWTy/dh1soMei1Mc2aCzoYrPUtbm+X+MNKRZJRcjn53XFkHE1NEGyNM2y9n7/YD7lkLamlODbL+4tfIVYPL5TeS6MzwVpjAK/pcKTuMZ53H6V7/mvcYR6g5f4HLxmzkVwiU/GTz0uspccDUTNIoJgkueSeF4ADA2IljURqrvbnRvr4AbuOzVPPU/EEqdQ3E8ilqRRNtoSH+antRyms3XH+WJVYglgM3qox7MgRmZ9YTCyx6bSIr0jkGrUQMwymOu9acVkWxxEBeGF2ejAo993wsLY1U5RbFRWAinIb4vOJeGnLnOb9zm5se47B1HpeMR7EdetIJsVidDk3I5xz4Y5IfNuFsX4XCsZqpnE+L2IkkbjYnXw018dEKcnGutHzqb7pMrxW3MFcMXpRJjLIKtms/J7Nyr4cR0QO1KyQVUFRTUa5MLaxzxmg3pkjU7+FWKFINFdmxttHlz2Mz+Pi2iYV1yRcKVz2vIfDW1hTPES5Usb1eCnlbfz2HHvjT+ILyMm5rpTB8flq8xeLwWwxzqvWo2x1vofHLmBlZ7AtP3M92wjZJTqcUc6w47LHXSmlkojkcFheIPM+NSUtid+p2LJtKRy+uCjXo/3ynecu2Safly8MVQzj4uupKMqthwpARbkNCYXgkegb3LXnfxCrLJCzfdxhv8hWzx6+XvkVol117Ny5vAWwt1cSQWZmoFxy2ewcZjuHMB2HY85mTg7s4u/+ziKVqpV56e2VcjLVsi5TkX6KoUFChWEc04PhOmAEGIjsJNbgZ2pKBFS1tEypVBMwjY3SOaJUqrlFHUeWt7XJ+3xeYgfr6sTd6LoQTvix5i18RgVfyEs2F6bBXsDBZK4SJ+Ym6YwkGU1c3n/9evRxip7DbKgcwwQMXAbo54XwB/mBc9Yt91wtxDe7a00T3og8xlTHXViVAmV/hHyokaI/SuPcSUr+lbV4MBybxOxJwplp8sEE8y2bcSxprlup1Nz5bz52tTTN28W2pe/0mTPn6j66cn3uvRc6rlD+z+MRETo6enGnmlLp8v1/FUW5NbjpAjCfz+O6LqFzX/PPnj3L1772NTZv3swTTzxxk0enKO9ODMfmkcVvgJPiQGUrtmPgcctscQ4z73mVyENPXrEUi2VJ9uaJE/DAwt/y4/wlQXIYwJP8Hd/Kf4hvH/lptm038Hgk8H9gQARaf7/sI1rvJdnQx1ksIskJio6PM/TjqWvgzm3iNj17VsSLxyNlQarbWlatdE015tAwJHaxsVHWCYdlvaqrOByGJWcTE9l+7iycJNy0hvm8QSS1yBCdTJYaeF/iNYo77iZZ33vZ854oNnCq99fYkNxDJDtF0mrgcPAevA0N562bpimC6OhROabHU8tm9vZ2MLz4KO3HnyFlRPF6HBpTx1lsWMt0+86rXjdPOc/2PX9A+8huLLuIY3qZadvBgfs+STFYd75G4+ioxNpV4zThnYutyUmxbFb7N7uuxIIePizxe2+u11jFMCThY3FRLJHVwuPNzZxPalEU5dbjpgvAH/qhH+IjH/kIn/zkJ1laWuLee+/F6/UyNzfHf/7P/5lf/MVfvNlDVJR3Hd58CmtyjDlPC14MfAZYlpdKzotvfJCBAek7uhyuC2+8AczM8BTfpECAM4g6a2KO9/FdDhTux+uVZcGgxB2Oj9dEXHMzGF4vz51ZS6m0FsMQy1VbRARMVeDl82LF6+uruTUXF6WYcLkswqRSkTFNTcELL8D999c6lywtiQjx+SAeD/LKlp9nnflFGufO4I/BjHc9Z8M7eE9vFmvb+zndsnlZ02ddHUxNxRjb+L7zrm93UUTXhZvc1zzIpuMHyJ8pMOpby8nQLrq6vCQaDP7r0Me4oxRh++Ju/FaRs30PMn/fRykFrpA2fY6uwefpGnqeVLybUiCGp5SjffQ1UvU9HN/5UxiGXLdMRqyzVdd3b+8776qxsCDXo/rFwDBEDCaTEme4XMkgkGv92GMS85fNyrq9vTX3vaIotx43XQDu37+f3/7t3wbgK1/5Ci0tLbzxxht89atf5bOf/awKQEV5G2TdEEk3StBeAhLiMnRd/GaZRaOBoSGx2iyXdZpMysN8fWCEBuY5wpbzn83SQAuTdDNC6ZworHKhSDp5Uqx8pllzWYZCIjBefVXct11d8vnSkliaWltledWyVyiIKDFNsbCVSpJ8AVJsuq1NxNnSkgiPYBC6Hu3je5X/h5HvnWLr1N/QVzzB9tyzVLIxMlGHhaYNuNbl//X19YmInZ6WcRaLEtu2fn3t3DrOvsK21/8If2WenNekZHsZbHwvg/f/HM+/ZDG5FCXf/zMc4KNkl8pkKnHe6xo0rOC6tY7vxbb8lAKSGlLxhcgHE7SN7Ob49p8A06SxEd7zHonVKxbFKtrWtryFbqV4vRfHVELN1f1ml/PlqKuTguWKorw7uOkCMJfLET3X2+o73/kOH/nIRzBNk/vuu4+zZ8/e5NEpyrsTM+jnUOPjPJD8Il0MU7IjNNhTzJgtHI3ed1Fdv8tRzSK24hGKBPBTZJQuKnhpZhoHi5I3fD6jOJeT/VVjxQoFKZFimvLy+URM5HJiTcpmRbhVE0EaGkR0VWvqgQicbLaW/OH11jKTjx6VbRrOqapEQsabzYpFcXTUom78DHc5e1iKtDJrdeBLzdG9969xmlsZ7Xv0sufd0AAPPSTu7Pl5EaRr19biDj3lPOsPfwWrUmCufTsYBv5Ckp0LzzIzfC/z8zuorxcxViSM1QCFaTm3hhUoQMew4E0N8KTFm+cidR0OSyHqa0l7u4jvuTmx/FUqYmFdv375ZCFFUd693HQBuHbtWr7+9a/zIz/yIzz99NP8yq/8CgAzMzPEtFqoorwtLAuS9/8A35gz2Ln4ferKaQ6Yd/BM9IeYCvSy5SoWo2oZmIOpdYR4L9O0MEE7YNDCNBN0MF6/lUBGxGI15ssw5Pd8XkrPLC2J4AM5nuOIwKiO8c04jmw3P39pAeoLkx+KxZpbuKqLqmViLAumJl2eKL5IwRMh6ZPguGSwlUQhSdvI7mUFIIgwrcYZvplocoxweopUvOv8gYuBOLGlEeqTw/AOs3wnu+6ldeINgtk58qEG/IUk/mKSgc1PXffmufG4JHwcPizXzbJE/KlVT1FuT266APzsZz/LP/gH/4Bf+ZVf4fHHH+f+++8HxBq4a9eumzw6Rbk1qFSkzMfiogizjo4rd+IA6On3cOapD/F7zz1BbqFAyRchGjPo6IDNm6+8bTwuSQVHj1qc5mMEKFLHIh2MM2l28qrxMJvbQqxZIx1FDEOsb6+8Im7UujqxHhUKNQFXKok1sNqPuFSqibZUSs6rsVFi/tLpWsu5bLZWhzCVEjdvNCou2vl5OValIqKlt1esV34/eOwC9gWuXscB1/LgLeeveO6xhWG6hp4nlhwlWdfDaN+jpOu6ASh7Q9geP55KAdsbrO0YF29d6HxJlqYmOdfqea20CPLYmoeJLZ2la+gFItOTlH1hRvrew/D6D6xsB++Q9nYZa7UGolr+FOX25aYLwI9+9KM89NBDTE5OsmNH7dvz448/zkc+8pGbODJFuTUol2H3bsmYrcZonTolvXxbW5ffzjDEfdnb62Vqyks6LeKpre3imm3LbVstreLgJYeXHCEmacd1TAzDwHVFlHq9st9qvN7Jk7UCyflzWqs6bscRYdHQIG7MkRGxINq2xANWO4+USrUyJMVirSyJbcvYe3slhvHIERHFliV9ku+441xSxBqDo8fu5onUVzGtZnK2H5+dozGcZbDjzmXPu25ugLtf+m3C6UnK3jAt4/tpG93D6w//KqlEL5lYO9Ptu+g58yxpp4Jt+Yglx0jHO5nr2MkdjdLRZH6+VsNw+/ZageSr4Vhejtz5cc6ufZxweppCKMFSou+6W/8uxLKuXvtPUZR3PzddAH7iE5/gd37ndy6x9m3ZsoVPf/rT/NEf/dFNGpmi3BqMjYn4q68Xy5nripv00CFxu16tN7DHIz1Z3wrlsogzuLALiHk+Os3rFVduKCQCrlrwt1ojr2pBrFoBq65br7dW9mXnTnj+eRGPsZgc85VXYNu2WlZxKCSvbFaEic8nAnbHDrGCdnSI5c/jEdFSnYvubhh74EkGXh6kJ30Ej+UQilgsbbqfkf73LHvea05/h3B6ktmWbedPvGnqMD0Dz3D4nn8MhsGRO38G2/LRNr4PXynLbMsWTu74CfKRJhoi8PjjkqFbqYjQja6s/F8NwyBd133e6qgoinI9uOkC8E/+5E/4d//u351PBKmSz+f54he/qAJQWfUsLMjPasKEYYioSCZFGL1lgbECqrX3HKeWkXsh0aiIvWqJkFhM1nMcscg5Tk20eb0y5uq+qlnBExPys6OjJjJnZuR1773wzDO1fZmmrBOJwMaNtWQTn+/y3S9ME7p3Jsi1/SMmzh7G5zcoNbYz27oNx+O7dINz1M+dIh9MgGFguA6h7Cy+UpqeM89yYsdPUvZHKAXiHLzvk5zMzuOxi2QjLbhmLaDR53vrgltRFOVGc9MEYCqVwnVdXNclnU4TuKAqrW3bfPvb36ZZm0gqynmr39stz/F2j9nQIK7My2ULG0Yt6zaTEVdvtf1cKCRCLR6X7ast3TweEY4+n7iuk0lx51bPyTAkri+ZhIcflnWffrqWlZpIyOcnTsj2Vyp8HMjOs+XA/6F54iDlQoVRq5eD3T9J2es7H593OTKxdlrH9pJzKrRM7Ce2OII/v0QwPMP9z/5b9j/wS2Ri0gS5EF5JYZe3R9VdXhW+N4pq8eeJCXG3NzVJXOBy5YIURXn3ctMEYF1dHYZhYBgG69evv+RzwzD43Oc+dxNGpii3Fh0dEvNXFUKlkgivLVu4YjePd4Lr1nr7vtn65/eLazcQqNWOK5XEhev3i3CLx+GBB2ruYcsSt67XK7F//f1i6VtYqAlb1xUh2S76irY2ESCJRM3CCJJkMT5+TgC6LpHUBP5Ckky0jWKoHlyXbfv+mI7hlxmji8k5L435E2wb+33+cPiztG1rZPv2ywurs/2P0zh9jI6zrxBbGsYxPOQjTUx13EVi5jjrjvw1bzzwS1edv3IZUks2jckztHrmycbbSdV1X1XNua643k+dqhVU3rhx5Ukk75TBQdi3r9ZdxLIkjvSuu64eaqAoyruLmyYAn332WVzX5b3vfS9f/epXSVwQJe3z+ejp6aG9+iRQlFVMIiEu0SNHRHh5PJIAcaVOHu+UaiZuW5vUsKu6g6tWumKxFs8XCNR61DqOWPDuvFP24TgSj5dOS/2+VEoykNesEZE4NSX79/tFREYitfp21WMGAhdboKqlZjylHFv2/ynto7vxlvPkg/Wc2fgh5lq20jR1mIVoL0NjcWwTnMRG1uSOsqVykFdPPk5n5+Xr8k133MEb9/9THnjmc4BBOt7JYsNasrF2HMtD09QRvMUMZf/y6bFjY3BkXwFz+AzRwhwbfEP8YMv/IbnhHo7t/Olli1CDiL9XX62d9+ioWFEfeWT50jTXikJB7jHXrSUX5fPSG7in58aJUEVRbgw3TQA++qjU4RoaGqK5uZnDhw8zMzOD4zgAzM7OYhgGTz311M0aoqLcMnR2ihjLZER4vdUWW44j1rZyWZIlgsErrz8/L4Kuv1/EXj4vIsx1ZSzj47X9VuP7HEe2qZZ5OXtWxhmP15YvLIiANU0RNA8/LAJjaUnG1d9fEzqhkIi0iQkRiNW+t4Yh66w9/k3WnH6adKyDTLSNcGaGzQf/nFNbfhirUiJr+CmXz52rKQkscV+eUknGcdnCzIbBZNc9DGz6MLblZ1/sMfYv9jE1E6eXYe6sG8Qxl/+3mUxKFnBgcoK1xZOkAo28Wr6XSjLCzx3/K5Ya+hnvfeiy21azu1235t6OREQgDw5efwFYjSm9sOVbMCiifXFRBaCi3G7c9CSQEydOcPfddzNXrQ57AYZhYFfbACjKKseyrl7773Jks/DiiyLIymVxp959t7gWl/NIVsVeVWxNT9diEUOhWiZvPl/rH2vb4t4tlUQgVlu4VfdnWbLNhS7l5Youl8tiHYxEZB/T07Uiz3190NNapOPQy+SDCQohUXLpeCeN00eJJMfJRluonx/DoI9QOU1baZiAnWXJ0wilq7dNm+q8i/KJAf56YDtzNBI1MuwprGWf5x62LAWWjT+cnIRcxmaHfRwj4CXsd2ixkpwo9TNbqadl4o1lBaBti8C/sERPtX9ytZj29cTrrSX8VOenWn7Ht3zejKIo71JuelTHpz71KX7sx36MyclJHMe56KXiT1HeGa4LL70EBw+Kla1QEIvaM8/Iz+VoaxMxt7AgojMUEhHiuuLKXbdOYvUqldqrmpBSjVNsbq7V+AOx3tn2lWsXggjW556Db34TvvtdsYrNzMiYHnkE7rkHvKaNVSnhmBdnwTimhYnLye0/jhUO8Ejxuzw489esT+4lUlrg3qE/Z7v3+PnWbssx07qdvwn/JIt2lM3GcTqtKZpbLcZ9fQwMLL9dpSKTfqGw9pg2FcekhAec5fvvWZZY37LZ2lw5jszlSusIvhPq62WOFxdriT0zM7XliqLcXtx0C+DMzAyf+cxnaFH/gqJcEcOu0Da+l4apI2CazLTtZLpt5xWj87NZKczsuiLkTFOExeKi9NOtllN5M4mEBP4fOiTCsVp8ecMGcQVW3dGuK+5Jr1esRLGY/AwGJUklk4G56Qq4YHg99PXJfq7EiRNw/HitBAzI73v3ivC0LKhYIWbbttFz+hkKoQSO5cVbzGA6FWZbtzHe8wBGpcR9c/+aGWstZ1jLkqeBte4An/D+Kfs9v4XDZcxarkvX4POsOfltjgw9QpwwqfoeFpvWUwzE8S0Z58vyLDdvls/DRKCX3uRhylaAmWIjXZ4JWjzzHO64cnejaFTc7+PjYoULBCSGsq/vynN2LTAMueY+nxy/UpH7Y8eOq4cMKIry7uOmC8CPfvSjPPfcc/T399/soSjKrYvrsuWNP2XNqacxHRtw6Rn4Pie2/igDW39k2c2SSYnhqsYAVrNwQZZfiZ4esUTt3VvL0p2aEkFSLbz82GO12LxwWERDuSyZoy2+RX4p9k2WpqfJOkHMhjZK2x6h5F2+fovjSCJEOl1LhKjGFqZS8LWvwQc/KPs/veVHiCbHScydxABs08vYmocZ63kQAH8pQyVSR7Z/G/UlgzoX/EYvscxZYksjLDWuveT4HWdf5o5Xf5e6+TOsL8TZW9pBe/4wll1mvPt+ikVjWdEMYt1cvx7OHF9LMm3hTyZp9Yzyg/UvM7bx/Ux037fsttPTEg9ZVydzWO2i0tn59lz/b4dQSDrM5HI1l75m/yrK7clNF4C/+7u/y4/92I/x4osvsm3bNrxvKmz2y7/8yzdpZIpy61A/P0DPmWfJhZvOx7yFUxP0n/w2Ez0PkI20sLBQ657R0CAP7mo9t0pF3hcKtXZrV3MrplJw+LBY3Do6ajXi9u2D979fRGBrqwiGY8fk2MGgdPJYu8Zmx0v/i46R3WQjzYBBePoZpvYc5bXHfv2KxZhBBBDIWKvZwCDHeP11OadNm9p59T3/kpaJN/AXkqRjHcy1bsWx5H+Ia1pUW5dU4+rMoo1rmLjGZVSN69Iz8D2iS6N4Knnuix3nSHoHJ0trCU/MkHIXCTY0cKXvqqYJu3ZBR4efxdm11GdHWRd1mWv9BMnEmiuWgTl7Vs73QoG5sCCiu1oT8EbxVpOMFEV593HTBeCXvvQlnn76aYLBIM899xzGBf8gDcNQAagoIKKklKNQv+b8smy0lcaZo4QWxnj2WAvDwxIv5vWK1WjbNikj0tgowq2afFFtUbZt25WPOTMjlqCmplrHD9uWZTMztXp93d0iWgoFcR96vZCYOU3z5CEWE/3nS6YUAnEaZ47ROHOMmfadlz2maYq7c9++S+sPWpa4SL1eGBg4Vy7GH2FszcOX3ddsy1aSwRaODod53bkD13G5hz2s6W8gVd9z6QauSyQ5ga+YouyNsMEzzC/6/oCXSzsYLXdwv/My1v0foqXlylWRTVOEcWurB1hDmjVXXL9KPn9pcorPV4sHVEucoijXkpsuAH/zN3+Tf/2v/zW//uu/jqn/4RTlspT8UVzTxLJL2B4xZ3lLOWxPkDMzEU6fFnFUXy+C4f/f3r1HR13f+R9/zSWZyYUEyIUk5AJBEJCroFaxFSvSH/WybmvZylbYuue37VZRlq1VdHfV2pbqHq1dqb3s6epxa4u/toi2p15QEcQqyE25qNxiCJcQLiGTC5kkM9/fH28nw0CAcEkm5Pt8nJOD853vzHy+n4wzr3yuO3ZYYGppsYCWkWEhMDYhY8yYk++kERPr9o2Ne4st+rx5s40DjP295vPFu5YlKdBcJ19rsw42Z6jxkIWXPplB9Y+2KtBcd8rX7eijILY8SmwdwnD45LN5Q9kl+kXGXFXuaFB6tF4ej/Q7/03K8xXpYvmOnwHn9epQ7lAN3vqa2vxB9Qnt1iXhj3SZZ6mifr/qWgbr3UNt2lr0lVOW/0zk51tgj83CdRxr8Rw06NSzlgHgdCX9Y6WlpUV/93d/R/gDTiASkXakj9Kg7GEq2L9JDVlF8jhRZdZXa3fp57QudIF8vni3XTBoPzU1dqypyVroBgyw0FRf37lJBfn5FuyqquJLuESjFvT277fJCidamy7UZ6B2N2arvrpGB30D5DhSq+eQ+vTNVH32yTfK3b7dumwzMqyssZZAx7FxcqGQhaJg0LqKDxywcuXmJi6hUlsrra8fqoyhYaVFauX4fIqk9NfW/T6VHuh4D+FtF92kCz7+s3L3bZCvrVVRr09tqWkKB7PVkF2kwVuXaGf51bbjyDk2eLBNvqiujq+t2LevLZzdndvBAXCHpAfAWbNm6fnnn9d9992X7KIAPU51dWwmbprej3xHX/X/XuNaNsnj92jHhdP0yeibFXnXd1xAiK2Zd+GF1p26b198jbeBA088+/doGRnx/X5jawL6/dbK2NZm4exEAXB780Dtcq7VNZ6XNEAHJa/U0uLRG9H/o2hGuQIdP0yShTqv1yY+BIPx7muPJ75ESp8+FvDefz++nVxWlo2/Kymx54ltQ9eogHY0FMjrtUAVjdp9HQXAw7kX6M3rf6IpL96uvH2b1ZaaoXAwW7U5F+hQ3nBl1VUpvXF/lwTAtDRb5mbnTutyT0+3a+nT5/Sfq63NupQDAdbwA9CxpAfASCSiRx99VK+++qrGjBlz3CSQxx9/PEklA5IrFJLee89CTFaWdKitSI+H7tS44jpNvMynloAlg+Jim+xx5IiFiNjOHcOG2WzZ9HQLFc3NNjZt8ODOhYJNmyyAxrZhi633V1WVuFtER2oPe7Q2c7oa8wdrSP06eZ2otqSP07uRSzU55FH+SfYwHjJE+vRTC5ixySBer5V54EALgrW1tuNGbEeP2LHVq61sKSn2HLt2xWezpqbaQs3B4MmXNakZOF5vT/2BLl/6IzVmDlBzRo6a0/opo36fWlIzdSS9oy1Ezo1AIL4V3plwHJtM8tFHVn+BgL0Hhg9P3E4PAJIeADds2KDx421trI0bNybc56HfAy62Z4+FwIKCeBegx+PRlpq+Km+VMj9rRisvtyBUWWktR36/dZHGdvoYWORoSL9aOR6vwml9O/36H39s/6alWYuZz2etZ21tNg5w714Lkx1JTZWiHp829fmcPsq2pU+OHJHUfOrwOWqUhc/d25s1pmW1SlSlI75MHRw4UanFhWposLUJJQt/sfFxOTnW0rl3r/1s2iQpElFatFlNDWlqC3rl9VqdnGpdu+rSy7Sn7HLlVW9QpCWoYFOt/G3N2nLR36o5I0eOE19YOysrcfxjMlVXWzCOddWHw9L69RaIhw1LdukA9CRJD4BLly5NdhGAHqmlRe2BJaatzbpEN2yw4Jefb1/ul11mLT2xZWDy8uyxmaE9uvCD/6e8mk1y5FFN0Th9PGa6jmScemPZ2HIxsa5fyVqYYsvCVFdbAAp20JpXWGgtcfv3W3kaG+1n2LBTr2kXjUq5GUf0jcyfaVTjSjltEfm8jvbvfVVLs7+jtc0j1a+fhd2O/kY8fFjaVeXo83pb472vKtdzQFXRIr0cvk77SiYqELC6PZnW1AytueJOlX/ysgbsWau2zHRVlV+lyiFfVDhs3eq7dlkLZTBoXe0jRyZ/pm5lpV1bbF39YND+ONi2zd4fyS4fgJ4j6QEQQMf69bOAEw5bV97Bg9at6fPZ9miVlRY6Ro+2L/a8vMSZvf7WIxr/7lPK3bdJ9Vm2kN+grUsUaK7Tyqu+Z+vknURpqbWktbbGJ4E0N1uAy8iI7xMrxSdqxIJibEHhd96x8NHaatdQXW3XcKKWQ8lC45ADK3WFb6X25A5WTUO6WsKOhoY3a+z2P2rbhcM1frxX69YldgEfPmyvGwhIoxve1Yz6X6oxKjX6+2qMd7MGRyq1MDJXNZmjFAjYTOmmJttveODA+FZ2KeEGFVe+o5x9mxUOZOnDif+oAwWj2tPmRxtsokp2tv00NFggz86Ojz9Mlo6WkklJsfdQd68leK5EIvHufMex39WgQfHfF4AzQwAEeqiiImvl27HDAlRsPF55uXU71tfbNm8lJR2Pycut3qh+B7boQN6I9oWX21LTPzu+VYfyh5/09UeNsrGDlZX2+m1t1nVaUmKvPWSIfTmvXm1fzh6P3TdypLU89eljx/r1s/MaG+359u+Xpk07cZekxyOVtGxrL2/fvtKRIx4dbCjURemfqumyQ0otypXHY6+9f78Fg/R027YsM8PR0KYl8nuj2ptxoZqbpeponi6MbNQlTcu0sWyU3nvPHnd0XV9xhZTpbdKEvz6pgl2rFfGlyhdpUcmnb+vDibdpV/kX1NZm9ZGWFu9Gzsqyruddu+IBsK3NAnskYgtud9RK2hViS8lEIvZeiS0lM2TI+bmUjONYF/bHH9v7wuOx6ztwwFq9z8dAC/QUveZ/n+XLl+uGG25QUVGRPB6PFi9efMrHhMNh3X///SorK1MgENCQIUP0P//zP11fWKATfD7pkkukz3/egkVWloWmrCy7PzPTWuROtDdtakuDPNFI+84YktSakiZfpFmpLQ0nfW3HsQCTkmKvFws8eXkWBgsKLOitXGlrAsZ2G9mwIT4G7cABC4qSjWWMLeTc2Cj99a8nLnd+vqSMDEXCEUUjTvvxvD7NyhkYVEauJa+iImnKFOnKK6VJk2x3kgsukPJyHZUE9qu2rY9SUuJjF8P+DA3N2qdw2AJbbq51lebkWHjbvl0q2L1GA3av0aGcoTqUd6H2F4yWJxrR0M0vytfaLMfpuCUttseyZJNR3nxTeuMN+/e11yw0doeSEgvCFRX2mtXVFsCHnzzr91h1dfYHUEaGvfdyc20md2Wlvb8AnLnz8G/CjjU2Nmrs2LH65je/qa9+9audesz06dO1b98+/frXv9YFF1ygmpoatR27/QCQRH6/dcUGAhZaju72ikatRSR2rKUl3qqVmyuF+paqNTVTaU0H28f8ZdZXqzmtv0J9S0/6ujU10rp1Fp6GDbPnrqmxwDR+vP27f7+VKSfHulIPHbIuyFDIwllamoXCUMgmfqSmWrBMTbXgumdPx9vRBYNSy+WXqOmVN5R3eKsOpBSq0N+oQZkHVFl+s1pT4zMu0tOtO/BovhSvUkYOVcGm5TrYXKhIxKP0YFS5Cum1pmFau9bCRGxWrN8fnyHcJ2+3PE5UkZR4k11j5gBlNNYovXG/In1LVFhoXfDp6fYczc32uygoiLeIxurF67Wu6TVrLIjFwntXaGiwQN7UFB86kJNjf0D07dt1r9uV6uvtOo4eNxoMxnem6WgpHwCd02sC4LRp0zRt2rROn//KK69o2bJl2rFjh/p/9i006NhvEqCHyM21L7u9e+3LMDbmLSfHgkd1tQWPus822cjKkiZcXK6ioVM05OO/KKOhWh7HUVtKmj4e/TU1ZZ78m3PPHgt9BQV2Oy3NXqulxUJbSoqFvUjEgseePXae12uBb9Uqa5HLyLAyZ2RY+IutTRdbxPlEUkdeoJrA/1XpmkUa3lgtf2ZQVUNu0tZRf9up+to56svKObhFI7Z/qKZAurL8TdqTNkRbC7+oI9stPBzdbR6NfrbtWiBLnmOa+VJb6tWakq5w0NLbRRdZPR84YNcU275u0CBr/Tt4MF5Hkv33vn32O+rKALhpk9V1Xl58vGYoZOU5XwNgWlp8DGOsGz22TuSpZnIDOLleEwBP10svvaSJEyfq0Ucf1f/+7/8qIyNDN954ox5++GGl8cmCHsbnky691FrlamoseBQVWWuc49iCyPX1FtIka41bvcajnCkzdChvuPL2bVDU49f+wjGqKRx7yteLRo8/FuvmjN2XlWVBY9+++NIqLS0W9pqbLYxcfrkFn1grYDBoZYxG42U9VlOTBcpN4cvU/7LxKs+sUTQ987SWsKnNHaol47+nhn0rVOzbq/0ZZdrY9/MKBQray1dfb+VparLHlJVJ1TkTNWjra8qr2aSGzAL5244o2FynT0Z9VS1Ba4bq00e6+mq7vtikmFiLouPEF80+luMcf+xcaW21OsvMjI/1Cwat3vfutTGA56P+/W2dyx077Ho8Hvt9FRfHZzoDODOuDYA7duzQihUrFAwG9cILL+jAgQP6zne+o0OHDp1wHGA4HFY4HG6/HQqFuqu4gLKybKeI+noLE336WCjbtcu+6HNy4t2aOTmfddEe8ClQeomqSy45rdfKz7cJJk1N1tUZidhrlJTE17zLybEv4spKK0csGObmWgipr7c9h2+8UVq+3Mb+BQJW9vJyC7DHOnRIevdd+9cG/adqe1mxLrtMOt1Jn80DyvT6gDJ5PPHdNGLr4+Xl2bXV1VlwHTnSrq3Jm6+1V8zW0E2L1f/AFrUEs7R9xPXaMfy6hOdOTbXAeKx+/ay17dAhqwePx+otGDzxrinngsdjv4OORrCczwtAe73SxIkWbCsr7b0zerQtu3M+XxfQE7g2AEajUXk8Hj333HPK/myAyeOPP66bb75ZP/vZzzpsBZw/f74eeuih7i4q0M7jOb4b8ehWp1gLXWySwpm2OhUV2di/bdsswHg8FvjGjIm3bnm91iq5e7e1SmZkWNn69LHbsW7H0lLpb/4m3q3cr5+tE3jsF7jjSBs3WnjKz7fnD4dtCZDCwtNvxcrIsOVmNm2yYOT3W3d1bq501VXxLunMzMRZuodzhuj9z8+Vr7lRhxpStXt/qg69Z89XVtbxuMUYv99aZVetsjqQLGCOGnXyx50tv98C7MaNFk4DAbtWr7dz2/71ZIGAze4ePdpuM/MXODdcGwALCws1cODA9vAnSSNGjJDjONq1a5eGdrAf07x58zR37tz226FQSCXJXvgLrpeXZ61027dbAIzNRh0wIHFdwNPh80kXX2zh7fBhCxWFhfZlfLRAwLp5V660bkjHseCTm5vYQtanj7XanEw4bK2WsZbN2PN7PPacZ9KNOWaMPUdFhZVv6FBpxAirL6njHTxsOzWPNm7M1Pbt9ri+fa0OKipsuZjY2MiOFBTY+Mfqavtd5ObGx212pZEjrZV1zx5r2QwGbbxicXHXvm53IfgB55ZrA+CkSZP0+9//Xg0NDcrMzJQkbdmyRV6vV8Un+MQMBAIKHPsNCCRZMGitWLGu4VjQiEY7HsvXWV6vtcSdbKZlLGz27WuTIrxea+0aOtTKdDJHzxDOyLDQ6fPFnzMmGj3zRX/9fgtBw4d3/nl27bJAW1trY/xSUqw1rbjYuo03b7ZwfbJAl5Z28sWuu0IwaMvhxModa40FgI70mgDY0NCgbdu2td+uqKjQ+vXr1b9/f5WWlmrevHnavXu3nn32WUnSjBkz9PDDD+ub3/ymHnroIR04cEB33323brvtNiaB4LzS2Gjhr7w8fiw93bpSd+8+dcvbqUSj1rq4fbt14ebn23p7OTm2SO8nn8SDZmurha5TBY+qKlszMBSy84uLreu0rMyO+3wWDBsa7N+zbcWKhcvO2L7dwmlKir12bCu7w4etNa+21uqhJ/4t6PWeeHINAByt1wTA1atX6+qrr26/HeuqnTVrlp555hnt3btXO3fubL8/MzNTS5Ys0ezZszVx4kTl5ORo+vTp+sEPftDtZQc6I7aNWmOjde0OGWItZ+GwBa8+fSywHO2oOUtnpKlJWro0Po4uELBQuWePda9u22YBKdaVWl9va+QNGnTiJU8OHbIxci0tdk5rqz3G65XGjbPjVVU2Pi8jw7o2u3PGZ0ODXWdbW3y7O5/PyhUOJ860BYDzVa/5GJs8ebKck4x4f+aZZ447Nnz4cC1ZsqQLSwWcGzt3WrdkOGzhIxbCvvAFC36xLuBY609LiwWqs1n/zXGkDz6wcCbZc8VC0KFDtj1XbFJHTGamjderqztxANyzx0JsQYF1o8YWiK6qsu7jyy6z0BcO27V1d0tbXp61amZn23U0NsYnkbS1WesnM1ABnO8YVgv0cJGI9NFH8Va+2JZqNTUWDFNSLDj5fNZKuG+fdVOWlHS81EpnNTVZ0JRsfJnPZ2PbYtu+HTmSuAWaZGX0+U4e2lpb4/u6xvj98eeV7Ppyc5PTzTpsmIXaUCg+jjElxQLrhAk2vhEAzne9pgUQ6K3CYWuJCoUs3MWWefF6bdbs8OHW5ZqebhMYWlqsFau09Oy6KmPdn7HFklNTLbQ5joW4oiI7vndvfMxffb0Fz5OteRfbIq252Z7bceza8vI6npXb3fr1s2ViKiqsXH362LX270/XL4Deg48zoIdLTbUQWFsb332jtTW+H2rMqWbsnq6MDAtrhw9bq15jox2PTQQZNswC3IYNFgI9HptwMmrUyZfsGDjQJqxUVNhzSxayxozpOV2rWVm29hwA9FYEQKCH8/stGHk8Fr4iEQuAgYDd7iper4WgpibrWm5osC7awYNtK7TYGoNXXGGteR5P57psY9valZRYqE1JsRa2rtwnFwCQiAAInAdycqwFLhb++va14NTVY+RycqQpU2ziRmurdY/m5h7fwnf0Thqd4fPZ0i69ZZFiADjfEACB80BZmU36yM6Ot/wdPmzj/LpaMJi4xiAA4PxHAATOA6WltkDxnj12OzPTQhkzUgEAZ4IACPRwTU3Su+/aeDmv12bnZmfbXr3HLvwMnKlo1JYV2r7d3nMDBtiknqO2SwfQixAAgR7uk09sPb7cXBv319IiHTxou4KMGJHs0qG32L5dWr3aluVJTbWFvvfvtyVxTrWvM4DzDwtBAz2Y49jafmlpFv4k+3JOSbHjXa211cJmKGRlQe/U1mZ/aHi9Nrs7O9taAA8etFZBAL0PLYBAD+fzWffc0Ryn6xclrqqSPvzQ1hr0+WyplosvtjCK3qW52XZ2Ofp3G1ts/Oi1JgH0HrQAAj2Yx2O7fLS22jIw0aitxxeNdu0M4NpaadUqa/nLyrJWx+3bpfXraQnsjYJB20nmyJH4sdhOMIwBBHonAiDQww0dartutLbamKxIRBo50oJhV9mzxwJnTo51N6enWxDcvTu+Iwh6D7/fthR0HFtuqLbWth3MybEFuwH0PnQBAz1cSop0ySU2I7OpyQbkx/be7SqRiP3r8cSP+f22JV1bW9e+NpKjvNzeaxUV9j674AL746Mn7M8M4NwjAALnAY/HuuK6qzuuf38LfLFxYY5jew/n5XV9+ERyeDw2rKA7FhcHkHwEQADHKSy0FqBt2yz4SdYFPGaMTQgBAJzfCIAAjuPzSRMn2l69hw7ZJJDCQlr/AKC3IAAC6JDXa0u/FBUluyQAgHONWcAAAAAuQwAEAABwGQIgAACAyxAAAQAAXIYACAAA4DIEQAAAAJchAAIAALgMARAAAMBlCIAAAAAuQwAEAABwGQIgAACAyxAAAQAAXIYACAAA4DIEQAAAAJchAAIAALgMARAAAMBlCIAAAAAuQwAEAABwGQIgAACAyxAAAQAAXIYACAAA4DL+ZBcAQM/mOFJtrXTkiNSnj5SVlewSAQDOFgEQwAm1tEhr1khVVfbfwaA0ZIg0Zozk8yW7dACAM0UXMIAT2rJF2rbNgl9+voW+zZulyspklwwAcDYIgAA6FI1Kn34qBQJSWprk8UiZmfZvVVWySwcAOBsEQAAnFIlI3mM+JTweOw4AOH8RAAF0yOuVSkqkpiaptdWOhcMW/gYOTG7ZAABnh0kgAE5o+HCbAVxdbbOBvV5p0CCpvDzZJQMAnA0CIIATSk+XrrrKAmBsGZi8PGYAA8D5jgAI4KT8fqm4ONmlAACcS4wBBAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcJleEwCXL1+uG264QUVFRfJ4PFq8eHGnH/vOO+/I7/dr3LhxXVY+AACAnqLXBMDGxkaNHTtWCxYsOK3H1dXVaebMmbrmmmu6qGQAAAA9S6/ZC3jatGmaNm3aaT/uW9/6lmbMmCGfz3darYYAAADnq17TAngmnn76aW3fvl0PPPBAsosCAADQbXpNC+Dp2rp1q+699169/fbb8vs7Vw3hcFjhcLj9digU6qriAQAAdBlXtgBGIhHNmDFDDz30kIYNG9bpx82fP1/Z2dntPyUlJV1YSgAAgK7hygBYX1+v1atX64477pDf75ff79f3v/99ffDBB/L7/XrzzTc7fNy8efNUV1fX/lNVVdXNJQcAADh7ruwCzsrK0oYNGxKOPfXUU3rzzTf1hz/8QYMHD+7wcYFAQIFAoDuKCAAA0GV6TQBsaGjQtm3b2m9XVFRo/fr16t+/v0pLSzVv3jzt3r1bzz77rLxer0aNGpXw+Pz8fAWDweOOAwAA9Da9JgCuXr1aV199dfvtuXPnSpJmzZqlZ555Rnv37tXOnTuTVTwAAIAew+M4jpPsQpyvQqGQsrOz9eCDdQoGs5JdHAAA0AnNzSE9+GC26urqlJXlzu9vV04CAQAAcDMCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMv0mgC4fPly3XDDDSoqKpLH49HixYtPev6iRYt07bXXKi8vT1lZWbr88sv16quvdk9hAQAAkqjXBMDGxkaNHTtWCxYs6NT5y5cv17XXXqu//OUvWrNmja6++mrdcMMNWrduXReXFAAAILn8yS7AuTJt2jRNmzat0+c/8cQTCbd/9KMf6cUXX9Sf/vQnjR8//hyXDgAAoOfoNQHwbEWjUdXX16t///4nPCccDiscDrffDoVC3VE0AACAc6rXdAGfrccee0yNjY2aPn36Cc+ZP3++srOz239KSkq6sYQAAADnBgFQ0u9+9zs9+OCDev7555Wfn3/C8+bNm6e6urr2n6qqqm4sJQAAwLnh+i7g559/Xv/4j/+o3//+95oyZcpJzw0EAgoEAt1UMgAAgK7h6hbA3/3ud/qHf/gH/fa3v9V1112X7OIAAAB0i17TAtjQ0KBt27a1366oqND69evVv39/lZaWat68edq9e7eeffZZSRb+Zs6cqZ/+9Kf63Oc+p+rqaklSWlqasrOzk3INAAAA3aHXtACuXr1a48ePb1/CZe7cuRo/frz+4z/+Q5K0d+9e7dy5s/38X/7yl2pra9Ptt9+uwsLC9p+77rorKeUHAADoLr2mBXDy5MlyHOeE9z/zzDMJt996662uLRAAAEAP1WtaAAEAANA5BEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQAADAZQiAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4jD/ZBTifOY4jSWpuDiW5JAAAoLNi39ux73E38jhuvvqztGvXLpWUlCS7GAAA4AxUVVWpuLg42cVICgLgWYhGo9qzZ48cx1FpaamqqqqUlZWV7GIlXSgUUklJCfXxGeojEfWRiPpIRH0koj4Snav6cBxH9fX1KioqktfrztFwdAGfBa/Xq+LiYoVC1pSclZXF/6BHoT4SUR+JqI9E1Eci6iMR9ZHoXNRHdnb2OSrN+cmdsRcAAMDFCIAAAAAuQwA8BwKBgB544AEFAoFkF6VHoD4SUR+JqI9E1Eci6iMR9ZGI+jh3mAQCAADgMrQAAgAAuAwBEAAAwGUIgAAAAC5DAAQAAHAZAuBZeuqppzR48GAFg0FNmDBBb7/9drKL1C3mz5+vSy65RH369FF+fr5uuukmffLJJwnnOI6jBx98UEVFRUpLS9PkyZO1adOmJJW4e82fP18ej0dz5sxpP+a2+ti9e7e+8Y1vKCcnR+np6Ro3bpzWrFnTfr+b6qOtrU3/9m//psGDBystLU3l5eX6/ve/r2g02n5Ob6+P5cuX64YbblBRUZE8Ho8WL16ccH9nrj8cDmv27NnKzc1VRkaGbrzxRu3atasbr+LcOVl9tLa26p577tHo0aOVkZGhoqIizZw5U3v27El4DrfUx7G+9a1vyePx6Iknnkg43pvqozsQAM/C888/rzlz5uj+++/XunXr9PnPf17Tpk3Tzp07k120Lrds2TLdfvvteu+997RkyRK1tbVp6tSpamxsbD/n0Ucf1eOPP64FCxbo/fffV0FBga699lrV19cnseRd7/3339evfvUrjRkzJuG4m+qjtrZWkyZNUkpKil5++WVt3rxZjz32mPr27dt+jpvq45FHHtEvfvELLViwQB999JEeffRR/ed//qeefPLJ9nN6e300NjZq7NixWrBgQYf3d+b658yZoxdeeEELFy7UihUr1NDQoOuvv16RSKS7LuOcOVl9NDU1ae3atfr3f/93rV27VosWLdKWLVt04403Jpznlvo42uLFi7Vy5UoVFRUdd19vqo9u4eCMXXrppc63v/3thGPDhw937r333iSVKHlqamocSc6yZcscx3GcaDTqFBQUOD/+8Y/bz2lubnays7OdX/ziF8kqZperr693hg4d6ixZssS56qqrnLvuustxHPfVxz333ONceeWVJ7zfbfVx3XXXObfddlvCsa985SvON77xDcdx3FcfkpwXXnih/XZnrv/w4cNOSkqKs3DhwvZzdu/e7Xi9XueVV17ptrJ3hWProyOrVq1yJDmVlZWO47izPnbt2uUMHDjQ2bhxo1NWVub85Cc/ab+vN9dHV6EF8Ay1tLRozZo1mjp1asLxqVOn6q9//WuSSpU8dXV1kqT+/ftLkioqKlRdXZ1QP4FAQFdddVWvrp/bb79d1113naZMmZJw3G318dJLL2nixIn62te+pvz8fI0fP17//d//3X6/2+rjyiuv1BtvvKEtW7ZIkj744AOtWLFCX/7ylyW5rz6O1ZnrX7NmjVpbWxPOKSoq0qhRo1xRR3V1dfJ4PO2t6G6rj2g0qltvvVV33323LrroouPud1t9nAv+ZBfgfHXgwAFFIhENGDAg4fiAAQNUXV2dpFIlh+M4mjt3rq688kqNGjVKktrroKP6qays7PYydoeFCxdq7dq1ev/994+7z231sWPHDv385z/X3Llzdd9992nVqlW68847FQgENHPmTNfVxz333KO6ujoNHz5cPp9PkUhEP/zhD3XLLbdIct/741iduf7q6mqlpqaqX79+x53T2z9zm5ubde+992rGjBnKysqS5L76eOSRR+T3+3XnnXd2eL/b6uNcIACeJY/Hk3DbcZzjjvV2d9xxhz788EOtWLHiuPvcUj9VVVW666679NprrykYDJ7wPLfURzQa1cSJE/WjH/1IkjR+/Hht2rRJP//5zzVz5sz289xSH88//7x+85vf6Le//a0uuugirV+/XnPmzFFRUZFmzZrVfp5b6uNEzuT6e3sdtba26utf/7qi0aieeuqpU57fG+tjzZo1+ulPf6q1a9ee9rX1xvo4V+gCPkO5ubny+XzH/WVRU1Nz3F+xvdns2bP10ksvaenSpSouLm4/XlBQIEmuqZ81a9aopqZGEyZMkN/vl9/v17Jly/Rf//Vf8vv97dfslvooLCzUyJEjE46NGDGifYKU294fd999t+699159/etf1+jRo3XrrbfqX/7lXzR//nxJ7quPY3Xm+gsKCtTS0qLa2toTntPbtLa2avr06aqoqNCSJUvaW/8kd9XH22+/rZqaGpWWlrZ/vlZWVupf//VfNWjQIEnuqo9zhQB4hlJTUzVhwgQtWbIk4fiSJUt0xRVXJKlU3cdxHN1xxx1atGiR3nzzTQ0ePDjh/sGDB6ugoCChflpaWrRs2bJeWT/XXHONNmzYoPXr17f/TJw4UX//93+v9evXq7y83FX1MWnSpOOWBdqyZYvKysokue/90dTUJK838ePW5/O1LwPjtvo4Vmeuf8KECUpJSUk4Z+/evdq4cWOvrKNY+Nu6datef/115eTkJNzvpvq49dZb9eGHHyZ8vhYVFenuu+/Wq6++Ksld9XHOJGnySa+wcOFCJyUlxfn1r3/tbN682ZkzZ46TkZHhfPrpp8kuWpf753/+Zyc7O9t56623nL1797b/NDU1tZ/z4x//2MnOznYWLVrkbNiwwbnlllucwsJCJxQKJbHk3efoWcCO4676WLVqleP3+50f/vCHztatW53nnnvOSU9Pd37zm9+0n+Om+pg1a5YzcOBA589//rNTUVHhLFq0yMnNzXW+973vtZ/T2+ujvr7eWbdunbNu3TpHkvP4448769ata5/V2pnr//a3v+0UFxc7r7/+urN27Vrni1/8ojN27Finra0tWZd1xk5WH62trc6NN97oFBcXO+vXr0/4jA2Hw+3P4Zb66Mixs4Adp3fVR3cgAJ6ln/3sZ05ZWZmTmprqXHzxxe3LoPR2kjr8efrpp9vPiUajzgMPPOAUFBQ4gUDA+cIXvuBs2LAheYXuZscGQLfVx5/+9Cdn1KhRTiAQcIYPH+786le/SrjfTfURCoWcu+66yyktLXWCwaBTXl7u3H///Qlf5r29PpYuXdrhZ8asWbMcx+nc9R85csS54447nP79+ztpaWnO9ddf7+zcuTMJV3P2TlYfFRUVJ/yMXbp0aftzuKU+OtJRAOxN9dEdPI7jON3R0ggAAICegTGAAAAALkMABAAAcBkCIAAAgMsQAAEAAFyGAAgAAOAyBEAAAACXIQACAAC4DAEQgKtMnjxZc+bMSXYxACCpCIAAAAAuQwAEAABwGQIgAFd75ZVXlJ2drWeffVZtbW2688471bdvX+Xk5Oiee+7RrFmzdNNNN7Wf/4c//EGjR49WWlqacnJyNGXKFDU2NibvAgDgDBAAAbjWwoULNX36dD377LOaOXOmHnnkET333HN6+umn9c477ygUCmnx4sXt5+/du1e33HKLbrvtNn300Ud666239JWvfEVsqQ7gfONx+OQC4CKTJ0/WuHHjNGzYMN1333164YUXdPXVV0uSCgoK9N3vflff/e53JUmRSETl5eUaP368Fi9erLVr12rChAn69NNPVVZWlszLAICz4k92AQCgu/3xj3/Uvn37tGLFCl166aWSpLq6Ou3bt6/9tiT5fD5NmDBB0WhUkjR27Fhdc801Gj16tL70pS9p6tSpuvnmm9WvX7+kXAcAnCm6gAG4zrhx45SXl6enn376uO5bj8eTcPvo+30+n5YsWaKXX35ZI0eO1JNPPqkLL7xQFRUV3VJuADhXCIAAXGfIkCFaunSpXnzxRc2ePVuSlJ2drQEDBmjVqlXt50UiEa1bty7hsR6PR5MmTdJDDz2kdevWKTU1VS+88EK3lh8AzhZdwABcadiwYVq6dKkmT54sv9+vJ554QrNnz9b8+fN1wQUXaPjw4XryySdVW1vb3iq4cuVKvfHGG5o6dary8/O1cuVK7d+/XyNGjEjy1QDA6SEAAnCtCy+8UG+++aYmT54sn8+nRx55RNXV1Zo5c6Z8Pp/+6Z/+SV/60pfk8/kkSVlZWVq+fLmeeOIJhUIhlZWV6bHHHtO0adOSfCUAcHqYBQwAJxCNRjVixAhNnz5dDz/8cLKLAwDnDC2AAPCZyspKvfbaa7rqqqsUDoe1YMECVVRUaMaMGckuGgCcU0wCAYDPeL1ePfPMM7rkkks0adIkbdiwQa+//jpj/AD0OnQBAwAAuAwtgAAAAC5DAAQAAHAZAiAAAIDLEAABAABchgAIAADgMgRAAAAAlyEAAgAAuAwBEAAAwGUIgAAAAC7z/wEq/GpFt2WLKQAAAABJRU5ErkJggg==\"/></div>\n"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Fin",
+      "text": "val baseDir=\"https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\"\n//val baseDir=\"https://git.cs.famaf.unc.edu.ar/dbarsotti/diplodatos_bigdata/raw/master/clases\"\n\nz.put(\"baseDir\", baseDir)\nprint(\"\"\"%html\n<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\"\"\")",
+      "user": "anonymous",
+      "dateUpdated": "2021-11-12T16:07:37+0000",
+      "progress": 0,
+      "config": {
+        "tableHide": true,
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "colWidth": 12,
+        "editorMode": "ace/mode/scala",
+        "editorHide": true,
+        "fontSize": 9,
+        "title": true,
+        "results": [
+          {
+            "graph": {
+              "mode": "table",
+              "height": 300,
+              "optionOpen": false,
+              "keys": [],
+              "values": [],
+              "groups": [],
+              "scatter": {}
+            }
+          }
+        ],
+        "enabled": true
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "HTML",
+            "data": "<script>\n    var heads = document.getElementsByTagName('h2');\n    var numHeads = heads.length;\n    var inner = \"\";\n    var i = 0;\n    var j = 0;\n    while (i < numHeads){\n        inner = heads[i].innerHTML;\n        if (inner.search(\".-\") != -1 ) {\n            j++;\n            heads[i].innerHTML = inner.replace(/(~|\\d+)\\.-/,\"\"+j+\".-\");\n        }\n        i++\n    }\n</script>\n\u001b[1m\u001b[34mbaseDir\u001b[0m: \u001b[1m\u001b[32mString\u001b[0m = https://bitbucket.org/bigdata_famaf/diplodatos_bigdata/raw/HEAD/clases\n"
+          }
+        ]
+      },
+      "apps": [],
+      "runtimeInfos": {},
+      "progressUpdateIntervalMs": 500,
+      "jobName": "paragraph_1634994366900_1644025923",
+      "id": "20161027-191821_1441900429",
+      "dateCreated": "2021-10-23T13:06:06+0000",
+      "dateStarted": "2021-11-12T16:06:49+0000",
+      "dateFinished": "2021-11-12T16:06:50+0000",
+      "status": "FINISHED",
+      "$$hashKey": "object:14648"
+    }
+  ],
+  "name": "Clase 06 - ML Pipelines",
+  "id": "2GK8VA56H",
+  "defaultInterpreterGroup": "spark",
+  "version": "0.10.0",
+  "noteParams": {},
+  "noteForms": {},
+  "angularObjects": {},
+  "config": {
+    "isZeppelinNotebookCronEnable": false,
+    "looknfeel": "default",
+    "personalizedMode": "false"
+  },
+  "info": {
+    "isRunning": false
+  },
+  "path": "/Clase 06 - ML Pipelines"
+}
